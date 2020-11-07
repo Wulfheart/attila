@@ -1,0 +1,31 @@
+models:
+  Variant:
+    name: string
+    scs_to_win: integer
+  Power:
+    variant_id: id foreign
+    color: string
+  Game:
+    name: string unique
+    variant_id: id foreign
+  Message:
+    content: longtext
+    sent_at: datetime
+    global: boolean default:false
+    sending_power_id: id foreign:power
+    receiving_power_id: id foreign:power nullable
+  Phase:
+    game_id: id foreign
+    name: string
+    starts_at: datetime
+    ends_at: datetime
+  
+  Movement:
+
+  Vote:
+    game_id: id foreign
+    voted: enum:draw,pause,cancel
+  
+  
+
+  
