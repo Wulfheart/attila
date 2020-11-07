@@ -2,7 +2,7 @@ models:
   Variant:
     name: string
     scs_to_win: integer
-  Power:
+  BasePower:
     variant_id: id foreign
     color: string
   Game:
@@ -19,8 +19,9 @@ models:
     name: string
     starts_at: datetime
     ends_at: datetime
-  
-  Movement:
+  Unit:
+    phase_id: id foreign
+
 
   Vote:
     game_id: id foreign
