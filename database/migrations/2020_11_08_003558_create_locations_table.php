@@ -19,6 +19,7 @@ class CreateLocationsTable extends Migration
             $table->id();
             $table->foreignId('phase_id')->constrained()->cascadeOnDelete();
             $table->foreignId('power_id')->constrained()->cascadeOnDelete();
+            $table->string('name');
             $table->timestamps();
         });
 

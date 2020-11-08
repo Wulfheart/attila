@@ -17,8 +17,9 @@ class CreateInstructionsTable extends Migration
 
         Schema::create('instructions', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('power_id')->constrained()->cascadeOnDelete();
+            // $table->foreignId('power_id')->constrained()->cascadeOnDelete();
             $table->foreignId('location_id')->constrained()->cascadeOnDelete();
+            $table->string('payload');
             $table->timestamps();
         });
 

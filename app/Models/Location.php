@@ -17,6 +17,7 @@ class Location extends Model
     protected $fillable = [
         'phase_id',
         'power_id',
+        'name',
     ];
 
     /**

@@ -78,19 +78,18 @@ namespace App\Models{
  * App\Models\Instruction
  *
  * @property int $id
- * @property int $power_id
  * @property int $location_id
+ * @property string $payload
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
  * @property-read \App\Models\Location $location
- * @property-read \App\Models\Power $power
  * @method static \Illuminate\Database\Eloquent\Builder|Instruction newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|Instruction newQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|Instruction query()
  * @method static \Illuminate\Database\Eloquent\Builder|Instruction whereCreatedAt($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Instruction whereId($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Instruction whereLocationId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|Instruction wherePowerId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Instruction wherePayload($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Instruction whereUpdatedAt($value)
  */
 	class Instruction extends \Eloquent {}
@@ -103,6 +102,7 @@ namespace App\Models{
  * @property int $id
  * @property int $phase_id
  * @property int $power_id
+ * @property string $name
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
  * @property-read \App\Models\Phase $phase
@@ -112,6 +112,7 @@ namespace App\Models{
  * @method static \Illuminate\Database\Eloquent\Builder|Location query()
  * @method static \Illuminate\Database\Eloquent\Builder|Location whereCreatedAt($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Location whereId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Location whereName($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Location wherePhaseId($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Location wherePowerId($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Location whereUpdatedAt($value)
@@ -156,7 +157,6 @@ namespace App\Models{
  *
  * @property int $id
  * @property int $power_id
- * @property int $phase_id
  * @property int $instruction_id
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
@@ -169,7 +169,6 @@ namespace App\Models{
  * @method static \Illuminate\Database\Eloquent\Builder|Movement whereCreatedAt($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Movement whereId($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Movement whereInstructionId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|Movement wherePhaseId($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Movement wherePowerId($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Movement whereUpdatedAt($value)
  */
@@ -182,9 +181,10 @@ namespace App\Models{
  *
  * @property int $id
  * @property int $game_id
+ * @property int|null $previous_phase_id
  * @property string $name
  * @property \Illuminate\Support\Carbon $started_at
- * @property \Illuminate\Support\Carbon $ended_at
+ * @property \Illuminate\Support\Carbon|null $ended_at
  * @property int $length
  * @property string|null $svg_adjudicated
  * @property string|null $svg_with_orders
@@ -193,6 +193,7 @@ namespace App\Models{
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
  * @property-read \App\Models\Game $game
+ * @property-read Phase|null $previousPhase
  * @method static \Illuminate\Database\Eloquent\Builder|Phase newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|Phase newQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|Phase query()
@@ -203,6 +204,7 @@ namespace App\Models{
  * @method static \Illuminate\Database\Eloquent\Builder|Phase whereId($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Phase whereLength($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Phase whereName($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Phase wherePreviousPhaseId($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Phase whereStartedAt($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Phase whereState($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Phase whereSvgAdjudicated($value)

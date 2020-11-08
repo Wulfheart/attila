@@ -4,15 +4,19 @@ namespace App\Jobs;
 
 use App\Helpers\UrlBuilder;
 use App\Models\Game;
+use App\Models\Instruction;
+use App\Models\Location;
 use App\Models\Phase;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
+use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Foundation\Bus\Dispatchable;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Queue\Middleware\WithoutOverlapping;
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Http;
+use Illuminate\Support\Str;
 use Symfony\Component\HttpFoundation\UrlHelper;
 
 class AdjudicateGameJob implements ShouldQueue
@@ -45,7 +49,6 @@ class AdjudicateGameJob implements ShouldQueue
             $response = Http::post(UrlBuilder::base(config('diplomacy.adjudicator_base_url'))->add('adjudicate')->string(), [
                 'previous_state' => $previous_phase->state,
             ]);
-            // dd($response->status());
         } else {
             $response = Http::get(UrlBuilder::base(config('diplomacy.adjudicator_base_url'))->add('adjudicate')->add($this->game->variant->api_name)->string());
         }
@@ -67,6 +70,27 @@ class AdjudicateGameJob implements ShouldQueue
             if($first){
                 $previous_phase->ended_at = $time;
                 $previous_phase->save();
+            }
+
+            // Locations and Instructions
+            $po = $response['possible_orders'];
+            foreach ($po as $p) {
+                $power = $this->game->powers()->with('basepower')->whereHas('basepower', function(Builder $query) use ($p){
+                    $query->where('name', Str::lower($p['name']));
+                  })->first();
+                foreach ($p['units'] as $u) {
+                    $location = new Location();
+                    $location->name = $u['location'];
+                    $location->phase_id = $phase->id;
+                    $location->power_id = $power->id;
+                    $location->save();
+                    foreach ($u['instructions'] as $inst) {
+                        $instruction = new Instruction();
+                        $instruction->payload = $inst;
+                        $instruction->location_id = $location->id;
+                        $instruction->save();
+                    }
+                }
             }
         });
     }

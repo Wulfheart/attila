@@ -18,7 +18,6 @@ class CreateMovementsTable extends Migration
         Schema::create('movements', function (Blueprint $table) {
             $table->id();
             $table->foreignId('power_id')->constrained()->cascadeOnDelete();
-            $table->foreignId('phase_id')->constrained()->cascadeOnDelete();
             $table->foreignId('instruction_id')->constrained()->cascadeOnDelete();
             $table->timestamps();
         });

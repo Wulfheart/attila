@@ -16,7 +16,6 @@ class Movement extends Model
      */
     protected $fillable = [
         'power_id',
-        'phase_id',
         'instruction_id',
     ];
 
@@ -28,7 +27,6 @@ class Movement extends Model
     protected $casts = [
         'id' => 'integer',
         'power_id' => 'integer',
-        'phase_id' => 'integer',
         'instruction_id' => 'integer',
     ];
 

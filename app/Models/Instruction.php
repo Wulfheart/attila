@@ -15,8 +15,9 @@ class Instruction extends Model
      * @var array
      */
     protected $fillable = [
-        'power_id',
+        // 'power_id',
         'location_id',
+        'payload'
     ];
 
     /**
@@ -26,15 +27,15 @@ class Instruction extends Model
      */
     protected $casts = [
         'id' => 'integer',
-        'power_id' => 'integer',
+        // 'power_id' => 'integer',
         'location_id' => 'integer',
     ];
 
 
-    public function power()
-    {
-        return $this->belongsTo(\App\Models\Power::class);
-    }
+    // public function power()
+    // {
+    //     return $this->belongsTo(\App\Models\Power::class);
+    // }
 
     public function location()
     {
