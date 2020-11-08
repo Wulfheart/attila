@@ -7,6 +7,7 @@ use Illuminate\Support\Str;
 use App\Models\Game;
 use App\Models\Power;
 use App\Models\Variant;
+use Carbon\CarbonInterval;
 
 class GameFactory extends Factory
 {
@@ -24,11 +25,14 @@ class GameFactory extends Factory
      */
     public function definition()
     {
+        $variant = Variant::inRandomOrder()->first();
         return [
-            'name' => $this->faker->name,
-            'variant_id' => Variant::factory(),
-            'phase_length' => $this->faker->numberBetween(-10000, 10000),
-            'winning_power_id' => Power::factory(),
+            'name' => $this->faker->catchPhrase,
+            'variant_id' => $variant->id,
+            'phase_length' => CarbonInterval::day()->totalSeconds,
+            'scs_to_win' => $variant->default_scs_to_win,
+            'player_count' => $variant->default_player_count,
+            'winning_power_id' => null,
         ];
     }
 }
