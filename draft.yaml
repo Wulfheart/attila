@@ -5,6 +5,10 @@ models:
   BasePower:
     variant_id: id foreign
     color: string
+  Power:
+    base_power_id: id foreign
+    user_id: id foreign
+    game_id: id foreign
   Game:
     name: string unique
     variant_id: id foreign

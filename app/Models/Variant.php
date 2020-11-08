@@ -16,7 +16,8 @@ class Variant extends Model
      */
     protected $fillable = [
         'name',
-        'scs_to_win',
+        'default_scs_to_win',
+        'default_player_count',
     ];
 
     /**
@@ -26,5 +27,7 @@ class Variant extends Model
      */
     protected $casts = [
         'id' => 'integer',
+        'default_scs_to_win' => 'integer',
+        'default_player_count' => 'integer',
     ];
 }

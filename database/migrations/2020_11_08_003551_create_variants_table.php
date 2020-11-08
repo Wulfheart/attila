@@ -16,7 +16,8 @@ class CreateVariantsTable extends Migration
         Schema::create('variants', function (Blueprint $table) {
             $table->id();
             $table->string('name');
-            $table->integer('scs_to_win');
+            $table->integer('default_scs_to_win');
+            $table->integer('default_player_count');
             $table->timestamps();
         });
     }

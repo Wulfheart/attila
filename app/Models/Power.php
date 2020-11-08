@@ -5,7 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Phase extends Model
+class Power extends Model
 {
     use HasFactory;
 
@@ -15,13 +15,9 @@ class Phase extends Model
      * @var array
      */
     protected $fillable = [
+        'base_power_id',
+        'user_id',
         'game_id',
-        'name',
-        'starts_at',
-        'length',
-        'adjudicated',
-        'svg_adjudicated',
-        'svg_with_orders'
     ];
 
     /**
@@ -31,19 +27,21 @@ class Phase extends Model
      */
     protected $casts = [
         'id' => 'integer',
+        'base_power_id' => 'integer',
+        'user_id' => 'integer',
         'game_id' => 'integer',
-        'adjudicated' => 'boolean',
     ];
 
-    /**
-     * The attributes that should be mutated to dates.
-     *
-     * @var array
-     */
-    protected $dates = [
-        'starts_at',
-    ];
 
+    public function basePower()
+    {
+        return $this->belongsTo(\App\Models\BasePower::class);
+    }
+
+    public function user()
+    {
+        return $this->belongsTo(\App\Models\User::class);
+    }
 
     public function game()
     {

@@ -1,0 +1,1 @@
+resources/views/game/edit.blade.php

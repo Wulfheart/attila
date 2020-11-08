@@ -21,6 +21,8 @@ class CreatePhasesTable extends Migration
             $table->string('name');
             $table->dateTime('starts_at');
             $table->integer('length');
+            $table->longText('svg_adjudicated')->nullable();
+            $table->longText('svg_with_orders')->nullable();
             $table->boolean('adjudicated')->default(false);
             $table->timestamps();
         });

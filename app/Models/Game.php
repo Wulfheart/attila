@@ -19,6 +19,8 @@ class Game extends Model
         'variant_id',
         'phase_length',
         'winning_power_id',
+        'scs_to_win',
+        'player_count'
     ];
 
     /**
@@ -30,7 +32,13 @@ class Game extends Model
         'id' => 'integer',
         'variant_id' => 'integer',
         'winning_power_id' => 'integer',
+        'scs_to_win' => 'integer',
+        'player_count' => 'integer',
     ];
+
+    public function getStartedAttribute() :bool{
+        return $this->phases()->count() == 0;
+    }
 
 
     public function variant()
@@ -41,5 +49,14 @@ class Game extends Model
     public function winningPower()
     {
         return $this->belongsTo(\App\Models\Power::class);
+    }
+
+    public function powers()
+    {
+        return $this->hasMany(Power::class);
+    }
+
+    public function phases(){
+        return $this->hasMany(Phase::class);
     }
 }

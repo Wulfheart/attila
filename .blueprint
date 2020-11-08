@@ -1,6 +1,7 @@
 created:
     - database/factories/VariantFactory.php
     - database/factories/BasePowerFactory.php
+    - database/factories/PowerFactory.php
     - database/factories/GameFactory.php
     - database/factories/MessageFactory.php
     - database/factories/PhaseFactory.php
@@ -9,18 +10,20 @@ created:
     - database/factories/InstructionFactory.php
     - database/factories/MovementFactory.php
     - database/factories/VoteFactory.php
-    - database/migrations/2020_11_08_001914_create_variants_table.php
-    - database/migrations/2020_11_08_001915_create_base_powers_table.php
-    - database/migrations/2020_11_08_001916_create_games_table.php
-    - database/migrations/2020_11_08_001917_create_messages_table.php
-    - database/migrations/2020_11_08_001918_create_phases_table.php
-    - database/migrations/2020_11_08_001919_create_phase_power_data_table.php
-    - database/migrations/2020_11_08_001920_create_locations_table.php
-    - database/migrations/2020_11_08_001921_create_instructions_table.php
-    - database/migrations/2020_11_08_001922_create_movements_table.php
-    - database/migrations/2020_11_08_001923_create_votes_table.php
+    - database/migrations/2020_11_08_003551_create_variants_table.php
+    - database/migrations/2020_11_08_003552_create_base_powers_table.php
+    - database/migrations/2020_11_08_003553_create_powers_table.php
+    - database/migrations/2020_11_08_003554_create_games_table.php
+    - database/migrations/2020_11_08_003555_create_messages_table.php
+    - database/migrations/2020_11_08_003556_create_phases_table.php
+    - database/migrations/2020_11_08_003557_create_phase_power_data_table.php
+    - database/migrations/2020_11_08_003558_create_locations_table.php
+    - database/migrations/2020_11_08_003559_create_instructions_table.php
+    - database/migrations/2020_11_08_003600_create_movements_table.php
+    - database/migrations/2020_11_08_003601_create_votes_table.php
     - app/Models/Variant.php
     - app/Models/BasePower.php
+    - app/Models/Power.php
     - app/Models/Game.php
     - app/Models/Message.php
     - app/Models/Phase.php
@@ -41,3 +44,4 @@ models:
     Instruction: { power_id: 'id foreign', location_id: 'id foreign' }
     Movement: { power_id: 'id foreign', phase_id: 'id foreign', instruction_id: 'id foreign' }
     Vote: { game_id: 'id foreign', voted: 'enum:draw,pause,cancel' }
+    Power: { base_power_id: 'id foreign', user_id: 'id foreign', game_id: 'id foreign' }

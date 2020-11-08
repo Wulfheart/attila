@@ -20,6 +20,8 @@ class CreateGamesTable extends Migration
             $table->string('name')->unique();
             $table->foreignId('variant_id')->constrained()->cascadeOnDelete();
             $table->integer('phase_length');
+            $table->integer('scs_to_win');
+            $table->integer('player_count');
             $table->foreignId('winning_power_id')->constrained('powers')->cascadeOnDelete();
             $table->timestamps();
         });
