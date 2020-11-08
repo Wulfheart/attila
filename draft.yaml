@@ -8,9 +8,12 @@ models:
   Game:
     name: string unique
     variant_id: id foreign
+    phase_length: integer
+    winning_power_id: id foreign:powers.id
   Message:
     content: longtext
     sent_at: datetime
+    read_at: datetime nullable
     global: boolean default:false
     sending_power_id: id foreign:power
     receiving_power_id: id foreign:power nullable
@@ -18,11 +21,24 @@ models:
     game_id: id foreign
     name: string
     starts_at: datetime
-    ends_at: datetime
-  Unit:
+    length: integer
+    adjudicated: boolean default:false
+  PhasePowerData:
     phase_id: id foreign
-
-
+    power_id: id foreign
+    unit_count: integer
+    supply_center_count: integer
+    build_count: integer
+  Location:
+    phase_id: id foreign
+    power_id: id foreign
+  Instruction:
+    power_id: id foreign
+    location_id: id foreign
+  Movement:
+    power_id: id foreign
+    phase_id: id foreign
+    instruction_id: id foreign
   Vote:
     game_id: id foreign
     voted: enum:draw,pause,cancel
