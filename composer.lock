@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f5f36ef2c32be94eb6a201ba94b89705",
+    "content-hash": "becf147bbdbce1597bb9fb732ae19382",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -9440,11 +9440,77 @@
                 "source": "https://github.com/webmozart/assert/tree/master"
             },
             "time": "2020-07-08T17:02:28+00:00"
+        },
+        {
+            "name": "wulfheart/restfulsac",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Wulfheart/restfulsac.git",
+                "reference": "aa5fdd39e88e3497eb74e1bde294f3a305f497bb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Wulfheart/restfulsac/zipball/aa5fdd39e88e3497eb74e1bde294f3a305f497bb",
+                "reference": "aa5fdd39e88e3497eb74e1bde294f3a305f497bb",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.2"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^2.16",
+                "orchestra/testbench": "^5.0",
+                "phpunit/phpunit": "^9.0",
+                "psalm/plugin-laravel": "^1.2",
+                "vimeo/psalm": "^3.11"
+            },
+            "default-branch": true,
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Spatie\\Skeleton\\SkeletonServiceProvider"
+                    ],
+                    "aliases": {
+                        "Skeleton": "Spatie\\Skeleton\\SkeletonFacade"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Spatie\\Skeleton\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Wulfheart",
+                    "email": "dev@alexfwulf.de",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Create a folder of restful single action controllers",
+            "homepage": "https://github.com/Wulfheart/restfulsac",
+            "keywords": [
+                "restful",
+                "single action controller"
+            ],
+            "support": {
+                "issues": "https://github.com/Wulfheart/restfulsac/issues",
+                "source": "https://github.com/Wulfheart/restfulsac/tree/master"
+            },
+            "time": "2020-08-15T19:56:38+00:00"
         }
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "wulfheart/restfulsac": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
