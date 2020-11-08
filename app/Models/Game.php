@@ -36,11 +36,28 @@ class Game extends Model
         'player_count' => 'integer',
     ];
 
+    // Eloquent Accessors
     public function getStartedAttribute() :bool{
         return $this->phases()->count() == 0;
     }
 
+    // Eloquent Query Scopes
+    public function scopeNew($query){
+        // TODO
+        return $query;
+    }
 
+    public function scopeActive($query){
+        // TODO
+        return $query;
+    }
+
+    public function scopeFinished($query){
+        // TODO
+        return $query;
+    }
+
+    // Eloquent Relations
     public function variant()
     {
         return $this->belongsTo(\App\Models\Variant::class);

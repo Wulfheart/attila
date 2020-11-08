@@ -54,6 +54,9 @@ namespace App\Models{
  * @property-read int|null $powers_count
  * @property-read \App\Models\Variant $variant
  * @property-read \App\Models\Power $winningPower
+ * @method static \Illuminate\Database\Eloquent\Builder|Game active()
+ * @method static \Illuminate\Database\Eloquent\Builder|Game finished()
+ * @method static \Illuminate\Database\Eloquent\Builder|Game new()
  * @method static \Illuminate\Database\Eloquent\Builder|Game newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|Game newQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|Game query()
