@@ -31,4 +31,8 @@ class Variant extends Model
         'default_scs_to_win' => 'integer',
         'default_player_count' => 'integer',
     ];
+
+    public function basePowers() {
+        return $this->hasMany(BasePower::class);
+    }
 }

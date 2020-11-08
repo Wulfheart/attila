@@ -16,12 +16,15 @@ class Phase extends Model
      */
     protected $fillable = [
         'game_id',
+        'previous_phase_id',
         'name',
-        'starts_at',
+        'started_at',
+        'ended_at',
         'length',
         'adjudicated',
         'svg_adjudicated',
-        'svg_with_orders'
+        'svg_with_orders',
+        'state'
     ];
 
     /**
@@ -32,6 +35,7 @@ class Phase extends Model
     protected $casts = [
         'id' => 'integer',
         'game_id' => 'integer',
+        'previous_phase_id' => 'integer',
         'adjudicated' => 'boolean',
     ];
 
@@ -41,9 +45,13 @@ class Phase extends Model
      * @var array
      */
     protected $dates = [
-        'starts_at',
+        'started_at',
+        'ended_at',
     ];
 
+    public function previousPhase(){
+        return $this->belongsTo(Phase::class, 'previous_phase_id');
+    }
 
     public function game()
     {

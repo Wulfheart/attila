@@ -18,11 +18,14 @@ class CreatePhasesTable extends Migration
         Schema::create('phases', function (Blueprint $table) {
             $table->id();
             $table->foreignId('game_id')->constrained()->cascadeOnDelete();
+            $table->foreignId('previous_phase_id')->nullable()->constrained('phases')->cascadeOnDelete();
             $table->string('name');
-            $table->dateTime('starts_at');
+            $table->dateTime('started_at');
+            $table->dateTime('ended_at')->nullable();
             $table->integer('length');
             $table->longText('svg_adjudicated')->nullable();
             $table->longText('svg_with_orders')->nullable();
+            $table->longText('state');
             $table->boolean('adjudicated')->default(false);
             $table->timestamps();
         });

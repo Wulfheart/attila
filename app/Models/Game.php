@@ -38,7 +38,7 @@ class Game extends Model
 
     // Eloquent Accessors
     public function getStartedAttribute() :bool{
-        return $this->phases()->count() == 0;
+        return $this->phases()->count() > 0;
     }
 
     // Eloquent Query Scopes

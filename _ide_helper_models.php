@@ -44,7 +44,7 @@ namespace App\Models{
  * @property int $phase_length
  * @property int $scs_to_win
  * @property int $player_count
- * @property int $winning_power_id
+ * @property int|null $winning_power_id
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
  * @property-read bool $started
@@ -53,7 +53,7 @@ namespace App\Models{
  * @property-read \Illuminate\Database\Eloquent\Collection|\App\Models\Power[] $powers
  * @property-read int|null $powers_count
  * @property-read \App\Models\Variant $variant
- * @property-read \App\Models\Power $winningPower
+ * @property-read \App\Models\Power|null $winningPower
  * @method static \Illuminate\Database\Eloquent\Builder|Game active()
  * @method static \Illuminate\Database\Eloquent\Builder|Game finished()
  * @method static \Illuminate\Database\Eloquent\Builder|Game new()
@@ -183,10 +183,12 @@ namespace App\Models{
  * @property int $id
  * @property int $game_id
  * @property string $name
- * @property \Illuminate\Support\Carbon $starts_at
+ * @property \Illuminate\Support\Carbon $started_at
+ * @property \Illuminate\Support\Carbon $ended_at
  * @property int $length
  * @property string|null $svg_adjudicated
  * @property string|null $svg_with_orders
+ * @property string $state
  * @property bool $adjudicated
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
@@ -196,11 +198,13 @@ namespace App\Models{
  * @method static \Illuminate\Database\Eloquent\Builder|Phase query()
  * @method static \Illuminate\Database\Eloquent\Builder|Phase whereAdjudicated($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Phase whereCreatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Phase whereEndedAt($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Phase whereGameId($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Phase whereId($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Phase whereLength($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Phase whereName($value)
- * @method static \Illuminate\Database\Eloquent\Builder|Phase whereStartsAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Phase whereStartedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Phase whereState($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Phase whereSvgAdjudicated($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Phase whereSvgWithOrders($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Phase whereUpdatedAt($value)
@@ -316,6 +320,8 @@ namespace App\Models{
  * @property int $default_player_count
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
+ * @property-read \Illuminate\Database\Eloquent\Collection|\App\Models\BasePower[] $basePowers
+ * @property-read int|null $base_powers_count
  * @method static \Illuminate\Database\Eloquent\Builder|Variant newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|Variant newQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|Variant query()
