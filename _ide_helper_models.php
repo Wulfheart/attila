@@ -17,6 +17,7 @@ namespace App\Models{
  * @property int $id
  * @property int $variant_id
  * @property string $color
+ * @property string $name
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
  * @property-read \App\Models\Variant $variant
@@ -26,6 +27,7 @@ namespace App\Models{
  * @method static \Illuminate\Database\Eloquent\Builder|BasePower whereColor($value)
  * @method static \Illuminate\Database\Eloquent\Builder|BasePower whereCreatedAt($value)
  * @method static \Illuminate\Database\Eloquent\Builder|BasePower whereId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|BasePower whereName($value)
  * @method static \Illuminate\Database\Eloquent\Builder|BasePower whereUpdatedAt($value)
  * @method static \Illuminate\Database\Eloquent\Builder|BasePower whereVariantId($value)
  */
@@ -306,6 +308,7 @@ namespace App\Models{
  *
  * @property int $id
  * @property string $name
+ * @property string $api_name
  * @property int $default_scs_to_win
  * @property int $default_player_count
  * @property \Illuminate\Support\Carbon|null $created_at
@@ -313,6 +316,7 @@ namespace App\Models{
  * @method static \Illuminate\Database\Eloquent\Builder|Variant newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|Variant newQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|Variant query()
+ * @method static \Illuminate\Database\Eloquent\Builder|Variant whereApiName($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Variant whereCreatedAt($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Variant whereDefaultPlayerCount($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Variant whereDefaultScsToWin($value)

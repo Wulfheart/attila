@@ -18,6 +18,7 @@ class Variant extends Model
         'name',
         'default_scs_to_win',
         'default_player_count',
+        'api_name'
     ];
 
     /**

@@ -17,6 +17,7 @@ class BasePower extends Model
     protected $fillable = [
         'variant_id',
         'color',
+        'name'
     ];
 
     /**

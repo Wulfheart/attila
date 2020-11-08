@@ -19,6 +19,7 @@ class CreateBasePowersTable extends Migration
             $table->id();
             $table->foreignId('variant_id')->constrained()->cascadeOnDelete();
             $table->string('color');
+            $table->string('name');
             $table->timestamps();
         });
 
