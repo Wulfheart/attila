@@ -45,9 +45,19 @@ class AdjudicateGameJob implements ShouldQueue
         $previous_phase = new Phase;
         $first = $this->game->started;
         if ($first) {
+
+            //making the orders array
+            $orders = [];
+            foreach ($this->game->powers()->with('basePower')->get() as $power) {
+                $po = [];
+                $po['name'] = $power->basePower->api_name;
+                $po['orders'] = $power->locations()->where('phase_id', $this->game->currentPhase->id)->with('movement')->get()->pluck('movement.payload')->toArray();
+                $orders[] = $po;
+            }
             $previous_phase = $this->game->currentPhase;
             $response = Http::post(UrlBuilder::base(config('diplomacy.adjudicator_base_url'))->add('adjudicate')->string(), [
                 'previous_state' => $previous_phase->state,
+                'orders' => $orders
             ]);
         } else {
             $response = Http::get(UrlBuilder::base(config('diplomacy.adjudicator_base_url'))->add('adjudicate')->add($this->game->variant->api_name)->string());
