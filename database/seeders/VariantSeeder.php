@@ -23,19 +23,20 @@ class VariantSeeder extends Seeder
         $variant->save();
 
         $ps = [
-            ['name' => 'England', 'color' => '#9400D3'],
-            ['name' => 'Russia', 'color' => '#757D91'],
-            ['name' => 'Turkey', 'color' => '#B9A61C'],
-            ['name' => 'Austria', 'color' => '#C48F85'],
-            ['name' => 'Germany', 'color' => '#A08A75'],
-            ['name' => 'France', 'color' => '#4169E1'],
-            ['name' => 'Italy', 'color' => '#228B22'],
+            ['name' => 'England', 'api_name' => 'ENGLAND', 'color' => '#9400D3'],
+            ['name' => 'Russia', 'api_name' => 'RUSSIA', 'color' => '#757D91'],
+            ['name' => 'Turkey', 'api_name' => 'TURKEY', 'color' => '#B9A61C'],
+            ['name' => 'Austria', 'api_name' => 'AUSTRIA', 'color' => '#C48F85'],
+            ['name' => 'Germany', 'api_name' => 'GERMANY', 'color' => '#A08A75'],
+            ['name' => 'France', 'api_name' => 'FRANCE', 'color' => '#4169E1'],
+            ['name' => 'Italy', 'api_name' => 'ITALY', 'color' => '#228B22'],
         ];
 
         foreach ($ps as $bp) {
             $p = new BasePower();
             $p->variant_id = $variant->id;
             $p->name = $bp['name'];
+            $p->api_name = $bp['api_name'];
             $p->color = $bp['color'];
             $p->save();
         }

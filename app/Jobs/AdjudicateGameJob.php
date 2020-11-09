@@ -77,7 +77,7 @@ class AdjudicateGameJob implements ShouldQueue
         $po = $response['possible_orders'];
         foreach ($po as $p) {
             $power = $this->game->powers()->with('basepower')->whereHas('basepower', function (Builder $query) use ($p) {
-                $query->where('name', Str::lower($p['name']));
+                $query->where('api_name', $p['name']);
             })->first();
             foreach ($p['units'] as $u) {
                 $location = new Location();
