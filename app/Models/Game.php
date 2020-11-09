@@ -44,7 +44,7 @@ class Game extends Model
 
     public function getCurrentPhaseAttribute(): Phase
     {
-        return $this->phases()->orderByDesc('started_at')->first();
+        return $this->phases()->orderByDesc('started_at')->with('nextPhase', 'previousPhase')->first();
     }
 
     // Eloquent Query Scopes

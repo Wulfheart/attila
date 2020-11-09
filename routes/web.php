@@ -24,17 +24,12 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
 
 Route::middleware(['auth:sanctum', 'verified'])->group(function () {
     Route::name('games.')->prefix('games')->group(function () {
-        Route::get('/{type?}', Game\IndexGamesController::class)->name('index');
+        Route::get('/index/{type?}', Game\IndexGamesController::class)->name('index');
         Route::get('/create', Game\CreateGameController::class)->name('create');
         Route::post('/', Game\StoreGameController::class)->name('store');
         Route::post('/{game}/join', Game\JoinGameController::class)->name('join');
         Route::post('/{game}/leave', Game\LeaveGameController::class)->name('leave');
+        Route::get('/{game}', Game\ShowGameController::class)->name('show');
     });
 });
 
-Route::get('debug/games/{game}', function(\App\Models\Game $game){
-
-    	return view('debug.game', [
-            'phase' => $game->currentPhase,
-        ]);
-});

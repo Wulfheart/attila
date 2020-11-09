@@ -53,6 +53,10 @@ class Phase extends Model
         return $this->belongsTo(Phase::class, 'previous_phase_id');
     }
 
+    public function nextPhase(){
+        return $this->hasOne(Phase::class, 'previous_phase_id');
+    }
+
     public function game()
     {
         return $this->belongsTo(\App\Models\Game::class);

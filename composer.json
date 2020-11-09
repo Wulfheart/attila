@@ -18,6 +18,7 @@
         "laravel/sanctum": "^2.6",
         "laravel/tinker": "^2.5",
         "livewire/livewire": "^2.0",
+        "skydiver/blade-icons-remix": "^1.3",
         "spatie/laravel-short-schedule": "^1.2"
     },
     "require-dev": {

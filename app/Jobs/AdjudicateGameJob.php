@@ -69,7 +69,6 @@ class AdjudicateGameJob implements ShouldQueue
         $phase = new Phase();
         $phase->name = $response['phase'];
         $phase->svg_adjudicated = $response['svg_adjudicated'];
-        $phase->svg_with_orders = $response['svg_with_orders'];
         $phase->started_at = $time;
         if ($first) {
             $phase->previous_phase_id = $previous_phase->id;
@@ -80,6 +79,8 @@ class AdjudicateGameJob implements ShouldQueue
         $phase->save();
         if ($first) {
             $previous_phase->ended_at = $time;
+            $previous_phase->svg_with_orders = $response['svg_with_orders'];
+            $previous_phase->adjudicated = true;
             $previous_phase->save();
         }
 

@@ -18,12 +18,14 @@ namespace App\Models{
  * @property int $variant_id
  * @property string $color
  * @property string $name
+ * @property string $api_name
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
  * @property-read \App\Models\Variant $variant
  * @method static \Illuminate\Database\Eloquent\Builder|BasePower newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|BasePower newQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|BasePower query()
+ * @method static \Illuminate\Database\Eloquent\Builder|BasePower whereApiName($value)
  * @method static \Illuminate\Database\Eloquent\Builder|BasePower whereColor($value)
  * @method static \Illuminate\Database\Eloquent\Builder|BasePower whereCreatedAt($value)
  * @method static \Illuminate\Database\Eloquent\Builder|BasePower whereId($value)
@@ -103,12 +105,13 @@ namespace App\Models{
  * @property int $id
  * @property int $phase_id
  * @property int $power_id
+ * @property int|null $instruction_id
  * @property string $name
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
  * @property-read \Illuminate\Database\Eloquent\Collection|\App\Models\Instruction[] $instructions
  * @property-read int|null $instructions_count
- * @property-read \App\Models\Instruction $movement
+ * @property-read \App\Models\Instruction|null $movement
  * @property-read \App\Models\Phase $phase
  * @property-read \App\Models\Power $power
  * @method static \Illuminate\Database\Eloquent\Builder|Location newModelQuery()
@@ -116,6 +119,7 @@ namespace App\Models{
  * @method static \Illuminate\Database\Eloquent\Builder|Location query()
  * @method static \Illuminate\Database\Eloquent\Builder|Location whereCreatedAt($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Location whereId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Location whereInstructionId($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Location whereName($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Location wherePhaseId($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Location wherePowerId($value)
@@ -153,30 +157,6 @@ namespace App\Models{
  * @method static \Illuminate\Database\Eloquent\Builder|Message whereUpdatedAt($value)
  */
 	class Message extends \Eloquent {}
-}
-
-namespace App\Models{
-/**
- * App\Models\Movement
- *
- * @property int $id
- * @property int $power_id
- * @property int $instruction_id
- * @property \Illuminate\Support\Carbon|null $created_at
- * @property \Illuminate\Support\Carbon|null $updated_at
- * @property-read \App\Models\Instruction $instruction
- * @property-read \App\Models\Phase $phase
- * @property-read \App\Models\Power $power
- * @method static \Illuminate\Database\Eloquent\Builder|Movement newModelQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|Movement newQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|Movement query()
- * @method static \Illuminate\Database\Eloquent\Builder|Movement whereCreatedAt($value)
- * @method static \Illuminate\Database\Eloquent\Builder|Movement whereId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|Movement whereInstructionId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|Movement wherePowerId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|Movement whereUpdatedAt($value)
- */
-	class Movement extends \Eloquent {}
 }
 
 namespace App\Models{
@@ -261,6 +241,8 @@ namespace App\Models{
  * @property \Illuminate\Support\Carbon|null $updated_at
  * @property-read \App\Models\BasePower $basePower
  * @property-read \App\Models\Game $game
+ * @property-read \Illuminate\Database\Eloquent\Collection|\App\Models\Location[] $locations
+ * @property-read int|null $locations_count
  * @property-read \App\Models\User $user
  * @method static \Illuminate\Database\Eloquent\Builder|Power newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|Power newQuery()
