@@ -16,7 +16,7 @@ class SimulateGameCommand extends Command
      *
      * @var string
      */
-    protected $signature = 'game:simulate {--id=} {--assign}';
+    protected $signature = 'game:simulate {--id=} {--assign} {--no-random-moves} {--moves=1}';
 
     /**
      * The console command description.
@@ -54,18 +54,25 @@ class SimulateGameCommand extends Command
                 $power->save();
             }
         }
+        for ($i = 0; $i < $this->option('moves'); $i++) {
+            $this->line(sprintf("<comment>Simulating:</comment> %s - %d", $game->name, $i + 1));
+            $time = stopwatch(function() use ($game) {
+                AdjudicateGameJob::dispatchSync($game);
+                $game->refresh();
+                
+                if (!$this->option('no-random-moves')) {
+                    
+                    // Assign some movements
+                    $locations = $game->currentPhase->locations()->with('instructions')->get();
+                    foreach ($locations as $location) {
+                        $location->movement()->associate($location->instructions->random());
+                        $location->save();
+                    }
+                }
+            });
+            $this->line(sprintf("<info>Simulated:</info> %s - %d (%s s)", $game->name, $i + 1, number_format($time, 4)));
+        }
 
-        AdjudicateGameJob::dispatchSync($game);
-        $game->refresh();
-
-        // Assign some movements
-        $locations = $game->currentPhase->locations()->with('instructions')->get();
-        foreach ($locations as $location) {
-            $location->movement()->associate($location->instructions->random());
-            $location->save();   
-       }
-
-        $this->info($game->name);
         return 0;
     }
 }

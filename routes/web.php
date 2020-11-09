@@ -31,3 +31,10 @@ Route::middleware(['auth:sanctum', 'verified'])->group(function () {
         Route::post('/{game}/leave', Game\LeaveGameController::class)->name('leave');
     });
 });
+
+Route::get('debug/games/{game}', function(\App\Models\Game $game){
+
+    	return view('debug.game', [
+            'phase' => $game->currentPhase,
+        ]);
+});

@@ -50,8 +50,8 @@ class AdjudicateGameJob implements ShouldQueue
             $orders = [];
             foreach ($this->game->powers()->with('basePower')->get() as $power) {
                 $po = [];
-                $po['name'] = $power->basePower->api_name;
-                $po['orders'] = $power->locations()->where('phase_id', $this->game->currentPhase->id)->with('movement')->get()->pluck('movement.payload')->toArray();
+                $po['power'] = $power->basePower->api_name;
+                $po['instructions'] = $power->locations()->where('phase_id', $this->game->currentPhase->id)->with('movement')->get()->pluck('movement.payload')->toArray();
                 $orders[] = $po;
             }
             $previous_phase = $this->game->currentPhase;
