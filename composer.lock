@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3fefad205bc43bb25a5b00f98eee5da1",
+    "content-hash": "ad6ca844d73686820df901e8f28d8d84",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -170,6 +170,64 @@
                 }
             ],
             "time": "2020-08-18T23:57:15+00:00"
+        },
+        {
+            "name": "calebporzio/awesome-helpers",
+            "version": "v2.4.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/calebporzio/awesome-helpers.git",
+                "reference": "97d99457c0cea4cecca29b7118f4b3a3d0075cea"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/calebporzio/awesome-helpers/zipball/97d99457c0cea4cecca29b7118f4b3a3d0075cea",
+                "reference": "97d99457c0cea4cecca29b7118f4b3a3d0075cea",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1"
+            },
+            "require-dev": {
+                "fzaninotto/faker": "^1.8",
+                "illuminate/support": "5.7.*|5.8.*|^6.0.0|^7.0.0",
+                "mockery/mockery": "dev-master",
+                "phpunit/phpunit": "^7.0|^8.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Calebporzio\\AwesomeHelpers\\AwesomeHelpersServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Calebporzio\\AwesomeHelpers\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Caleb Porzio",
+                    "email": "calebporzio@gmail.com"
+                }
+            ],
+            "description": "Helper functions I find super-duper handy",
+            "homepage": "https://github.com/calebporzio/awesome-helpers",
+            "keywords": [
+                "awesome-helpers",
+                "calebporzio"
+            ],
+            "support": {
+                "issues": "https://github.com/calebporzio/awesome-helpers/issues",
+                "source": "https://github.com/calebporzio/awesome-helpers/tree/master"
+            },
+            "time": "2020-03-03T13:47:56+00:00"
         },
         {
             "name": "dasprid/enum",

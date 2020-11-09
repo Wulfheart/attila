@@ -45,7 +45,7 @@ class AdjudicateGameJob implements ShouldQueue
         $previous_phase = new Phase;
         $first = $this->game->started;
         if ($first) {
-            $previous_phase = $this->game->phases()->orderByDesc('started_at')->first();
+            $previous_phase = $this->game->currentPhase;
             $response = Http::post(UrlBuilder::base(config('diplomacy.adjudicator_base_url'))->add('adjudicate')->string(), [
                 'previous_state' => $previous_phase->state,
             ]);
@@ -53,46 +53,46 @@ class AdjudicateGameJob implements ShouldQueue
             $response = Http::get(UrlBuilder::base(config('diplomacy.adjudicator_base_url'))->add('adjudicate')->add($this->game->variant->api_name)->string());
         }
         $response->throw();
-        DB::transaction(function () use ($response, $previous_phase, $first) {
-            $time = now();
-            $phase = new Phase();
-            $phase->name = $response['phase'];
-            $phase->svg_adjudicated = $response['svg_adjudicated'];
-            $phase->svg_with_orders = $response['svg_with_orders'];
-            $phase->started_at = $time;
-            if ($first) {
-                $phase->previous_phase_id = $previous_phase->id;
-            }
-            $phase->length = $this->game->phase_length;
-            $phase->game_id = $this->game->id;
-            $phase->state = json_encode($response['current_state']);
-            $phase->save();
-            if($first){
-                $previous_phase->ended_at = $time;
-                $previous_phase->save();
-            }
 
-            // Locations and Instructions
-            $po = $response['possible_orders'];
-            foreach ($po as $p) {
-                $power = $this->game->powers()->with('basepower')->whereHas('basepower', function(Builder $query) use ($p){
-                    $query->where('name', Str::lower($p['name']));
-                  })->first();
-                foreach ($p['units'] as $u) {
-                    $location = new Location();
-                    $location->name = $u['location'];
-                    $location->phase_id = $phase->id;
-                    $location->power_id = $power->id;
-                    $location->save();
-                    foreach ($u['instructions'] as $inst) {
-                        $instruction = new Instruction();
-                        $instruction->payload = $inst;
-                        $instruction->location_id = $location->id;
-                        $instruction->save();
-                    }
+        // Maybe Transaction
+        $time = now();
+        $phase = new Phase();
+        $phase->name = $response['phase'];
+        $phase->svg_adjudicated = $response['svg_adjudicated'];
+        $phase->svg_with_orders = $response['svg_with_orders'];
+        $phase->started_at = $time;
+        if ($first) {
+            $phase->previous_phase_id = $previous_phase->id;
+        }
+        $phase->length = $this->game->phase_length;
+        $phase->game_id = $this->game->id;
+        $phase->state = json_encode($response['current_state']);
+        $phase->save();
+        if ($first) {
+            $previous_phase->ended_at = $time;
+            $previous_phase->save();
+        }
+
+        // Locations and Instructions
+        $po = $response['possible_orders'];
+        foreach ($po as $p) {
+            $power = $this->game->powers()->with('basepower')->whereHas('basepower', function (Builder $query) use ($p) {
+                $query->where('name', Str::lower($p['name']));
+            })->first();
+            foreach ($p['units'] as $u) {
+                $location = new Location();
+                $location->name = $u['location'];
+                $location->phase_id = $phase->id;
+                $location->power_id = $power->id;
+                $location->save();
+                foreach ($u['instructions'] as $inst) {
+                    $instruction = new Instruction();
+                    $instruction->payload = $inst;
+                    $instruction->location_id = $location->id;
+                    $instruction->save();
                 }
             }
-        });
+        }
     }
 
     /**

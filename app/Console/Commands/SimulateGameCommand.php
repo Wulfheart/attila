@@ -6,6 +6,7 @@ use App\Jobs\AdjudicateGameJob;
 use App\Models\Game;
 use App\Models\Power;
 use App\Models\User;
+use Faker\Factory;
 use Illuminate\Console\Command;
 
 class SimulateGameCommand extends Command
@@ -42,7 +43,7 @@ class SimulateGameCommand extends Command
     public function handle()
     {
         $game = Game::findOrFail($this->option('id'));
-        if($game->powers()->count() < $game->player_count && $this->option('assign')){
+        if ($game->powers()->count() < $game->player_count && $this->option('assign')) {
             // find missing powers
             $basepowers = $game->variant->basePowers()->whereNotIn('id', $game->powers->pluck('id'))->get();
             foreach ($basepowers as $bp) {
@@ -55,6 +56,15 @@ class SimulateGameCommand extends Command
         }
 
         AdjudicateGameJob::dispatchSync($game);
+        $game->refresh();
+
+        // Assign some movements
+        $locations = $game->currentPhase->locations()->with('instructions')->get();
+        foreach ($locations as $location) {
+            $location->movement()->associate($location->instructions->random());
+            $location->save();   
+       }
+
         $this->info($game->name);
         return 0;
     }

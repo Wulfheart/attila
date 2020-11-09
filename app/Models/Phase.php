@@ -57,4 +57,8 @@ class Phase extends Model
     {
         return $this->belongsTo(\App\Models\Game::class);
     }
+
+    public function locations(){
+        return $this->hasMany(Location::class);
+    }
 }

@@ -37,22 +37,31 @@ class Game extends Model
     ];
 
     // Eloquent Accessors
-    public function getStartedAttribute() :bool{
+    public function getStartedAttribute(): bool
+    {
         return $this->phases()->count() > 0;
     }
 
+    public function getCurrentPhaseAttribute(): Phase
+    {
+        return $this->phases()->orderByDesc('started_at')->first();
+    }
+
     // Eloquent Query Scopes
-    public function scopeNew($query){
+    public function scopeNew($query)
+    {
         // TODO
         return $query;
     }
 
-    public function scopeActive($query){
+    public function scopeActive($query)
+    {
         // TODO
         return $query;
     }
 
-    public function scopeFinished($query){
+    public function scopeFinished($query)
+    {
         // TODO
         return $query;
     }
@@ -73,7 +82,8 @@ class Game extends Model
         return $this->hasMany(Power::class);
     }
 
-    public function phases(){
+    public function phases()
+    {
         return $this->hasMany(Phase::class);
     }
 }

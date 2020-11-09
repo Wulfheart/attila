@@ -41,4 +41,13 @@ class Location extends Model
     {
         return $this->belongsTo(\App\Models\Power::class);
     }
+
+    public function instructions()
+    {
+        return $this->hasMany(Instruction::class);
+    }
+
+    public function movement(){
+        return $this->belongsTo(Instruction::class, 'instruction_id');
+    }
 }

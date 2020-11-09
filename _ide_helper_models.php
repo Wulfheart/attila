@@ -47,6 +47,7 @@ namespace App\Models{
  * @property int|null $winning_power_id
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
+ * @property-read \App\Models\Phase $current_phase
  * @property-read bool $started
  * @property-read \Illuminate\Database\Eloquent\Collection|\App\Models\Phase[] $phases
  * @property-read int|null $phases_count
@@ -105,6 +106,9 @@ namespace App\Models{
  * @property string $name
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
+ * @property-read \Illuminate\Database\Eloquent\Collection|\App\Models\Instruction[] $instructions
+ * @property-read int|null $instructions_count
+ * @property-read \App\Models\Instruction $movement
  * @property-read \App\Models\Phase $phase
  * @property-read \App\Models\Power $power
  * @method static \Illuminate\Database\Eloquent\Builder|Location newModelQuery()
@@ -193,6 +197,8 @@ namespace App\Models{
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
  * @property-read \App\Models\Game $game
+ * @property-read \Illuminate\Database\Eloquent\Collection|\App\Models\Location[] $locations
+ * @property-read int|null $locations_count
  * @property-read Phase|null $previousPhase
  * @method static \Illuminate\Database\Eloquent\Builder|Phase newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|Phase newQuery()
