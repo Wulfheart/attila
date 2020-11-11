@@ -26,6 +26,7 @@ class CreatePhasesTable extends Migration
             $table->longText('svg_adjudicated')->nullable();
             $table->longText('svg_with_orders')->nullable();
             $table->longText('state');
+            $table->enum('phase_type', ['movement', 'retreat', 'adjustment']);
             $table->boolean('adjudicated')->default(false);
             $table->timestamps();
         });

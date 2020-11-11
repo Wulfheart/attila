@@ -61,6 +61,9 @@ var spacing = {
                 sans: ['Inter var', ...defaultTheme.fontFamily.sans],
             },
             maxHeight: spacing,
+            colors: {
+                primary: defaultTheme.colors.indigo,
+            }
         },
     },
 
@@ -68,6 +71,7 @@ var spacing = {
         opacity: ['responsive', 'hover', 'focus', 'disabled'],
         cursor: ['responsive', 'hover', 'focus', 'disabled'],
         textColor: ['responsive', 'hover', 'focus', 'active', 'disabled'],
+        backgroundColor: ['responsive', 'even', 'hover', 'focus', 'odd'],
     },
 
     plugins: [

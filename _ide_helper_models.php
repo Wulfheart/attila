@@ -173,12 +173,16 @@ namespace App\Models{
  * @property string|null $svg_adjudicated
  * @property string|null $svg_with_orders
  * @property string $state
+ * @property string $phase_type
  * @property bool $adjudicated
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
  * @property-read \App\Models\Game $game
  * @property-read \Illuminate\Database\Eloquent\Collection|\App\Models\Location[] $locations
  * @property-read int|null $locations_count
+ * @property-read Phase|null $nextPhase
+ * @property-read \Illuminate\Database\Eloquent\Collection|\App\Models\PhasePowerData[] $phasePowerData
+ * @property-read int|null $phase_power_data_count
  * @property-read Phase|null $previousPhase
  * @method static \Illuminate\Database\Eloquent\Builder|Phase newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|Phase newQuery()
@@ -190,6 +194,7 @@ namespace App\Models{
  * @method static \Illuminate\Database\Eloquent\Builder|Phase whereId($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Phase whereLength($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Phase whereName($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Phase wherePhaseType($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Phase wherePreviousPhaseId($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Phase whereStartedAt($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Phase whereState($value)
@@ -208,8 +213,8 @@ namespace App\Models{
  * @property int $phase_id
  * @property int $power_id
  * @property int $unit_count
- * @property int $supply_center_count
- * @property int $build_count
+ * @property int $supply_centers_count
+ * @property int $home_centers_count
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
  * @property-read \App\Models\Phase $phase
@@ -217,12 +222,12 @@ namespace App\Models{
  * @method static \Illuminate\Database\Eloquent\Builder|PhasePowerData newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|PhasePowerData newQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|PhasePowerData query()
- * @method static \Illuminate\Database\Eloquent\Builder|PhasePowerData whereBuildCount($value)
  * @method static \Illuminate\Database\Eloquent\Builder|PhasePowerData whereCreatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|PhasePowerData whereHomeCentersCount($value)
  * @method static \Illuminate\Database\Eloquent\Builder|PhasePowerData whereId($value)
  * @method static \Illuminate\Database\Eloquent\Builder|PhasePowerData wherePhaseId($value)
  * @method static \Illuminate\Database\Eloquent\Builder|PhasePowerData wherePowerId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|PhasePowerData whereSupplyCenterCount($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|PhasePowerData whereSupplyCentersCount($value)
  * @method static \Illuminate\Database\Eloquent\Builder|PhasePowerData whereUnitCount($value)
  * @method static \Illuminate\Database\Eloquent\Builder|PhasePowerData whereUpdatedAt($value)
  */
@@ -307,6 +312,7 @@ namespace App\Models{
  * @property string $name
  * @property string $api_name
  * @property int $default_scs_to_win
+ * @property int $total_scs
  * @property int $default_player_count
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
@@ -321,6 +327,7 @@ namespace App\Models{
  * @method static \Illuminate\Database\Eloquent\Builder|Variant whereDefaultScsToWin($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Variant whereId($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Variant whereName($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Variant whereTotalScs($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Variant whereUpdatedAt($value)
  */
 	class Variant extends \Eloquent {}

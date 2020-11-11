@@ -22,15 +22,16 @@ class IndexGamesController extends Controller
         if (!$allowedTypes->contains($type)) {
             abort(404);
         }
+        $game = Game::with('phases', 'variant', 'powers.basepower');
         switch (Str::lower($type)) {
             case 'new':
-                $games = Game::new()->get();
+                $games = $game->new()->get();
                 break;
             case 'active':
-                $games = Game::active()->get();
+                $games = $game->active()->get();
                 break;
             case 'finished':
-                $games = Game::finished()->get();
+                $games = $game->finished()->get();
                 break;
         }
         return view('game.index', [

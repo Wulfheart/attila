@@ -7,6 +7,7 @@ use App\Models\Game;
 use App\Models\Instruction;
 use App\Models\Location;
 use App\Models\Phase;
+use App\Models\PhasePowerData;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Database\Eloquent\Builder;
@@ -75,6 +76,13 @@ class AdjudicateGameJob implements ShouldQueue
         }
         $phase->length = $this->game->phase_length;
         $phase->game_id = $this->game->id;
+
+        $phase_type_lookup = [
+            'A' => 'adjustment',
+            'R' => 'retreat',
+            'M' => 'movement',
+        ];
+        $phase->phase_type = $phase_type_lookup[$response['phase_type']];
         $phase->state = json_encode($response['current_state']);
         $phase->save();
         if ($first) {
@@ -103,6 +111,21 @@ class AdjudicateGameJob implements ShouldQueue
                     $instruction->save();
                 }
             }
+        }
+
+        // Phase Power Data
+        $ppd = $response['phase_power_data'];
+        foreach ($ppd as $p) {
+            $power = $this->game->powers()->with('basepower')->whereHas('basepower', function (Builder $query) use ($p) {
+                $query->where('api_name', $p['name']);
+            })->first();
+            $data = new PhasePowerData();
+            $data->power_id = $power->id;
+            $data->phase_id = $phase->id;
+            $data->unit_count = $p['unit_count'];
+            $data->supply_centers_count = $p['supply_centers_count'];
+            $data->home_centers_count = $p['home_centers_count'];
+            $data->save();
         }
     }
 

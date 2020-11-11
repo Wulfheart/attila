@@ -52,9 +52,10 @@ class GamePolicy
      */
     public function join(User $user, Game $game)
     {
-        return $user->games()->where('id', $game->id)->notExists()
+      
+        return $user->games()->where('games.id', $game->id)->doesntExist()
             && $game->powers()->count() < $game->player_count
-            && $game->started;
+            && !$game->started;
         ;
     }
 

@@ -60,6 +60,10 @@ class User extends Authenticatable
     ];
 
     public function games(){
-        return $this->hasManyThrough(Game::class, Power::class);
+        return $this->belongsToMany(Game::class, 'powers');
+    }
+
+    public function powers(){
+        return $this->hasMany(Power::class);
     }
 }

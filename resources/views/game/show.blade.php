@@ -1,5 +1,5 @@
 <x-app-layout>
-    <div class="px-4 py-6 mx-auto max-w-7xl sm:px-6 lg:px-8">
+    <div class="max-w-3xl px-4 py-6 mx-auto sm:px-6 lg:px-8">
         <!-- Header -->
         <div class="lg:flex lg:items-center lg:justify-between">
             <div class="flex-1 min-w-0">

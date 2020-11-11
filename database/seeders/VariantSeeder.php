@@ -20,6 +20,7 @@ class VariantSeeder extends Seeder
         $variant->api_name = 'standard';
         $variant->default_player_count = 7;
         $variant->default_scs_to_win = 18;
+        $variant->total_scs = 34;
         $variant->save();
 
         $ps = [

@@ -51,19 +51,19 @@ class Game extends Model
     public function scopeNew($query)
     {
         // TODO
-        return $query;
+        return $query->doesntHave('phases');
     }
 
     public function scopeActive($query)
     {
         // TODO
-        return $query;
+        return $query->whereNull('winning_power_id')->has('phases');//->whereNotNull('winning_power_id');
     }
 
     public function scopeFinished($query)
     {
         // TODO
-        return $query;
+        return $query->whereNotNull('winning_power_id');
     }
 
     // Eloquent Relations
@@ -86,4 +86,5 @@ class Game extends Model
     {
         return $this->hasMany(Phase::class);
     }
+
 }

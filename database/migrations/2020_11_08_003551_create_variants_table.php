@@ -18,6 +18,7 @@ class CreateVariantsTable extends Migration
             $table->string('name');
             $table->string('api_name');
             $table->integer('default_scs_to_win');
+            $table->integer('total_scs');
             $table->integer('default_player_count');
             $table->timestamps();
         });
