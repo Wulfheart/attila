@@ -17,16 +17,7 @@ class JoinGameController extends Controller
      */
     public function __invoke(Game $game)
     {
-        $game->load(['powers.basepower', 'variant.basepowers']);
         $this->authorize('join', $game);
-
-
-        $basepower = $game->variant->basepowers->diff($game->powers->pluck('basepower'))->random();
-        $power = new Power();
-        $power->base_power_id = $basepower->id;
-        $power->game_id = $game->id;
-        $power->user_id = auth()->user()->id;
-        $power->save();
-        
+        auth()->user()->join($game);        
     }
 }

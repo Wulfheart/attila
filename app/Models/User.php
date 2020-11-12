@@ -73,4 +73,14 @@ class User extends Authenticatable
     public function powers(){
         return $this->hasMany(Power::class);
     }
+
+    public function join(Game $game){
+        $game->load(['powers.basepower', 'variant.basepowers']);
+        $basepower = $game->variant->basepowers->diff($game->powers->pluck('basepower'))->random();
+        $power = new Power();
+        $power->base_power_id = $basepower->id;
+        $power->game_id = $game->id;
+        $power->user_id = $this->id;
+        $power->save();
+    }
 }
