@@ -39,26 +39,37 @@
       <div class="grid max-w-4xl gap-6 mt-6 lg:grid-cols-1">
         @foreach ($games as $game)
         <div class="overflow-hidden bg-white rounded-lg shadow">
-          <div class="px-4 py-5 border-b border-gray-200 sm:px-6">
-            <!-- Heading goes here -->
-            <a href="{{ route('games.show', ['game' => $game]) }}"
-              class="text-lg font-medium leading-6 text-gray-900 hover:underline">
-              {{ $game->name }}
-            </a>
-            <div class="flex flex-col mt-1 sm:mt-0 sm:flex-row sm:flex-wrap">
-              <div class="flex items-center mt-2 text-xs leading-5 text-gray-500 sm:mr-6">
-                <!-- Heroicon name: briefcase -->
-                <x-ri-honour-fill class="flex-shrink-0 w-4 h-4 mr-1 text-gray-400 fill-current"></x-ri-honour-fill>
-                {{ $game->variant->name }}
+          <div class="flex flex-row justify-between px-4 py-5 border-b border-gray-200 sm:px-6">
+            <div class="">
+              <!-- Heading goes here -->
+              <a href="{{ route('games.show', ['game' => $game]) }}"
+                class="text-lg font-medium leading-6 text-gray-900 hover:underline">
+                {{ $game->name }}
+              </a>
+              <div class="flex flex-col mt-1 sm:mt-0 sm:flex-row sm:flex-wrap">
+                <div class="flex items-center mt-2 text-xs leading-5 text-gray-500 sm:mr-6">
+                  <!-- Heroicon name: briefcase -->
+                  <x-ri-honour-fill class="flex-shrink-0 w-4 h-4 mr-1 text-gray-400 fill-current"></x-ri-honour-fill>
+                  {{ $game->variant->name }}
+                </div>
+                @if ($game->started)
+                <div class="flex items-center mt-2 text-xs leading-5 text-gray-500 sm:mr-6">
+                  <!-- Heroicon name: briefcase -->
+                  <x-ri-gradienter-line class="flex-shrink-0 w-4 h-4 mr-1 text-gray-400 fill-current">
+                  </x-ri-gradienter-line>
+                  {{ $game->currentPhase->name }}
+                </div>
+                @endif
+                  <div class="flex items-center mt-2 text-xs leading-5 text-gray-500 sm:mr-6">
+                    <!-- Heroicon name: briefcase -->
+                    <x-ri-time-line class="flex-shrink-0 w-4 h-4 mr-1 text-gray-400 fill-current">
+                    </x-ri-time-line>
+                    {{ Carbon\CarbonInterval::seconds($game->phase_length)->cascade()->forHumans() }}/phase
+                  </div>
               </div>
-              @if ($game->started)
-              <div class="flex items-center mt-2 text-xs leading-5 text-gray-500 sm:mr-6">
-                <!-- Heroicon name: briefcase -->
-                <x-ri-gradienter-line class="flex-shrink-0 w-4 h-4 mr-1 text-gray-400 fill-current">
-                </x-ri-gradienter-line>
-                {{ $game->currentPhase->name }}
-              </div>
-              @endif
+            </div>
+            <div class="text-sm font-medium">
+              Next: 
               <x-attila.countdown :seconds="$game->currentPhase->secondsLeft"></x-attila.countdown>
             </div>
           </div>
@@ -94,7 +105,7 @@
 
                       </div>
                       <div class="flex justify-start text-sm text-gray-500">
-                          <x-user.link :user="$pd->power->user"></x-user.link>
+                        <x-user.link :user="$pd->power->user"></x-user.link>
                       </div>
                       <div class="grid place-content-end">
                         <div class="text-xs text-gray-700">
@@ -108,7 +119,7 @@
               @endforeach
             </ul>
             @endif
-           
+
           </div>
           <div class="px-4 py-4 border-t border-gray-200 sm:px-6">
             <!-- Footer goes here -->
@@ -128,7 +139,7 @@
                 </x-button>
               </a>
               @endcan
-             
+
             </div>
           </div>
         </div>
