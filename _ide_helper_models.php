@@ -46,6 +46,7 @@ namespace App\Models{
  * @property int $phase_length
  * @property int $scs_to_win
  * @property int $player_count
+ * @property bool $ended
  * @property int|null $winning_power_id
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
@@ -59,11 +60,13 @@ namespace App\Models{
  * @property-read \App\Models\Power|null $winningPower
  * @method static \Illuminate\Database\Eloquent\Builder|Game active()
  * @method static \Illuminate\Database\Eloquent\Builder|Game finished()
+ * @method static \Illuminate\Database\Eloquent\Builder|Game joined()
  * @method static \Illuminate\Database\Eloquent\Builder|Game new()
  * @method static \Illuminate\Database\Eloquent\Builder|Game newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|Game newQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|Game query()
  * @method static \Illuminate\Database\Eloquent\Builder|Game whereCreatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Game whereEnded($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Game whereId($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Game whereName($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Game wherePhaseLength($value)
@@ -283,6 +286,8 @@ namespace App\Models{
  * @property-read string $profile_photo_url
  * @property-read \Illuminate\Notifications\DatabaseNotificationCollection|\Illuminate\Notifications\DatabaseNotification[] $notifications
  * @property-read int|null $notifications_count
+ * @property-read \Illuminate\Database\Eloquent\Collection|\App\Models\Power[] $powers
+ * @property-read int|null $powers_count
  * @property-read \Illuminate\Database\Eloquent\Collection|\Laravel\Sanctum\PersonalAccessToken[] $tokens
  * @property-read int|null $tokens_count
  * @method static \Illuminate\Database\Eloquent\Builder|User newModelQuery()

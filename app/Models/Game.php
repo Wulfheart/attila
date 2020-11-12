@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
@@ -34,6 +35,7 @@ class Game extends Model
         'winning_power_id' => 'integer',
         'scs_to_win' => 'integer',
         'player_count' => 'integer',
+        'ended' => 'boolean'
     ];
 
     // Eloquent Accessors
@@ -48,22 +50,29 @@ class Game extends Model
     }
 
     // Eloquent Query Scopes
-    public function scopeNew($query)
+    public function scopeNew(Builder $query)
     {
-        // TODO
-        return $query->doesntHave('phases');
+        return $query->doesntHave('phases')->whereDoesntHave('powers', function (Builder $query) {
+            $query->where('user_id', auth()->user()->id);
+        });
     }
 
-    public function scopeActive($query)
+    public function scopeJoined(Builder $query)
     {
-        // TODO
-        return $query->whereNull('winning_power_id')->has('phases');//->whereNotNull('winning_power_id');
+        $query->whereHas('powers', function (Builder $query) {
+            $query->where('user_id', 1);
+        })
+            ->where('ended', false);
     }
 
-    public function scopeFinished($query)
+    public function scopeActive(Builder $query)
     {
-        // TODO
-        return $query->whereNotNull('winning_power_id');
+        return $query->where('ended', false)->has('phases'); //->whereNotNull('winning_power_id');
+    }
+
+    public function scopeFinished(Builder $query)
+    {
+        return $query->where('ended', true);
     }
 
     // Eloquent Relations
@@ -86,5 +95,4 @@ class Game extends Model
     {
         return $this->hasMany(Phase::class);
     }
-
 }

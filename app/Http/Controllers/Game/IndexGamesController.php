@@ -18,12 +18,15 @@ class IndexGamesController extends Controller
     public function __invoke(string $type = 'active')
     {
         $type = Str::lower($type);
-        $allowedTypes = collect(['new', 'active', 'finished']);
+        $allowedTypes = collect(['new', 'active', 'finished', 'yours']);
         if (!$allowedTypes->contains($type)) {
             abort(404);
         }
         $game = Game::with('phases', 'variant', 'powers.basepower');
         switch (Str::lower($type)) {
+            case 'yours':
+                $games = $game->joined()->get();
+                break;
             case 'new':
                 $games = $game->new()->get();
                 break;
@@ -39,6 +42,7 @@ class IndexGamesController extends Controller
             'type' => $type,
             'count' => [
                 'new' => Game::new()->count(),
+                'yours' => Game::joined()->count(),
                 'active' => Game::active()->count(),
                 'finished' => Game::finished()->count(),
             ]

@@ -10,6 +10,7 @@
       <div>
         <div class="sm:hidden">
           <select aria-label="Selected tab" class="block w-full form-select">
+            <option value="yours" {{ $type == 'new' ? 'selected' : '' }}>Your Games ({{ $count['yours'] }})</option>
             <option value="new" {{ $type == 'new' ? 'selected' : '' }}>New Games ({{ $count['new'] }})</option>
             <option value="active" {{ $type == 'active' ? 'selected' : '' }}>Active ({{ $count['active'] }})</option>
             <option value="finished" {{ $type == 'finished' ? 'selected' : '' }}>Finished ({{ $count['finished'] }})
@@ -18,6 +19,9 @@
         </div>
         <div class="hidden sm:block">
           <nav class="flex space-x-4">
+            <x-tabs.gray href="{{ route('games.index', ['type' => 'yours']) }}" :active="$type == 'yours'">
+              Your Games ({{ $count['yours'] }})
+            </x-tabs.gray>
             <x-tabs.gray href="{{ route('games.index', ['type' => 'new']) }}" :active="$type == 'new'">
               New Games ({{ $count['new'] }})
             </x-tabs.gray>
@@ -79,19 +83,20 @@
               @foreach ($phasedata as $pd)
               <li class="odd:bg-gray-50 ">
                 <span class="block transition duration-150 ease-in-out">
-                  <div class="flex items-center px-4 py-4 sm:px-6">
-                    <div class="flex-1 min-w-0 sm:flex sm:items-center sm:justify-between">
+                  <div class="w-full px-4 py-4 sm:px-6">
+                    <div class="grid w-full min-w-0 md:grid-cols-3">
                       <div>
-                        <div class="text-sm font-medium leading-5 truncate"
+                        <div class="flex flex-row text-sm font-medium leading-5 truncate"
                           style="color: {{ $pd->power->basePower->color }}">
                           {{ $pd->power->basePower->name }}
-                          <span class="ml-1 font-normal text-gray-500">
-                            (<x-link href="#">{{ $pd->power->user->name }}</x-link>)
-                          </span>
+                          
                         </div>
 
                       </div>
-                      <div class="flex-shrink-0 mt-4 sm:mt-0">
+                      <div class="flex justify-start text-sm text-gray-500">
+                          <x-user.link :user="$pd->power->user"></x-user.link>
+                      </div>
+                      <div class="grid place-content-end">
                         <div class="text-xs text-gray-700">
                           {{ $pd->supply_centers_count }} supply centers, {{ $pd->unit_count }} units
                         </div>

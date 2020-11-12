@@ -19,6 +19,7 @@ class UserSeeder extends Seeder
         $user->email = 'test@test.de';
         $user->password = bcrypt('123');
         $user->email_verified_at = now();
+        $user->admin = true;
         $user->save();
 
         User::factory(50)->create();
