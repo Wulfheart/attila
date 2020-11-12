@@ -56,9 +56,10 @@
                 <!-- Heroicon name: briefcase -->
                 <x-ri-gradienter-line class="flex-shrink-0 w-4 h-4 mr-1 text-gray-400 fill-current">
                 </x-ri-gradienter-line>
-                {{ optional($game->currentPhase)->name }}
+                {{ $game->currentPhase->name }}
               </div>
               @endif
+              <x-attila.countdown :seconds="$game->currentPhase->secondsLeft"></x-attila.countdown>
             </div>
           </div>
           <div>
@@ -89,7 +90,6 @@
                         <div class="flex flex-row text-sm font-medium leading-5 truncate"
                           style="color: {{ $pd->power->basePower->color }}">
                           {{ $pd->power->basePower->name }}
-                          
                         </div>
 
                       </div>

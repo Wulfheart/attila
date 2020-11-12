@@ -49,6 +49,13 @@ class Phase extends Model
         'ended_at',
     ];
 
+    // Eloquent Accessors
+    public function getSecondsLeftAttribute(){
+        return $this->started_at->addSeconds($this->length)->diffInSeconds(now());
+    }
+
+
+    // Eloquent Relations
     public function previousPhase(){
         return $this->belongsTo(Phase::class, 'previous_phase_id');
     }

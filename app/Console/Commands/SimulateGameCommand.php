@@ -46,13 +46,18 @@ class SimulateGameCommand extends Command
         if ($game->powers()->count() < $game->player_count && $this->option('assign')) {
             // find missing powers
             $basepowers = $game->variant->basePowers()->whereNotIn('id', $game->powers->pluck('id'))->get();
-            foreach ($basepowers as $bp) {
-                $power = new Power();
-                $power->game_id = $game->id;
-                $power->user_id = User::whereNotIn('id', $game->powers->pluck('user_id'))->inRandomOrder()->first()->id;
-                $power->base_power_id = $bp->id;
-                $power->save();
+            $users = User::inRandomOrder()->limit($basepowers->count())->get();
+            foreach ($users as $user) {
+                $user->join($game);
             }
+            // foreach ($basepowers as $bp) {
+
+            //     // $power = new Power();
+            //     // $power->game_id = $game->id;
+            //     // $power->user_id = User::whereNotIn('id', $game->powers->pluck('user_id'))->inRandomOrder()->first()->id;
+            //     // $power->base_power_id = $bp->id;
+            //     // $power->save();
+            // }
         }
         for ($i = 0; $i < $this->option('moves'); $i++) {
             $this->line(sprintf("<comment>Simulating:</comment> %s - %d", $game->name, $i + 1));
