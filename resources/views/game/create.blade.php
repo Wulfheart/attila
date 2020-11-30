@@ -1,1 +1,0 @@
-resources/views/game/create.blade.php
