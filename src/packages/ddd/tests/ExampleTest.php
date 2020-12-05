@@ -1,16 +1,16 @@
 <?php
 
-namespace Wulfheart\Dmake\Tests;
+namespace Wulfheart\DDD\Tests;
 
 use Orchestra\Testbench\TestCase;
-use Wulfheart\Dmake\DmakeServiceProvider;
+use Wulfheart\DDD\DDDServiceProvider;
 
 class ExampleTest extends TestCase
 {
 
     protected function getPackageProviders($app)
     {
-        return [DmakeServiceProvider::class];
+        return [DDDServiceProvider::class];
     }
     
     /** @test */

@@ -1,10 +1,11 @@
 <?php
 
-namespace Wulfheart\Dmake;
+namespace Wulfheart\DDD;
 
 use Illuminate\Support\ServiceProvider;
+use Wulfheart\DDD\Commands\TestCommand;
 
-class DmakeServiceProvider extends ServiceProvider
+class DDDServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap the application services.
@@ -40,7 +41,9 @@ class DmakeServiceProvider extends ServiceProvider
             ], 'lang');*/
 
             // Registering package commands.
-            // $this->commands([]);
+            $this->commands([
+                TestCommand::class,
+            ]);
         }
     }
 
@@ -53,8 +56,8 @@ class DmakeServiceProvider extends ServiceProvider
         $this->mergeConfigFrom(__DIR__.'/../config/config.php', 'dmake');
 
         // Register the main class to use with the facade
-        $this->app->singleton('dmake', function () {
-            return new Dmake;
+        $this->app->singleton('ddd', function () {
+            return new DDD;
         });
     }
 }

@@ -1,13 +1,11 @@
 <?php
 
-namespace Wulfheart\Dmake;
+namespace Wulfheart\DDD;
 
 use Illuminate\Support\Facades\Facade;
 
-/**
- * @see \Wulfheart\Dmake\Skeleton\SkeletonClass
- */
-class DmakeFacade extends Facade
+
+class DDDFacade extends Facade
 {
     /**
      * Get the registered name of the component.
@@ -16,6 +14,6 @@ class DmakeFacade extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return 'dmake';
+        return 'ddd';
     }
 }

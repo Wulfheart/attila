@@ -1,8 +1,8 @@
 <?php
 
-namespace Wulfheart\Dmake;
+namespace Wulfheart\DDD;
 
-class Dmake
+class DDD
 {
     // Build your next great package.
 }

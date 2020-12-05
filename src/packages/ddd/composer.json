@@ -1,11 +1,10 @@
 {
-    "name": "wulfheart/dmake",
+    "name": "wulfheart/ddd",
     "description": "",
     "keywords": [
         "wulfheart",
-        "dmake"
+        "ddd"
     ],
-    "homepage": "https://github.com/wulfheart/dmake",
     "license": "GPL-2.0-or-later",
     "type": "library",
     "authors": [
@@ -16,8 +15,7 @@
         }
     ],
     "require": {
-        "php": "^7.1",
-        "illuminate/support": "^6.0"
+        "php": "8.0"
     },
     "require-dev": {
         "orchestra/testbench": "^4.0",
@@ -25,12 +23,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Wulfheart\\Dmake\\": "src"
+            "Wulfheart\\DDD\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Wulfheart\\Dmake\\Tests\\": "tests"
+            "Wulfheart\\DDD\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -44,10 +42,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Wulfheart\\Dmake\\DmakeServiceProvider"
+                "Wulfheart\\DDD\\DDDServiceProvider"
             ],
             "aliases": {
-                "Dmake": "Wulfheart\\Dmake\\DmakeFacade"
+                "Dmake": "Wulfheart\\DDD\\DDDFacade"
             }
         }
     }
