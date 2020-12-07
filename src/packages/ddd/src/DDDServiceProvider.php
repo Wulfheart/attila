@@ -3,7 +3,7 @@
 namespace Wulfheart\DDD;
 
 use Illuminate\Support\ServiceProvider;
-use Wulfheart\DDD\Commands\TestCommand;
+use Wulfheart\DDD\Console\TestCommand;
 
 class DDDServiceProvider extends ServiceProvider
 {

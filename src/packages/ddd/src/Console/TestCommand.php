@@ -1,6 +1,6 @@
 <?php
 
-namespace Wulfheart\DDD\Commands;
+namespace Wulfheart\DDD\Console;
 
 use Illuminate\Console\Command;
 
