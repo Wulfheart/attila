@@ -1,11 +1,26 @@
 <?php
 
-namespace Wulfheart\DDD\Commands;
+namespace Wulfheart\DDD\Console;
 
 use Illuminate\Console\GeneratorCommand;
 
 abstract class DomainGeneratorCommand extends GeneratorCommand
 {
+
+       /**
+     * The name and signature of the console command.
+     *
+     * @var string
+     */
+    protected $signature = 'ddd:domain {name}';
+
+    /**
+     * The console command description.
+     *
+     * @var string
+     */
+    protected $description = 'Create a new domain';
+
 
     /**
      * Execute the console command.
@@ -29,22 +44,16 @@ abstract class DomainGeneratorCommand extends GeneratorCommand
 
         $path = $this->getPath($name);
 
-        // Next, We will check to see if the class already exists. If it does, we don't want
-        // to create the class and overwrite the user's code. So, we will bail out so the
-        // code is untouched. Otherwise, we will continue generating this class' files.
-        if ((!$this->hasOption('force') ||
-                !$this->option('force')) &&
-            $this->alreadyExists($this->getNameInput())
-        ) {
+        if ((!$this->hasOption('force')
+            || !$this->option('force')
+            ) && $this->alreadyExists($this->getNameInput())) {
             $this->error($this->type . ' already exists!');
 
             return false;
         }
 
-        if(!$this->hasOption('domain')){
-
-        }
-
+        $this->line($this->argument('name'));
+        return;
 
         // Next, we will generate the path to the location where this class' file should get
         // written. Then, we will build the class and make the proper replacements on the
@@ -53,6 +62,11 @@ abstract class DomainGeneratorCommand extends GeneratorCommand
 
         $this->files->put($path, $this->sortImports($this->buildClass($name)));
 
-        $this->info($this->type.' created successfully.');
+        $this->info($this->type . ' created successfully.');
+    }
+
+    protected function getStub(): string
+    {
+        return "";
     }
 }

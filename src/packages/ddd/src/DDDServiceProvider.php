@@ -3,6 +3,7 @@
 namespace Wulfheart\DDD;
 
 use Illuminate\Support\ServiceProvider;
+use Wulfheart\DDD\Console\DomainGeneratorCommand;
 use Wulfheart\DDD\Console\TestCommand;
 
 class DDDServiceProvider extends ServiceProvider
@@ -22,7 +23,7 @@ class DDDServiceProvider extends ServiceProvider
 
         if ($this->app->runningInConsole()) {
             $this->publishes([
-                __DIR__.'/../config/config.php' => config_path('dmake.php'),
+                __DIR__.'/../config/config.php' => config_path('ddd.php'),
             ], 'config');
 
             // Publishing the views.
