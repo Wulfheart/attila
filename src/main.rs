@@ -38,6 +38,7 @@ struct Contest {
 #[derive(Deserialize)]
 #[serde(crate = "rocket::serde")]
 struct Request {
+    drift_per_sec: Option<f64>,
     contests: Vec<Contest>
 }
 
@@ -54,7 +55,7 @@ struct Response(Vec<Ranking>);
 
 
 #[post("/", data="<req>")]
-fn post(req: Json<Request>) -> Json<Vec<Ranking>> {
+fn post(mut req: Json<Request>) -> Json<Vec<Ranking>> {
     let length = req.contests.iter().count();
     let mut res: Vec<multi_skill::data_processing::Contest> = req.contests.iter().map(|c|multi_skill::data_processing::Contest {
         name: c.name.clone(),
@@ -67,10 +68,16 @@ fn post(req: Json<Request>) -> Json<Vec<Ranking>> {
 
 
     let dataset = Wrap::from_closure(length, move |i| res.get(i).unwrap().clone()).boxed();
+    let default = SimpleEloMMR::default();
     let experiment = Experiment {
         mu_noob: 1500.,
         sig_noob: 350.,
-        system: Box::new(SimpleEloMMR::default()),
+        system: Box::new(SimpleEloMMR {
+            beta: default.beta,
+            sig_limit: default.sig_limit,
+            drift_per_sec: *req.drift_per_sec.get_or_insert(default.drift_per_sec),
+            transfer_speed: default.transfer_speed,
+        }),
         dataset: dataset,
     };
 
