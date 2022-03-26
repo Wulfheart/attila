@@ -1,0 +1,51 @@
+POST http://127.0.0.1:8000
+Content-Type: application/json
+
+{
+    "contests": [
+        {
+            "name": "01",
+            "unix_time": 1616778794,
+            "weight": 1,
+            "standings": [
+                {
+                    "player": "1",
+                    "low_rank": 0,
+                    "high_rank": 1
+                },
+                {
+                    "player": "2",
+                    "low_rank": 0,
+                    "high_rank": 1
+                },
+                {
+                    "player": "3",
+                    "low_rank": 2,
+                    "high_rank": 2
+                }
+            ]
+        },
+        {
+            "name": "02",
+            "unix_time": 1648318394,
+            "weight": 1,
+            "standings": [
+                {
+                    "player": "3",
+                    "low_rank": 0,
+                    "high_rank": 1
+                },
+                {
+                    "player": "2",
+                    "low_rank": 0,
+                    "high_rank": 1
+                },
+                {
+                    "player": "1",
+                    "low_rank": 2,
+                    "high_rank": 2
+                }
+            ]
+        }
+    ]
+}
