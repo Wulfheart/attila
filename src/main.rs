@@ -1,10 +1,13 @@
 #[macro_use] extern crate rocket;
+use std::borrow::Borrow;
+
 use multi_skill::data_processing::{Wrap, Dataset};
 use multi_skill::experiment_config::Experiment;
+use multi_skill::summary::make_leaderboard;
 use multi_skill::systems::{SimpleEloMMR, get_rating_system_by_name};
 use rocket::serde::json::serde_json::Result;
 use rocket::serde::{Deserialize, json::Json};
-use rocket::serde;
+use rocket::serde::{self, Serialize};
 use rocket::response::content;
 
 static README: &'static str = include_str!("../README.md");
@@ -38,11 +41,23 @@ struct Request {
     contests: Vec<Contest>
 }
 
+#[derive(Serialize)]
+#[serde(crate = "rocket::serde")]
+struct Ranking {
+    player: String,
+    display_ranking: i32
+}
+
+#[derive(Serialize)]
+#[serde(crate = "rocket::serde")]
+struct Response(Vec<Ranking>);
+
+
 #[post("/", data="<req>")]
-fn post(req: Json<Request>) -> Json<usize> {
+fn post(req: Json<Request>) -> Json<Vec<Ranking>> {
     let length = req.contests.iter().count();
     let mut res: Vec<multi_skill::data_processing::Contest> = req.contests.iter().map(|c|multi_skill::data_processing::Contest {
-        name: c.name,
+        name: c.name.clone(),
         standings: c.standings.iter().map(|s| (s.player.clone(), s.low_rank, s.high_rank)).collect(),
         url: None,
         time_seconds: c.unix_time,
@@ -51,16 +66,7 @@ fn post(req: Json<Request>) -> Json<usize> {
     res.sort_by_key(|c| c.time_seconds);
 
 
-    let dataset = Wrap::from_closure(length, move |i| {
-        let c = req.contests[i].clone();
-        multi_skill::data_processing::Contest {
-                    name: c.name,
-                    standings: c.standings.iter().map(|s| (s.player.clone(), s.low_rank, s.high_rank)).collect(),
-                    url: None,
-                    time_seconds: c.unix_time,
-                    weight: c.weight
-        }
-    }).boxed();
+    let dataset = Wrap::from_closure(length, move |i| res.get(i).unwrap().clone()).boxed();
     let experiment = Experiment {
         mu_noob: 1500.,
         sig_noob: 350.,
@@ -68,11 +74,14 @@ fn post(req: Json<Request>) -> Json<usize> {
         dataset: dataset,
     };
 
-    experiment.
- 
-    return Json()
-}
+    let result = experiment.eval(length);
 
+    let (_, leaderboard )= make_leaderboard(&result.players, 0);
+ 
+    let r = leaderboard.into_iter().map(|l| Ranking{player: l.handle, display_ranking: l.display_rating}).collect::<Vec<Ranking>>();
+
+    return Json(r);
+}
 
 
 #[launch]
