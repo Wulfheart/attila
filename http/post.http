@@ -2,11 +2,11 @@ POST http://127.0.0.1:8000
 Content-Type: application/json
 
 {
-    "drift_per_sec": 0.00003,
+    "drift_per_day": 0.5,
     "contests": [
         {
             "name": "01",
-            "unix_time": 1616778794,
+            "unix_time": 1301255691,
             "weight": 1,
             "standings": [
                 {
@@ -23,6 +23,11 @@ Content-Type: application/json
                     "player": "3",
                     "low_rank": 2,
                     "high_rank": 2
+                },
+                {
+                    "player": "4",
+                    "low_rank": 3,
+                    "high_rank": 3
                 }
             ]
         },

@@ -1,13 +1,11 @@
 #[macro_use] extern crate rocket;
-use std::borrow::Borrow;
 
-use multi_skill::data_processing::{Wrap, Dataset};
+use multi_skill::data_processing::Wrap;
 use multi_skill::experiment_config::Experiment;
 use multi_skill::summary::make_leaderboard;
-use multi_skill::systems::{SimpleEloMMR, get_rating_system_by_name};
-use rocket::serde::json::serde_json::Result;
+use multi_skill::systems::SimpleEloMMR;
 use rocket::serde::{Deserialize, json::Json};
-use rocket::serde::{self, Serialize};
+use rocket::serde::Serialize;
 use rocket::response::content;
 
 static README: &'static str = include_str!("../README.md");
@@ -38,7 +36,7 @@ struct Contest {
 #[derive(Deserialize)]
 #[serde(crate = "rocket::serde")]
 struct Request {
-    drift_per_sec: Option<f64>,
+    drift_per_day: Option<f64>,
     contests: Vec<Contest>
 }
 
@@ -55,7 +53,7 @@ struct Response(Vec<Ranking>);
 
 
 #[post("/", data="<req>")]
-fn post(mut req: Json<Request>) -> Json<Vec<Ranking>> {
+fn post(req: Json<Request>) -> Json<Vec<Ranking>> {
     let length = req.contests.iter().count();
     let mut res: Vec<multi_skill::data_processing::Contest> = req.contests.iter().map(|c|multi_skill::data_processing::Contest {
         name: c.name.clone(),
@@ -66,6 +64,10 @@ fn post(mut req: Json<Request>) -> Json<Vec<Ranking>> {
     }).collect();
     res.sort_by_key(|c| c.time_seconds);
 
+    let mut drift_per_sec = 0.;
+    if req.drift_per_day.is_some() {
+        drift_per_sec = req.drift_per_day.unwrap() / (24. * 60. * 60.);
+    }
 
     let dataset = Wrap::from_closure(length, move |i| res.get(i).unwrap().clone()).boxed();
     let default = SimpleEloMMR::default();
@@ -75,7 +77,7 @@ fn post(mut req: Json<Request>) -> Json<Vec<Ranking>> {
         system: Box::new(SimpleEloMMR {
             beta: default.beta,
             sig_limit: default.sig_limit,
-            drift_per_sec: *req.drift_per_sec.get_or_insert(default.drift_per_sec),
+            drift_per_sec: drift_per_sec,
             transfer_speed: default.transfer_speed,
         }),
         dataset: dataset,
