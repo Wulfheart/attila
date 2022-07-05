@@ -1,12 +1,13 @@
-#[macro_use] extern crate rocket;
+#[macro_use]
+extern crate rocket;
 
 use multi_skill::data_processing::Wrap;
 use multi_skill::experiment_config::Experiment;
 use multi_skill::summary::make_leaderboard;
 use multi_skill::systems::SimpleEloMMR;
-use rocket::serde::{Deserialize, json::Json};
-use rocket::serde::Serialize;
 use rocket::response::content;
+use rocket::serde::Serialize;
+use rocket::serde::{json::Json, Deserialize};
 
 static README: &'static str = include_str!("../README.md");
 
@@ -21,7 +22,7 @@ fn index() -> content::Html<String> {
 struct Standing {
     player: String,
     low_rank: usize,
-    high_rank: usize
+    high_rank: usize,
 }
 
 #[derive(Deserialize, Clone)]
@@ -30,44 +31,51 @@ struct Contest {
     name: String,
     unix_time: u64,
     weight: f64,
-    standings: Vec<Standing>
+    standings: Vec<Standing>,
 }
 
 #[derive(Deserialize)]
 #[serde(crate = "rocket::serde")]
 struct Request {
     drift_per_day: Option<f64>,
-    contests: Vec<Contest>
+    contests: Vec<Contest>,
 }
 
 #[derive(Serialize)]
 #[serde(crate = "rocket::serde")]
 struct Ranking {
     player: String,
-    display_ranking: i32
+    display_ranking: i32,
 }
 
 #[derive(Serialize)]
 #[serde(crate = "rocket::serde")]
 struct Response(Vec<Ranking>);
 
-
-#[post("/", data="<req>")]
+#[post("/", data = "<req>")]
 fn post(req: Json<Request>) -> Json<Vec<Ranking>> {
     let length = req.contests.iter().count();
-    let mut res: Vec<multi_skill::data_processing::Contest> = req.contests.iter().map(|c|multi_skill::data_processing::Contest {
-        name: c.name.clone(),
-        standings: c.standings.iter().map(|s| (s.player.clone(), s.low_rank, s.high_rank)).collect(),
-        url: None,
-        time_seconds: c.unix_time,
-        weight: c.weight
-    }).collect();
+    let mut res: Vec<multi_skill::data_processing::Contest> = req
+        .contests
+        .iter()
+        .map(|c| multi_skill::data_processing::Contest {
+            name: c.name.clone(),
+            standings: c
+                .standings
+                .iter()
+                .map(|s| (s.player.clone(), s.low_rank, s.high_rank))
+                .collect(),
+            url: None,
+            time_seconds: c.unix_time,
+            weight: c.weight,
+        })
+        .collect();
     res.sort_by_key(|c| c.time_seconds);
 
-    let mut drift_per_sec = 0.;
-    if req.drift_per_day.is_some() {
-        drift_per_sec = req.drift_per_day.unwrap() / (24. * 60. * 60.);
-    }
+    // let mut drift_per_sec = 0.;
+    // if req.drift_per_day.is_some() {
+    //     drift_per_sec = req.drift_per_day.unwrap() / (24. * 60. * 60.);
+    // }
 
     let dataset = Wrap::from_closure(length, move |i| res.get(i).unwrap().clone()).boxed();
     let default = SimpleEloMMR::default();
@@ -77,7 +85,7 @@ fn post(req: Json<Request>) -> Json<Vec<Ranking>> {
         system: Box::new(SimpleEloMMR {
             beta: default.beta,
             sig_limit: default.sig_limit,
-            drift_per_sec: drift_per_sec,
+            drift_per_sec: default.drift_per_sec,
             transfer_speed: default.transfer_speed,
         }),
         dataset: dataset,
@@ -85,13 +93,18 @@ fn post(req: Json<Request>) -> Json<Vec<Ranking>> {
 
     let result = experiment.eval(length);
 
-    let (_, leaderboard )= make_leaderboard(&result.players, 0);
- 
-    let r = leaderboard.into_iter().map(|l| Ranking{player: l.handle, display_ranking: l.display_rating}).collect::<Vec<Ranking>>();
+    let (_, leaderboard) = make_leaderboard(&result.players, 0);
+
+    let r = leaderboard
+        .into_iter()
+        .map(|l| Ranking {
+            player: l.handle,
+            display_ranking: l.display_rating,
+        })
+        .collect::<Vec<Ranking>>();
 
     return Json(r);
 }
-
 
 #[launch]
 fn rocket() -> _ {
