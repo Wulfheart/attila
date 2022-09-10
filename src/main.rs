@@ -1,6 +1,9 @@
 #[macro_use]
 extern crate rocket;
 
+use std::collections::HashMap;
+use std::collections::hash_map::Entry;
+
 use multi_skill::data_processing::Wrap;
 use multi_skill::experiment_config::Experiment;
 use multi_skill::summary::make_leaderboard;
@@ -45,6 +48,7 @@ struct Request {
 struct Ranking {
     player: String,
     display_ranking: i32,
+    last_activity: u64
 }
 
 #[derive(Serialize)]
@@ -71,6 +75,27 @@ fn post(req: Json<Request>) -> Json<Vec<Ranking>> {
         .collect();
     res.sort_by_key(|c| c.time_seconds);
 
+    let mut map: HashMap<String, u64> = HashMap::new();
+    for c in res.clone() {
+        for s in c.standings {
+            let player = s.0.clone();
+            let time = c.time_seconds.clone();
+            match map.entry(player.to_string()) {
+                Entry::Occupied(mut o) => 
+                {
+                    if time > o.get().to_owned() {
+                        o.insert(time);
+                    } else {
+                        0;
+                    }
+                },
+                Entry::Vacant(v) => {
+                    v.insert(time);
+                }
+            };
+        }
+    }
+
     let dataset = Wrap::from_closure(length, move |i| res.get(i).unwrap().clone()).boxed();
     let default = SimpleEloMMR::default();
     let experiment = Experiment {
@@ -92,8 +117,9 @@ fn post(req: Json<Request>) -> Json<Vec<Ranking>> {
     let r = leaderboard
         .into_iter()
         .map(|l| Ranking {
-            player: l.handle,
+            player: l.handle.clone(),
             display_ranking: l.display_rating,
+            last_activity: map.get(&l.handle).unwrap().to_owned()
         })
         .collect::<Vec<Ranking>>();
 
