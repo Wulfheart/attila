@@ -37,7 +37,6 @@ struct Contest {
 #[derive(Deserialize)]
 #[serde(crate = "rocket::serde")]
 struct Request {
-    drift_per_day: Option<f64>,
     contests: Vec<Contest>,
 }
 
@@ -71,11 +70,6 @@ fn post(req: Json<Request>) -> Json<Vec<Ranking>> {
         })
         .collect();
     res.sort_by_key(|c| c.time_seconds);
-
-    // let mut drift_per_sec = 0.;
-    // if req.drift_per_day.is_some() {
-    //     drift_per_sec = req.drift_per_day.unwrap() / (24. * 60. * 60.);
-    // }
 
     let dataset = Wrap::from_closure(length, move |i| res.get(i).unwrap().clone()).boxed();
     let default = SimpleEloMMR::default();
