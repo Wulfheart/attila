@@ -20,6 +20,12 @@ fn index() -> content::Html<String> {
     content::Html(html)
 }
 
+static DEMO_FILE: &'static str = include_str!("standings.json");
+#[get("/demo")]
+fn demo() -> String {
+    return DEMO_FILE.to_string();
+}
+
 #[derive(Deserialize, Clone)]
 #[serde(crate = "rocket::serde")]
 struct Standing {
@@ -41,6 +47,7 @@ struct Contest {
 #[serde(crate = "rocket::serde")]
 struct Request {
     contests: Vec<Contest>,
+    drift_per_day: Option<f64>
 }
 
 #[derive(Serialize)]
@@ -96,6 +103,11 @@ fn post(req: Json<Request>) -> Json<Vec<Ranking>> {
         }
     }
 
+    let mut drift_per_sec = 0.;
+    if req.drift_per_day.is_some() {
+        drift_per_sec = req.drift_per_day.unwrap() / (24. * 60. * 60.);
+    }
+
     let dataset = Wrap::from_closure(length, move |i| res.get(i).unwrap().clone()).boxed();
     let default = SimpleEloMMR::default();
     let experiment = Experiment {
@@ -104,7 +116,7 @@ fn post(req: Json<Request>) -> Json<Vec<Ranking>> {
         system: Box::new(SimpleEloMMR {
             beta: default.beta,
             sig_limit: default.sig_limit,
-            drift_per_sec: default.drift_per_sec,
+            drift_per_sec: drift_per_sec,
             transfer_speed: default.transfer_speed,
         }),
         dataset: dataset,
@@ -128,5 +140,5 @@ fn post(req: Json<Request>) -> Json<Vec<Ranking>> {
 
 #[launch]
 fn rocket() -> _ {
-    rocket::build().mount("/", routes![index, post])
+    rocket::build().mount("/", routes![index, post, demo])
 }

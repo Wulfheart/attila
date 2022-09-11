@@ -1,0 +1,6558 @@
+{
+    "Sheath": {
+        "old": 1910,
+        "new": 1742.0
+    },
+    "Kaptain": {
+        "old": 1869,
+        "new": 1823.2
+    },
+    "Daemon": {
+        "old": 1866,
+        "new": 1761.8
+    },
+    "Bohemund": {
+        "old": 1862,
+        "new": 1660.9
+    },
+    "Fat_Tony": {
+        "old": 1849,
+        "new": 1441.8
+    },
+    "Mr. Joe": {
+        "old": 1832,
+        "new": 1555.2
+    },
+    "Ash": {
+        "old": 1829,
+        "new": 1661.0
+    },
+    "Phil_96": {
+        "old": 1827,
+        "new": 1753.3
+    },
+    "Quiztoph Kolumbus": {
+        "old": 1824,
+        "new": 1742.0
+    },
+    "KuK": {
+        "old": 1823,
+        "new": 1630.8
+    },
+    "Berg": {
+        "old": 1817,
+        "new": 1797.3
+    },
+    "Alleinherrscher": {
+        "old": 1811,
+        "new": 1482.5
+    },
+    "Seselj": {
+        "old": 1809,
+        "new": 1738.3
+    },
+    "Maxmaen": {
+        "old": 1808,
+        "new": 1669.5
+    },
+    "SeGe": {
+        "old": 1804,
+        "new": 1781.8
+    },
+    "Fritjof Graubart": {
+        "old": 1799,
+        "new": 1702.5
+    },
+    "Stecker": {
+        "old": 1798,
+        "new": 1445.3
+    },
+    "eddy762": {
+        "old": 1797,
+        "new": 1604.6
+    },
+    "Mario Basler": {
+        "old": 1794,
+        "new": 1774.3
+    },
+    "StarfoXx": {
+        "old": 1794,
+        "new": 1607.9
+    },
+    "Heavy": {
+        "old": 1793,
+        "new": 1513.3
+    },
+    "Bomberpilot": {
+        "old": 1791,
+        "new": 1529.3
+    },
+    "Dr. Seltsam": {
+        "old": 1790,
+        "new": 1417.9
+    },
+    "fertiger": {
+        "old": 1789,
+        "new": 1444.2
+    },
+    "DePeMe": {
+        "old": 1784,
+        "new": 1755.0
+    },
+    "Tywin Lannister": {
+        "old": 1780,
+        "new": 1455.8
+    },
+    "Nartijan": {
+        "old": 1777,
+        "new": 1351.4
+    },
+    "Cyberjanini ": {
+        "old": 1772,
+        "new": 1445.2
+    },
+    "The Czech": {
+        "old": 1772,
+        "new": 1514.0
+    },
+    "RoterBaron": {
+        "old": 1771,
+        "new": 1442.5
+    },
+    "CarlsonNovesia": {
+        "old": 1767,
+        "new": 1719.3
+    },
+    "unknown_user_2": {
+        "old": 1763,
+        "new": 1384.1
+    },
+    "Genusssultan": {
+        "old": 1762,
+        "new": 1451.5
+    },
+    "Kreis": {
+        "old": 1758,
+        "new": 1572.4
+    },
+    "Overlord": {
+        "old": 1757,
+        "new": 1670.6
+    },
+    "Trash": {
+        "old": 1755,
+        "new": 1674.6
+    },
+    "Andre": {
+        "old": 1754,
+        "new": 1485.5
+    },
+    "Dr.Pierce": {
+        "old": 1754,
+        "new": 1406.6
+    },
+    "OptimalPlanet": {
+        "old": 1753,
+        "new": 1577.7
+    },
+    "johnny_low": {
+        "old": 1753,
+        "new": 1380.8
+    },
+    "Asark": {
+        "old": 1744,
+        "new": 1668.5
+    },
+    "Racolm": {
+        "old": 1743,
+        "new": 1652.7
+    },
+    "Green Rabbit": {
+        "old": 1742,
+        "new": 1358.6
+    },
+    "thurm": {
+        "old": 1740,
+        "new": 1456.9
+    },
+    "Tr&auml;nenreich": {
+        "old": 1738,
+        "new": 1715.6
+    },
+    "aheu": {
+        "old": 1738,
+        "new": 1281.2
+    },
+    "kelte": {
+        "old": 1738,
+        "new": 1415.4
+    },
+    "Schwaigus": {
+        "old": 1737,
+        "new": 1416.7
+    },
+    "Braunb&auml;r": {
+        "old": 1736,
+        "new": 1553.2
+    },
+    "Queen Bee VII": {
+        "old": 1734,
+        "new": 1683.3
+    },
+    "elas": {
+        "old": 1734,
+        "new": 1412.2
+    },
+    "ElephantenGedaechtnis": {
+        "old": 1733,
+        "new": 1382.3
+    },
+    "Lschlueter": {
+        "old": 1732,
+        "new": 1404.5
+    },
+    "&Ouml;zil": {
+        "old": 1731,
+        "new": 1416.8
+    },
+    "Cassiodorus": {
+        "old": 1730,
+        "new": 1507.8
+    },
+    "Bismarck": {
+        "old": 1729,
+        "new": 1284.8
+    },
+    "andyfis": {
+        "old": 1729,
+        "new": 1370.5
+    },
+    "mezzek": {
+        "old": 1729,
+        "new": 1444.3
+    },
+    "warlord1972": {
+        "old": 1728,
+        "new": 1419.2
+    },
+    "JONFAN": {
+        "old": 1727,
+        "new": 1589.8
+    },
+    "Moerni": {
+        "old": 1727,
+        "new": 1544.2
+    },
+    "Medici": {
+        "old": 1726,
+        "new": 1403.3
+    },
+    "Gul Dukat": {
+        "old": 1723,
+        "new": 1700.6
+    },
+    "Xanox": {
+        "old": 1718,
+        "new": 1521.8
+    },
+    "tobi1": {
+        "old": 1718,
+        "new": 1522.2
+    },
+    "The Shatterer Of Worlds": {
+        "old": 1717,
+        "new": 1333.6
+    },
+    "Welpe": {
+        "old": 1717,
+        "new": 1343.8
+    },
+    "Oekoritter": {
+        "old": 1716,
+        "new": 1686.7
+    },
+    "Kai M&uuml;ller": {
+        "old": 1715,
+        "new": 1348.4
+    },
+    "Mali Lav": {
+        "old": 1714,
+        "new": 1543.2
+    },
+    "Horatius": {
+        "old": 1711,
+        "new": 1535.7
+    },
+    "herb": {
+        "old": 1711,
+        "new": 1648.9
+    },
+    "Figaro": {
+        "old": 1710,
+        "new": 1331.3
+    },
+    "Admiral": {
+        "old": 1709,
+        "new": 1689.3
+    },
+    "Mattes1893": {
+        "old": 1709,
+        "new": 1686.6
+    },
+    "Jack": {
+        "old": 1707,
+        "new": 1569.8
+    },
+    "tinokek1": {
+        "old": 1706,
+        "new": 1442.3
+    },
+    "GeneralPoschi": {
+        "old": 1705,
+        "new": 1671.1
+    },
+    "Moritz99": {
+        "old": 1705,
+        "new": 1566.5
+    },
+    "Theodor_Latour": {
+        "old": 1705,
+        "new": 1442.5
+    },
+    "seb-234": {
+        "old": 1705,
+        "new": 1631.4
+    },
+    "Mazze": {
+        "old": 1704,
+        "new": 1309.2
+    },
+    "Cicero77": {
+        "old": 1703,
+        "new": 1555.6
+    },
+    "Joel Gecko": {
+        "old": 1703,
+        "new": 1683.3
+    },
+    "Helios": {
+        "old": 1702,
+        "new": 1567.7
+    },
+    "Schmudt": {
+        "old": 1701,
+        "new": 1382.3
+    },
+    "Aranith": {
+        "old": 1700,
+        "new": 1326.1
+    },
+    "odin": {
+        "old": 1700,
+        "new": 1267.7
+    },
+    "Diplomarc": {
+        "old": 1699,
+        "new": 1319.9
+    },
+    "Mattigoal": {
+        "old": 1699,
+        "new": 1376.3
+    },
+    "Topdiplomat": {
+        "old": 1699,
+        "new": 1352.5
+    },
+    "Garrett": {
+        "old": 1698,
+        "new": 1421.4
+    },
+    "wenckman": {
+        "old": 1698,
+        "new": 1480.7
+    },
+    "Apokalypse90": {
+        "old": 1697,
+        "new": 1342.4
+    },
+    "HellPaso": {
+        "old": 1696,
+        "new": 1462.9
+    },
+    "Karl Detroit": {
+        "old": 1696,
+        "new": 1303.2
+    },
+    "jim panse": {
+        "old": 1696,
+        "new": 1319.6
+    },
+    "Dirty Harry": {
+        "old": 1695,
+        "new": 1466.5
+    },
+    "Matze Graf von Grashof": {
+        "old": 1695,
+        "new": 1472.0
+    },
+    "Reisingman": {
+        "old": 1695,
+        "new": 1674.0
+    },
+    "Chris Clark": {
+        "old": 1694,
+        "new": 1630.5
+    },
+    "Suppenhuhn": {
+        "old": 1694,
+        "new": 1544.0
+    },
+    "stk": {
+        "old": 1694,
+        "new": 1476.7
+    },
+    "J. Crawford": {
+        "old": 1693,
+        "new": 1430.5
+    },
+    "Karl": {
+        "old": 1693,
+        "new": 1308.9
+    },
+    "SamVimes": {
+        "old": 1693,
+        "new": 1435.2
+    },
+    "suX82": {
+        "old": 1692,
+        "new": 1643.8
+    },
+    "Sid": {
+        "old": 1691,
+        "new": 1671.3
+    },
+    "Doc": {
+        "old": 1689,
+        "new": 1412.6
+    },
+    "Gilgamesch": {
+        "old": 1689,
+        "new": 1254.7
+    },
+    "Klinge": {
+        "old": 1689,
+        "new": 1331.4
+    },
+    "Maasty": {
+        "old": 1689,
+        "new": 1312.6
+    },
+    "DestioAkki": {
+        "old": 1687,
+        "new": 1473.8
+    },
+    "Matthes": {
+        "old": 1687,
+        "new": 1641.3
+    },
+    "Skyrock": {
+        "old": 1687,
+        "new": 1517.2
+    },
+    "CvClausewitz": {
+        "old": 1686,
+        "new": 1616.2
+    },
+    "Glutaeus Maximus": {
+        "old": 1686,
+        "new": 1438.8
+    },
+    "TOT": {
+        "old": 1686,
+        "new": 1485.4
+    },
+    "Dson": {
+        "old": 1685,
+        "new": 1534.2
+    },
+    "Kosh En-Kor": {
+        "old": 1685,
+        "new": 1466.9
+    },
+    "Grollio ": {
+        "old": 1684,
+        "new": 1573.8
+    },
+    "Snowflow": {
+        "old": 1684,
+        "new": 1419.2
+    },
+    "7 auf 1 Streich": {
+        "old": 1683,
+        "new": 1318.5
+    },
+    "Nordlicht": {
+        "old": 1683,
+        "new": 1438.3
+    },
+    "OberstHodor": {
+        "old": 1683,
+        "new": 1413.8
+    },
+    "earl_grey": {
+        "old": 1683,
+        "new": 1483.6
+    },
+    "John_Wayne_I": {
+        "old": 1682,
+        "new": 1407.2
+    },
+    "tomtom34b": {
+        "old": 1682,
+        "new": 1324.3
+    },
+    "Lorenzo von Matterhorn": {
+        "old": 1681,
+        "new": 1472.1
+    },
+    "Eisenhans": {
+        "old": 1680,
+        "new": 1591.9
+    },
+    "kleffm&auml;hn": {
+        "old": 1680,
+        "new": 1482.2
+    },
+    "Ronko": {
+        "old": 1679,
+        "new": 1428.4
+    },
+    "Bardarbunga": {
+        "old": 1678,
+        "new": 1393.3
+    },
+    "Captain Ramius": {
+        "old": 1678,
+        "new": 1500.4
+    },
+    "Tala": {
+        "old": 1678,
+        "new": 1381.1
+    },
+    "FrancisDrake": {
+        "old": 1677,
+        "new": 1311.4
+    },
+    "The Boss": {
+        "old": 1677,
+        "new": 1350.2
+    },
+    "n_pat": {
+        "old": 1677,
+        "new": 1294.8
+    },
+    "Der Imperator": {
+        "old": 1675,
+        "new": 1466.2
+    },
+    "Mightyhans": {
+        "old": 1675,
+        "new": 1411.6
+    },
+    "huagege": {
+        "old": 1675,
+        "new": 1478.4
+    },
+    "modderking": {
+        "old": 1675,
+        "new": 1293.1
+    },
+    "Keiqo": {
+        "old": 1674,
+        "new": 1353.8
+    },
+    "Michael": {
+        "old": 1674,
+        "new": 1285.1
+    },
+    "A T L A N T I K": {
+        "old": 1673,
+        "new": 1499.0
+    },
+    "Borin123": {
+        "old": 1673,
+        "new": 1588.6
+    },
+    "DerKoebs": {
+        "old": 1673,
+        "new": 1372.6
+    },
+    "DowJones": {
+        "old": 1673,
+        "new": 1513.0
+    },
+    "Fabidergrosse": {
+        "old": 1673,
+        "new": 1585.5
+    },
+    "Jannik312": {
+        "old": 1673,
+        "new": 1353.3
+    },
+    "King Gaspare": {
+        "old": 1673,
+        "new": 1450.9
+    },
+    "Mcc": {
+        "old": 1673,
+        "new": 1609.5
+    },
+    "Muertos": {
+        "old": 1673,
+        "new": 1439.5
+    },
+    "Nimrasdale": {
+        "old": 1673,
+        "new": 1224.1
+    },
+    "Peter": {
+        "old": 1673,
+        "new": 1285.6
+    },
+    "Razze": {
+        "old": 1673,
+        "new": 1408.2
+    },
+    "Sophie": {
+        "old": 1673,
+        "new": 1440.7
+    },
+    "Tigecyclin": {
+        "old": 1673,
+        "new": 1482.5
+    },
+    "Tymu": {
+        "old": 1673,
+        "new": 1508.1
+    },
+    "marlun": {
+        "old": 1673,
+        "new": 1625.5
+    },
+    "modiho": {
+        "old": 1673,
+        "new": 1308.0
+    },
+    "tischgebet": {
+        "old": 1673,
+        "new": 1591.7
+    },
+    "wacki": {
+        "old": 1673,
+        "new": 1308.7
+    },
+    "Stamford": {
+        "old": 1672,
+        "new": 1405.5
+    },
+    "Herr_Zwiebel": {
+        "old": 1671,
+        "new": 1319.2
+    },
+    "Julia": {
+        "old": 1671,
+        "new": 1474.8
+    },
+    "Til": {
+        "old": 1671,
+        "new": 1294.7
+    },
+    "andwo": {
+        "old": 1671,
+        "new": 1651.3
+    },
+    "806315": {
+        "old": 1670,
+        "new": 1286.8
+    },
+    "Blondbond": {
+        "old": 1669,
+        "new": 1599.8
+    },
+    "Mus": {
+        "old": 1669,
+        "new": 1534.7
+    },
+    "Orion8": {
+        "old": 1669,
+        "new": 1278.8
+    },
+    "adele": {
+        "old": 1669,
+        "new": 1267.0
+    },
+    "baum": {
+        "old": 1669,
+        "new": 1366.3
+    },
+    "total recall": {
+        "old": 1669,
+        "new": 1316.3
+    },
+    "Ardbeg": {
+        "old": 1668,
+        "new": 1294.1
+    },
+    "Noci": {
+        "old": 1668,
+        "new": 1384.5
+    },
+    "vweber": {
+        "old": 1668,
+        "new": 1611.9
+    },
+    "Bonaparte": {
+        "old": 1667,
+        "new": 1573.6
+    },
+    "Lord Leto": {
+        "old": 1667,
+        "new": 1416.4
+    },
+    "Tos": {
+        "old": 1667,
+        "new": 1431.3
+    },
+    "Zapatero": {
+        "old": 1666,
+        "new": 1312.1
+    },
+    "Proter": {
+        "old": 1665,
+        "new": 1454.7
+    },
+    "Toljok": {
+        "old": 1665,
+        "new": 1395.7
+    },
+    "Talleyrand": {
+        "old": 1664,
+        "new": 1308.1
+    },
+    "achhallam": {
+        "old": 1664,
+        "new": 1331.3
+    },
+    "Hector of Troy": {
+        "old": 1663,
+        "new": 1255.8
+    },
+    "&Uuml;F&Uuml;F": {
+        "old": 1662,
+        "new": 1287.9
+    },
+    "Der Alte Dessauer": {
+        "old": 1662,
+        "new": 1368.7
+    },
+    "Header": {
+        "old": 1662,
+        "new": 1278.9
+    },
+    "jacky": {
+        "old": 1661,
+        "new": 1496.5
+    },
+    "jonas.o": {
+        "old": 1661,
+        "new": 1276.2
+    },
+    "lord nelson": {
+        "old": 1661,
+        "new": 1317.5
+    },
+    "ralphie": {
+        "old": 1661,
+        "new": 1512.5
+    },
+    "tjs111": {
+        "old": 1661,
+        "new": 1288.1
+    },
+    "Bismarck1701": {
+        "old": 1660,
+        "new": 1520.3
+    },
+    "El.Doctor55": {
+        "old": 1660,
+        "new": 1641.3
+    },
+    "Nautilus": {
+        "old": 1660,
+        "new": 1247.1
+    },
+    "im Exil": {
+        "old": 1660,
+        "new": 1477.8
+    },
+    "Der Major": {
+        "old": 1659,
+        "new": 1396.0
+    },
+    "Molybdean": {
+        "old": 1659,
+        "new": 1636.6
+    },
+    "Systardis": {
+        "old": 1658,
+        "new": 1472.4
+    },
+    "MacNoose": {
+        "old": 1657,
+        "new": 1347.5
+    },
+    "rick": {
+        "old": 1657,
+        "new": 1354.4
+    },
+    "kanzler07": {
+        "old": 1655,
+        "new": 1278.2
+    },
+    "Coolness": {
+        "old": 1654,
+        "new": 1453.7
+    },
+    "PitCock": {
+        "old": 1654,
+        "new": 1301.7
+    },
+    "Golem": {
+        "old": 1653,
+        "new": 1577.5
+    },
+    "Vestrivan": {
+        "old": 1653,
+        "new": 1291.8
+    },
+    "Machiavelli": {
+        "old": 1651,
+        "new": 1372.6
+    },
+    "Seifenblase": {
+        "old": 1651,
+        "new": 1349.3
+    },
+    "Lukas26": {
+        "old": 1650,
+        "new": 1442.2
+    },
+    "jaws": {
+        "old": 1650,
+        "new": 1511.5
+    },
+    "Gelsendipl_17": {
+        "old": 1648,
+        "new": 1629.3
+    },
+    "Lieber Bastard": {
+        "old": 1648,
+        "new": 1232.3
+    },
+    "Tobo84": {
+        "old": 1648,
+        "new": 1399.3
+    },
+    "lOl": {
+        "old": 1648,
+        "new": 1321.5
+    },
+    "Juli24": {
+        "old": 1647,
+        "new": 1447.2
+    },
+    "SeniorAlvarez": {
+        "old": 1647,
+        "new": 1571.7
+    },
+    "Sultan Babo": {
+        "old": 1646,
+        "new": 1627.3
+    },
+    "schnitti": {
+        "old": 1646,
+        "new": 1266.5
+    },
+    "Severin": {
+        "old": 1645,
+        "new": 1376.5
+    },
+    "xjoscx": {
+        "old": 1645,
+        "new": 1450.9
+    },
+    "AX7": {
+        "old": 1644,
+        "new": 1593.3
+    },
+    "Jasper": {
+        "old": 1644,
+        "new": 1356.5
+    },
+    "Phaltey": {
+        "old": 1644,
+        "new": 1582.5
+    },
+    "Psynocchio": {
+        "old": 1644,
+        "new": 1356.5
+    },
+    "Buddy": {
+        "old": 1643,
+        "new": 1381.3
+    },
+    "Fransker": {
+        "old": 1643,
+        "new": 1434.1
+    },
+    "Theseus": {
+        "old": 1643,
+        "new": 1353.8
+    },
+    "holloway": {
+        "old": 1643,
+        "new": 1270.8
+    },
+    "rainman": {
+        "old": 1643,
+        "new": 1259.8
+    },
+    "shaihulud": {
+        "old": 1643,
+        "new": 1353.9
+    },
+    "Pitche": {
+        "old": 1642,
+        "new": 1520.0
+    },
+    "Princess Lisa": {
+        "old": 1642,
+        "new": 1348.9
+    },
+    "mace": {
+        "old": 1642,
+        "new": 1448.1
+    },
+    "Hotte": {
+        "old": 1641,
+        "new": 1400.4
+    },
+    "Anderson ": {
+        "old": 1640,
+        "new": 1417.8
+    },
+    "Heinza9": {
+        "old": 1640,
+        "new": 1448.2
+    },
+    "JohnnyKnoxville": {
+        "old": 1640,
+        "new": 1360.9
+    },
+    "Tiberius": {
+        "old": 1640,
+        "new": 1477.2
+    },
+    "nobody": {
+        "old": 1640,
+        "new": 1620.3
+    },
+    "peanutbutter--": {
+        "old": 1640,
+        "new": 1331.2
+    },
+    "uku3": {
+        "old": 1640,
+        "new": 1592.3
+    },
+    "micoud": {
+        "old": 1639,
+        "new": 1476.9
+    },
+    "werry2000 ": {
+        "old": 1639,
+        "new": 1580.3
+    },
+    "sonnenberg": {
+        "old": 1638,
+        "new": 1568.6
+    },
+    "Hackepeter": {
+        "old": 1637,
+        "new": 1306.2
+    },
+    "Sorcerer": {
+        "old": 1637,
+        "new": 1298.6
+    },
+    "Sven7": {
+        "old": 1637,
+        "new": 1439.7
+    },
+    "wehrkraftzersetzung": {
+        "old": 1637,
+        "new": 1263.1
+    },
+    "Gonzales": {
+        "old": 1636,
+        "new": 1272.9
+    },
+    "LLGeorge": {
+        "old": 1636,
+        "new": 1482.5
+    },
+    "ToDoKu": {
+        "old": 1636,
+        "new": 1440.3
+    },
+    "the boss99": {
+        "old": 1636,
+        "new": 1416.2
+    },
+    "Frey": {
+        "old": 1635,
+        "new": 1500.7
+    },
+    "lewa": {
+        "old": 1635,
+        "new": 1322.3
+    },
+    "okoamberg": {
+        "old": 1635,
+        "new": 1429.1
+    },
+    "raini": {
+        "old": 1635,
+        "new": 1589.2
+    },
+    "Aragon": {
+        "old": 1634,
+        "new": 1315.2
+    },
+    "BlueRecon": {
+        "old": 1634,
+        "new": 1305.5
+    },
+    "Fab": {
+        "old": 1634,
+        "new": 1362.5
+    },
+    "Fargo": {
+        "old": 1634,
+        "new": 1373.0
+    },
+    "Jameer": {
+        "old": 1634,
+        "new": 1248.0
+    },
+    "Wegglator": {
+        "old": 1634,
+        "new": 1614.3
+    },
+    "turtok": {
+        "old": 1634,
+        "new": 1333.1
+    },
+    "Cormonte": {
+        "old": 1633,
+        "new": 1251.4
+    },
+    "Thely": {
+        "old": 1633,
+        "new": 1479.5
+    },
+    "Zesse": {
+        "old": 1633,
+        "new": 1587.2
+    },
+    "DiploFan": {
+        "old": 1632,
+        "new": 1436.1
+    },
+    "Mr. Zunt": {
+        "old": 1632,
+        "new": 1431.4
+    },
+    "Urel": {
+        "old": 1632,
+        "new": 1186.9
+    },
+    "nayba": {
+        "old": 1632,
+        "new": 1462.2
+    },
+    "normarno": {
+        "old": 1632,
+        "new": 1181.0
+    },
+    "red_devil": {
+        "old": 1632,
+        "new": 1319.3
+    },
+    "H&ouml;lg": {
+        "old": 1631,
+        "new": 1406.3
+    },
+    "Nadag": {
+        "old": 1631,
+        "new": 1456.8
+    },
+    "Timmo": {
+        "old": 1631,
+        "new": 1173.5
+    },
+    "alop3x": {
+        "old": 1631,
+        "new": 1439.2
+    },
+    "Vollstrecker": {
+        "old": 1630,
+        "new": 1398.6
+    },
+    "ghost2137": {
+        "old": 1630,
+        "new": 1330.7
+    },
+    "Azathoth": {
+        "old": 1629,
+        "new": 1354.7
+    },
+    "HenryVIII": {
+        "old": 1629,
+        "new": 1541.7
+    },
+    "Mr.Pink": {
+        "old": 1629,
+        "new": 1380.8
+    },
+    "Noir": {
+        "old": 1629,
+        "new": 1351.9
+    },
+    "fattyspaghetti": {
+        "old": 1629,
+        "new": 1599.7
+    },
+    "thoerner99": {
+        "old": 1629,
+        "new": 1256.7
+    },
+    "Blockhaus": {
+        "old": 1628,
+        "new": 1398.9
+    },
+    "KurtWallander": {
+        "old": 1628,
+        "new": 1430.0
+    },
+    "Reismar": {
+        "old": 1628,
+        "new": 1607.0
+    },
+    "VoodooDog": {
+        "old": 1628,
+        "new": 1229.6
+    },
+    "devin3000": {
+        "old": 1628,
+        "new": 1247.4
+    },
+    "sandmann": {
+        "old": 1628,
+        "new": 1175.6
+    },
+    "Hobbino": {
+        "old": 1627,
+        "new": 1269.9
+    },
+    "Putschy": {
+        "old": 1627,
+        "new": 1592.2
+    },
+    "Uriziel Gothique": {
+        "old": 1627,
+        "new": 1244.5
+    },
+    "nkl": {
+        "old": 1627,
+        "new": 1376.2
+    },
+    "Airbag": {
+        "old": 1626,
+        "new": 1450.7
+    },
+    "Laurent Renard": {
+        "old": 1626,
+        "new": 1457.4
+    },
+    "Swisseagle67": {
+        "old": 1626,
+        "new": 1525.0
+    },
+    "Erich von Manstein": {
+        "old": 1625,
+        "new": 1358.1
+    },
+    "Jebediah": {
+        "old": 1625,
+        "new": 1555.6
+    },
+    "Minathaurus": {
+        "old": 1625,
+        "new": 1582.7
+    },
+    "thomasb": {
+        "old": 1625,
+        "new": 1438.7
+    },
+    "SesselToni94": {
+        "old": 1624,
+        "new": 1274.9
+    },
+    "Spartacus": {
+        "old": 1624,
+        "new": 1360.3
+    },
+    "goldeneye2006": {
+        "old": 1624,
+        "new": 1230.4
+    },
+    "gothic73": {
+        "old": 1624,
+        "new": 1230.7
+    },
+    "trosieja": {
+        "old": 1624,
+        "new": 1567.9
+    },
+    "Alpha": {
+        "old": 1623,
+        "new": 1430.6
+    },
+    "Ante": {
+        "old": 1623,
+        "new": 1490.4
+    },
+    "Biggi1": {
+        "old": 1623,
+        "new": 1426.8
+    },
+    "Chaoslord": {
+        "old": 1623,
+        "new": 1378.4
+    },
+    "Hardy": {
+        "old": 1623,
+        "new": 1427.6
+    },
+    "Winter": {
+        "old": 1623,
+        "new": 1598.1
+    },
+    "rheinfall": {
+        "old": 1623,
+        "new": 1239.5
+    },
+    "L&ouml;wenherz": {
+        "old": 1622,
+        "new": 1579.7
+    },
+    "KHB": {
+        "old": 1621,
+        "new": 1405.1
+    },
+    "Killer": {
+        "old": 1621,
+        "new": 1272.3
+    },
+    "Ynef": {
+        "old": 1620,
+        "new": 1574.2
+    },
+    "Jan-Peter": {
+        "old": 1619,
+        "new": 1596.6
+    },
+    "Jochen": {
+        "old": 1619,
+        "new": 1599.3
+    },
+    "Dexter": {
+        "old": 1618,
+        "new": 1475.0
+    },
+    "Neo": {
+        "old": 1618,
+        "new": 1461.9
+    },
+    "Dragonslayer": {
+        "old": 1617,
+        "new": 1272.6
+    },
+    "HeerDerGeplagtenSkelette": {
+        "old": 1617,
+        "new": 1410.7
+    },
+    "MADfighter": {
+        "old": 1617,
+        "new": 1551.6
+    },
+    "Preu&szlig;enk&ouml;nig": {
+        "old": 1616,
+        "new": 1344.2
+    },
+    "citarim": {
+        "old": 1616,
+        "new": 1371.9
+    },
+    "Assa": {
+        "old": 1615,
+        "new": 1306.2
+    },
+    "Astrak": {
+        "old": 1615,
+        "new": 1536.7
+    },
+    "Dennis M.": {
+        "old": 1615,
+        "new": 1234.4
+    },
+    "DerSchuh": {
+        "old": 1615,
+        "new": 1549.6
+    },
+    "F&uuml;rst von Bismarck": {
+        "old": 1615,
+        "new": 1331.9
+    },
+    "Nickrey": {
+        "old": 1615,
+        "new": 1549.6
+    },
+    "arti der mann": {
+        "old": 1615,
+        "new": 1234.4
+    },
+    "Blackradix": {
+        "old": 1613,
+        "new": 1229.6
+    },
+    "Ragnar": {
+        "old": 1613,
+        "new": 1594.3
+    },
+    "Silver": {
+        "old": 1613,
+        "new": 1266.6
+    },
+    "880880": {
+        "old": 1612,
+        "new": 1253.3
+    },
+    "Gradin02": {
+        "old": 1612,
+        "new": 1340.5
+    },
+    "sabralod": {
+        "old": 1612,
+        "new": 1403.1
+    },
+    "Blitzkrieg": {
+        "old": 1611,
+        "new": 1408.0
+    },
+    "Cephir": {
+        "old": 1611,
+        "new": 1226.0
+    },
+    "KinnanDeSoel": {
+        "old": 1611,
+        "new": 1305.4
+    },
+    "Sylou Va": {
+        "old": 1610,
+        "new": 1295.0
+    },
+    "anandsmentor": {
+        "old": 1610,
+        "new": 1252.9
+    },
+    "archilles": {
+        "old": 1610,
+        "new": 1289.7
+    },
+    "Nopehunter": {
+        "old": 1609,
+        "new": 1227.4
+    },
+    "Optimist007": {
+        "old": 1609,
+        "new": 1331.7
+    },
+    "Saladin_der_Weise": {
+        "old": 1609,
+        "new": 1239.9
+    },
+    "beast1982": {
+        "old": 1609,
+        "new": 1528.5
+    },
+    "Ditsche": {
+        "old": 1608,
+        "new": 1588.3
+    },
+    "Luis": {
+        "old": 1608,
+        "new": 1229.4
+    },
+    "elMuro": {
+        "old": 1608,
+        "new": 1201.6
+    },
+    "Daggi": {
+        "old": 1607,
+        "new": 1248.7
+    },
+    "Eule": {
+        "old": 1607,
+        "new": 1252.6
+    },
+    "Lesovik": {
+        "old": 1606,
+        "new": 1220.8
+    },
+    "Louie": {
+        "old": 1606,
+        "new": 1412.1
+    },
+    "Packerl": {
+        "old": 1606,
+        "new": 1361.4
+    },
+    "Lorenz Oken": {
+        "old": 1605,
+        "new": 1540.8
+    },
+    "Paskee": {
+        "old": 1605,
+        "new": 1249.8
+    },
+    "mm": {
+        "old": 1605,
+        "new": 1221.8
+    },
+    "BobBoraxo": {
+        "old": 1604,
+        "new": 1541.7
+    },
+    "Azkaroth": {
+        "old": 1603,
+        "new": 1533.6
+    },
+    "Big Lorenzo": {
+        "old": 1603,
+        "new": 1190.9
+    },
+    "Der Imp": {
+        "old": 1603,
+        "new": 1209.4
+    },
+    "Kaktus": {
+        "old": 1603,
+        "new": 1209.4
+    },
+    "Madaru49": {
+        "old": 1603,
+        "new": 1427.7
+    },
+    "OTNIKU": {
+        "old": 1603,
+        "new": 1548.8
+    },
+    "Patriot": {
+        "old": 1603,
+        "new": 1255.7
+    },
+    "Pritt von Stift": {
+        "old": 1603,
+        "new": 1187.3
+    },
+    "Der Rote Stern": {
+        "old": 1602,
+        "new": 1532.5
+    },
+    "Wolfi": {
+        "old": 1602,
+        "new": 1389.3
+    },
+    "Al Wulf": {
+        "old": 1601,
+        "new": 1488.8
+    },
+    "Jay": {
+        "old": 1601,
+        "new": 1285.4
+    },
+    "Jonas I.": {
+        "old": 1601,
+        "new": 1282.4
+    },
+    "Krystof": {
+        "old": 1601,
+        "new": 1479.9
+    },
+    "Schwierig": {
+        "old": 1601,
+        "new": 1525.7
+    },
+    "ml82": {
+        "old": 1601,
+        "new": 1383.7
+    },
+    "Der Geduldige": {
+        "old": 1600,
+        "new": 1208.3
+    },
+    "Menti": {
+        "old": 1600,
+        "new": 1285.7
+    },
+    "Myrddin": {
+        "old": 1600,
+        "new": 1343.7
+    },
+    "Nostradamus": {
+        "old": 1600,
+        "new": 1257.5
+    },
+    "philipp": {
+        "old": 1600,
+        "new": 1271.0
+    },
+    "sty": {
+        "old": 1600,
+        "new": 1357.8
+    },
+    "45er": {
+        "old": 1599,
+        "new": 1211.3
+    },
+    "JPSZletch": {
+        "old": 1599,
+        "new": 1523.7
+    },
+    "Marcelo06": {
+        "old": 1599,
+        "new": 1317.5
+    },
+    "Supercrunchy": {
+        "old": 1599,
+        "new": 1346.6
+    },
+    "Tibarius": {
+        "old": 1599,
+        "new": 1433.7
+    },
+    "Tobi": {
+        "old": 1599,
+        "new": 1188.4
+    },
+    "Carolus Rex": {
+        "old": 1598,
+        "new": 1269.0
+    },
+    "Ossa": {
+        "old": 1597,
+        "new": 1434.7
+    },
+    "graf_bobbi": {
+        "old": 1597,
+        "new": 1155.1
+    },
+    "Alex_1991": {
+        "old": 1596,
+        "new": 1293.3
+    },
+    "Carlos": {
+        "old": 1596,
+        "new": 1252.6
+    },
+    "Gocki": {
+        "old": 1596,
+        "new": 1396.4
+    },
+    "flexitall": {
+        "old": 1596,
+        "new": 1205.7
+    },
+    "Halldor": {
+        "old": 1595,
+        "new": 1490.8
+    },
+    "Kaiserin Karo I": {
+        "old": 1595,
+        "new": 1544.3
+    },
+    "LukikuL": {
+        "old": 1595,
+        "new": 1533.5
+    },
+    "wormatia": {
+        "old": 1595,
+        "new": 1274.8
+    },
+    "Oshilumbu": {
+        "old": 1594,
+        "new": 1349.0
+    },
+    "RealPain": {
+        "old": 1594,
+        "new": 1384.3
+    },
+    "Jimbo": {
+        "old": 1593,
+        "new": 1185.8
+    },
+    "Scorpio": {
+        "old": 1593,
+        "new": 1194.2
+    },
+    "Thomas I.": {
+        "old": 1593,
+        "new": 1206.4
+    },
+    "shukow": {
+        "old": 1593,
+        "new": 1161.7
+    },
+    "Schattenschritt": {
+        "old": 1592,
+        "new": 1231.6
+    },
+    "Finubar": {
+        "old": 1591,
+        "new": 1346.3
+    },
+    "TaoQiBao": {
+        "old": 1591,
+        "new": 1394.8
+    },
+    "Thukydides": {
+        "old": 1591,
+        "new": 1353.6
+    },
+    "\u0415\u043a\u0430\u0442\u0435\u0440\u0438\u043d\u0430 \u0412\u0435\u043b\u0438\u043a\u0430\u044f": {
+        "old": 1591,
+        "new": 1239.6
+    },
+    "aurelio": {
+        "old": 1590,
+        "new": 1281.2
+    },
+    "braveheart": {
+        "old": 1590,
+        "new": 1313.1
+    },
+    "springm4": {
+        "old": 1590,
+        "new": 1442.6
+    },
+    "Prinz Aleksandr": {
+        "old": 1589,
+        "new": 1381.0
+    },
+    "Benne": {
+        "old": 1588,
+        "new": 1203.2
+    },
+    "Sam|Oht": {
+        "old": 1588,
+        "new": 1541.8
+    },
+    "halloxy": {
+        "old": 1588,
+        "new": 1162.1
+    },
+    "Welper84": {
+        "old": 1587,
+        "new": 1496.7
+    },
+    "Don Kamillo": {
+        "old": 1586,
+        "new": 1311.2
+    },
+    "LMH": {
+        "old": 1586,
+        "new": 1566.3
+    },
+    "egolution": {
+        "old": 1586,
+        "new": 1416.1
+    },
+    "inmado": {
+        "old": 1586,
+        "new": 1411.8
+    },
+    "juwieh": {
+        "old": 1586,
+        "new": 1419.9
+    },
+    "titusboellemann": {
+        "old": 1586,
+        "new": 1567.3
+    },
+    "ManOwaR": {
+        "old": 1585,
+        "new": 1163.9
+    },
+    "Traiinme": {
+        "old": 1585,
+        "new": 1519.6
+    },
+    "reb": {
+        "old": 1585,
+        "new": 1290.7
+    },
+    "DasTier": {
+        "old": 1584,
+        "new": 1298.6
+    },
+    "Lufty99": {
+        "old": 1584,
+        "new": 1366.1
+    },
+    "Magox": {
+        "old": 1584,
+        "new": 1242.8
+    },
+    "caruso": {
+        "old": 1584,
+        "new": 1196.1
+    },
+    "schwertundspeer": {
+        "old": 1584,
+        "new": 1296.3
+    },
+    "Helmut": {
+        "old": 1583,
+        "new": 1303.9
+    },
+    "Mupfin": {
+        "old": 1583,
+        "new": 1278.0
+    },
+    "JakeMenlo": {
+        "old": 1582,
+        "new": 1402.6
+    },
+    "Luckies": {
+        "old": 1582,
+        "new": 1226.8
+    },
+    "canyonero": {
+        "old": 1582,
+        "new": 1180.5
+    },
+    "panzerkrieg": {
+        "old": 1582,
+        "new": 1145.2
+    },
+    "peacebro": {
+        "old": 1582,
+        "new": 1230.6
+    },
+    "tuete": {
+        "old": 1582,
+        "new": 1161.3
+    },
+    "David Ben Gurion": {
+        "old": 1581,
+        "new": 1145.9
+    },
+    "RedHead": {
+        "old": 1581,
+        "new": 1200.4
+    },
+    "HonorH": {
+        "old": 1580,
+        "new": 1380.1
+    },
+    "salvatore allende": {
+        "old": 1580,
+        "new": 1196.5
+    },
+    "Specknatz": {
+        "old": 1579,
+        "new": 1302.2
+    },
+    "Folod": {
+        "old": 1578,
+        "new": 1333.9
+    },
+    "HenRoe": {
+        "old": 1578,
+        "new": 1432.9
+    },
+    "Profand1": {
+        "old": 1578,
+        "new": 1314.3
+    },
+    "RobZin": {
+        "old": 1578,
+        "new": 1138.3
+    },
+    "disconnector": {
+        "old": 1578,
+        "new": 1139.4
+    },
+    "teloetken": {
+        "old": 1578,
+        "new": 1301.1
+    },
+    "Ian G. ": {
+        "old": 1577,
+        "new": 1236.9
+    },
+    "Pfahl": {
+        "old": 1577,
+        "new": 1313.5
+    },
+    "Carsten": {
+        "old": 1576,
+        "new": 1217.7
+    },
+    "Darkstone": {
+        "old": 1576,
+        "new": 1292.9
+    },
+    "eroberer0815": {
+        "old": 1576,
+        "new": 1193.6
+    },
+    "Muzungu": {
+        "old": 1575,
+        "new": 1245.6
+    },
+    "Bjarne": {
+        "old": 1574,
+        "new": 1403.2
+    },
+    "Potti": {
+        "old": 1574,
+        "new": 1528.3
+    },
+    "Slacxx": {
+        "old": 1574,
+        "new": 1181.0
+    },
+    "Angi": {
+        "old": 1573,
+        "new": 1285.5
+    },
+    "Assel": {
+        "old": 1573,
+        "new": 1336.3
+    },
+    "Spielverderb&auml;r": {
+        "old": 1573,
+        "new": 1261.6
+    },
+    "atz": {
+        "old": 1573,
+        "new": 1316.7
+    },
+    "kingw": {
+        "old": 1573,
+        "new": 1280.3
+    },
+    "Knilch": {
+        "old": 1572,
+        "new": 1156.3
+    },
+    "Fosswaldo": {
+        "old": 1571,
+        "new": 1229.8
+    },
+    "ThulsaDoom": {
+        "old": 1571,
+        "new": 1248.5
+    },
+    "leeroy": {
+        "old": 1571,
+        "new": 1204.6
+    },
+    "399567": {
+        "old": 1570,
+        "new": 1204.4
+    },
+    "Atlan": {
+        "old": 1570,
+        "new": 1523.8
+    },
+    "RealDealSaar": {
+        "old": 1570,
+        "new": 1523.8
+    },
+    "helmillo": {
+        "old": 1570,
+        "new": 1189.4
+    },
+    "JonasK": {
+        "old": 1569,
+        "new": 1185.8
+    },
+    "Petrinum_Bracht": {
+        "old": 1569,
+        "new": 1479.5
+    },
+    "sirmathew": {
+        "old": 1569,
+        "new": 1152.6
+    },
+    "toxaph3ne": {
+        "old": 1569,
+        "new": 1324.3
+    },
+    "500799": {
+        "old": 1568,
+        "new": 1203.5
+    },
+    "DerSim688": {
+        "old": 1568,
+        "new": 1231.7
+    },
+    "P1": {
+        "old": 1568,
+        "new": 1197.7
+    },
+    "Marco Polo": {
+        "old": 1567,
+        "new": 1547.3
+    },
+    "Sevyas": {
+        "old": 1567,
+        "new": 1240.2
+    },
+    "Shagga": {
+        "old": 1567,
+        "new": 1154.2
+    },
+    "Heckenkaiser": {
+        "old": 1566,
+        "new": 1370.3
+    },
+    "Khaleesi": {
+        "old": 1566,
+        "new": 1428.1
+    },
+    "hiasl1988": {
+        "old": 1566,
+        "new": 1139.9
+    },
+    "Comredert": {
+        "old": 1565,
+        "new": 1531.1
+    },
+    "Doeringson": {
+        "old": 1565,
+        "new": 1369.6
+    },
+    "imp": {
+        "old": 1565,
+        "new": 1169.3
+    },
+    "Caliban": {
+        "old": 1564,
+        "new": 1158.0
+    },
+    "Damian": {
+        "old": 1564,
+        "new": 1185.1
+    },
+    "General Hummler": {
+        "old": 1564,
+        "new": 1240.6
+    },
+    "Hand42tuch": {
+        "old": 1564,
+        "new": 1251.3
+    },
+    "Xyt": {
+        "old": 1564,
+        "new": 1332.6
+    },
+    "loesvenson": {
+        "old": 1564,
+        "new": 1439.5
+    },
+    "Peter von Kottenheim": {
+        "old": 1563,
+        "new": 1409.5
+    },
+    "soptock": {
+        "old": 1563,
+        "new": 1221.8
+    },
+    "Festus": {
+        "old": 1562,
+        "new": 1496.6
+    },
+    "failing148": {
+        "old": 1562,
+        "new": 1471.7
+    },
+    "Dagobert": {
+        "old": 1560,
+        "new": 1332.1
+    },
+    "Klostie": {
+        "old": 1560,
+        "new": 1284.7
+    },
+    "Lilian": {
+        "old": 1560,
+        "new": 1330.3
+    },
+    "Nils": {
+        "old": 1560,
+        "new": 1174.0
+    },
+    "Hamilkar Baraq": {
+        "old": 1559,
+        "new": 1295.5
+    },
+    "Hook": {
+        "old": 1559,
+        "new": 1473.9
+    },
+    "md": {
+        "old": 1559,
+        "new": 1290.9
+    },
+    "Vespasian": {
+        "old": 1558,
+        "new": 1224.6
+    },
+    "KingRaki": {
+        "old": 1557,
+        "new": 1280.4
+    },
+    "jomaki": {
+        "old": 1557,
+        "new": 1281.5
+    },
+    "konnij1985": {
+        "old": 1557,
+        "new": 1222.2
+    },
+    "manhattan_hunter_079": {
+        "old": 1557,
+        "new": 1355.8
+    },
+    "KarlMoor": {
+        "old": 1556,
+        "new": 1203.3
+    },
+    "go44": {
+        "old": 1556,
+        "new": 1160.2
+    },
+    "vlntnwbr": {
+        "old": 1556,
+        "new": 1227.0
+    },
+    "Lord Hendor": {
+        "old": 1555,
+        "new": 1485.2
+    },
+    "Vonmanstein": {
+        "old": 1555,
+        "new": 1355.4
+    },
+    "badboy": {
+        "old": 1555,
+        "new": 1176.1
+    },
+    "janttac": {
+        "old": 1555,
+        "new": 1408.9
+    },
+    "knoedel": {
+        "old": 1555,
+        "new": 1178.4
+    },
+    "lucky_luke": {
+        "old": 1555,
+        "new": 1269.4
+    },
+    "Guderian": {
+        "old": 1554,
+        "new": 1358.1
+    },
+    "Sangoma": {
+        "old": 1554,
+        "new": 1245.2
+    },
+    "Veronikalc": {
+        "old": 1554,
+        "new": 1331.0
+    },
+    "chris2002": {
+        "old": 1554,
+        "new": 1196.3
+    },
+    "kron": {
+        "old": 1554,
+        "new": 1169.0
+    },
+    "r3dst4r": {
+        "old": 1554,
+        "new": 1228.9
+    },
+    "DaMarcues": {
+        "old": 1553,
+        "new": 1218.7
+    },
+    "Galileo": {
+        "old": 1553,
+        "new": 1476.6
+    },
+    "Sagitaria": {
+        "old": 1553,
+        "new": 1289.2
+    },
+    "Theo04": {
+        "old": 1553,
+        "new": 1243.5
+    },
+    "Mermadin": {
+        "old": 1552,
+        "new": 1309.8
+    },
+    "Panzerkampfwagen V": {
+        "old": 1552,
+        "new": 1165.1
+    },
+    "Chris": {
+        "old": 1550,
+        "new": 1108.1
+    },
+    "Lilli": {
+        "old": 1550,
+        "new": 1320.9
+    },
+    "Tubman": {
+        "old": 1550,
+        "new": 1311.5
+    },
+    "elborrico": {
+        "old": 1550,
+        "new": 1389.3
+    },
+    "Dark": {
+        "old": 1549,
+        "new": 1267.3
+    },
+    "Magic": {
+        "old": 1549,
+        "new": 1502.8
+    },
+    "Felix": {
+        "old": 1548,
+        "new": 1114.7
+    },
+    "Jonny143": {
+        "old": 1548,
+        "new": 1245.3
+    },
+    "Rothy": {
+        "old": 1548,
+        "new": 1228.1
+    },
+    "Levty": {
+        "old": 1547,
+        "new": 1514.2
+    },
+    "Ricki": {
+        "old": 1547,
+        "new": 1354.6
+    },
+    "Avior": {
+        "old": 1546,
+        "new": 1334.2
+    },
+    "Krischa": {
+        "old": 1546,
+        "new": 1360.1
+    },
+    "BerlinStyle": {
+        "old": 1545,
+        "new": 1316.5
+    },
+    "W&uuml;stenfuchs": {
+        "old": 1545,
+        "new": 1455.5
+    },
+    "grunt": {
+        "old": 1545,
+        "new": 1178.6
+    },
+    "kalbshaxe": {
+        "old": 1545,
+        "new": 1303.0
+    },
+    "234872": {
+        "old": 1544,
+        "new": 1086.1
+    },
+    "Baal": {
+        "old": 1544,
+        "new": 1152.9
+    },
+    "Okasigo": {
+        "old": 1544,
+        "new": 1310.7
+    },
+    "anja": {
+        "old": 1544,
+        "new": 1411.4
+    },
+    "snickers": {
+        "old": 1544,
+        "new": 1095.0
+    },
+    "triumphant": {
+        "old": 1544,
+        "new": 1180.9
+    },
+    "CasiStrike": {
+        "old": 1542,
+        "new": 1273.4
+    },
+    "Guderian0815": {
+        "old": 1542,
+        "new": 1152.5
+    },
+    "halli": {
+        "old": 1542,
+        "new": 1305.3
+    },
+    "Eggi": {
+        "old": 1541,
+        "new": 1419.0
+    },
+    "Nihal": {
+        "old": 1541,
+        "new": 1403.8
+    },
+    "fbo": {
+        "old": 1541,
+        "new": 1119.3
+    },
+    "schwamar": {
+        "old": 1541,
+        "new": 1205.3
+    },
+    "Erdbeertorte": {
+        "old": 1540,
+        "new": 1403.1
+    },
+    "McDrops": {
+        "old": 1540,
+        "new": 1224.2
+    },
+    "TreCool8992": {
+        "old": 1540,
+        "new": 1156.8
+    },
+    "Xelezos": {
+        "old": 1540,
+        "new": 1483.9
+    },
+    "bigjimbim": {
+        "old": 1540,
+        "new": 1176.9
+    },
+    "DS22": {
+        "old": 1539,
+        "new": 1391.6
+    },
+    "Forsmad": {
+        "old": 1539,
+        "new": 1145.4
+    },
+    "Paolo": {
+        "old": 1539,
+        "new": 1463.7
+    },
+    "tscheifl": {
+        "old": 1539,
+        "new": 1238.6
+    },
+    "Friedrich der Gro&szlig;e, von": {
+        "old": 1538,
+        "new": 1504.1
+    },
+    "Markus 123456789": {
+        "old": 1538,
+        "new": 1263.2
+    },
+    "DasArzt": {
+        "old": 1537,
+        "new": 1152.8
+    },
+    "Linda": {
+        "old": 1537,
+        "new": 1308.7
+    },
+    "flexitall2": {
+        "old": 1537,
+        "new": 1145.7
+    },
+    "Kaiser von China": {
+        "old": 1535,
+        "new": 1131.1
+    },
+    "Beelzebub": {
+        "old": 1534,
+        "new": 1149.0
+    },
+    "Julian": {
+        "old": 1534,
+        "new": 1304.3
+    },
+    "Kaiser Luca": {
+        "old": 1534,
+        "new": 1256.7
+    },
+    "Lars": {
+        "old": 1534,
+        "new": 1203.9
+    },
+    "Mikele": {
+        "old": 1533,
+        "new": 1251.4
+    },
+    "Rotk&auml;ppchen": {
+        "old": 1533,
+        "new": 1137.3
+    },
+    "Bini": {
+        "old": 1532,
+        "new": 1164.5
+    },
+    "ChrisS": {
+        "old": 1532,
+        "new": 1349.8
+    },
+    "Zimbo": {
+        "old": 1532,
+        "new": 1121.0
+    },
+    "likky": {
+        "old": 1532,
+        "new": 1136.2
+    },
+    "Killerkruemel": {
+        "old": 1531,
+        "new": 1129.7
+    },
+    "Theo Dizee": {
+        "old": 1531,
+        "new": 1445.9
+    },
+    "totti": {
+        "old": 1531,
+        "new": 1252.0
+    },
+    "BergBaer": {
+        "old": 1530,
+        "new": 1241.7
+    },
+    "ManOD": {
+        "old": 1530,
+        "new": 1148.5
+    },
+    "terminaldetonator": {
+        "old": 1530,
+        "new": 1251.6
+    },
+    "xsXZuiXsx": {
+        "old": 1530,
+        "new": 1326.9
+    },
+    "Alexander-1991": {
+        "old": 1529,
+        "new": 1291.2
+    },
+    "Flo": {
+        "old": 1529,
+        "new": 1090.4
+    },
+    "Yoshi": {
+        "old": 1529,
+        "new": 1184.4
+    },
+    "Hobbes001": {
+        "old": 1528,
+        "new": 1129.6
+    },
+    "fabianwunderlich": {
+        "old": 1528,
+        "new": 1343.7
+    },
+    "slowi": {
+        "old": 1528,
+        "new": 1091.1
+    },
+    "Steinmeier": {
+        "old": 1527,
+        "new": 1361.7
+    },
+    "xTracy": {
+        "old": 1527,
+        "new": 1290.3
+    },
+    "Geekiens": {
+        "old": 1526,
+        "new": 1181.6
+    },
+    "balub": {
+        "old": 1526,
+        "new": 1099.5
+    },
+    "Revan": {
+        "old": 1525,
+        "new": 1300.8
+    },
+    "Simon99nrw": {
+        "old": 1525,
+        "new": 1248.8
+    },
+    "zaharoff": {
+        "old": 1525,
+        "new": 1300.3
+    },
+    "l.dtke": {
+        "old": 1524,
+        "new": 1424.3
+    },
+    "Affemitwaffe": {
+        "old": 1523,
+        "new": 1291.6
+    },
+    "Jeremy": {
+        "old": 1523,
+        "new": 1240.2
+    },
+    "Mokit": {
+        "old": 1523,
+        "new": 1216.6
+    },
+    "Alfred": {
+        "old": 1522,
+        "new": 1174.6
+    },
+    "BananaBaer": {
+        "old": 1522,
+        "new": 1218.3
+    },
+    "Dieter": {
+        "old": 1522,
+        "new": 1240.0
+    },
+    "Ubbser": {
+        "old": 1522,
+        "new": 1166.1
+    },
+    "Chiphead": {
+        "old": 1520,
+        "new": 1453.5
+    },
+    "smuerre": {
+        "old": 1520,
+        "new": 1198.4
+    },
+    "Meckeswurst": {
+        "old": 1519,
+        "new": 1300.9
+    },
+    "QuotenPole": {
+        "old": 1519,
+        "new": 1282.1
+    },
+    "SirLoin": {
+        "old": 1519,
+        "new": 1364.7
+    },
+    "McMurdo": {
+        "old": 1518,
+        "new": 1132.1
+    },
+    "Olek": {
+        "old": 1518,
+        "new": 1472.3
+    },
+    "Penti": {
+        "old": 1518,
+        "new": 1303.6
+    },
+    "Salm": {
+        "old": 1518,
+        "new": 1171.6
+    },
+    "giovv": {
+        "old": 1518,
+        "new": 1171.3
+    },
+    "katsch00": {
+        "old": 1518,
+        "new": 1471.8
+    },
+    "Kajatan": {
+        "old": 1517,
+        "new": 1213.9
+    },
+    "R&uuml;mmermann": {
+        "old": 1517,
+        "new": 1164.3
+    },
+    "Rikimaru": {
+        "old": 1517,
+        "new": 1095.3
+    },
+    "bleedahund": {
+        "old": 1517,
+        "new": 1470.8
+    },
+    "fpl": {
+        "old": 1517,
+        "new": 1262.8
+    },
+    "Justinius der Breite": {
+        "old": 1516,
+        "new": 1468.5
+    },
+    "Marco": {
+        "old": 1516,
+        "new": 1139.6
+    },
+    "Maxi_Kl": {
+        "old": 1516,
+        "new": 1196.3
+    },
+    "Sloopy": {
+        "old": 1516,
+        "new": 1118.1
+    },
+    "bergmann": {
+        "old": 1516,
+        "new": 1134.4
+    },
+    "dynamitekickbox": {
+        "old": 1516,
+        "new": 1434.7
+    },
+    "642561": {
+        "old": 1515,
+        "new": 1133.8
+    },
+    "Headios": {
+        "old": 1515,
+        "new": 1080.7
+    },
+    "&ouml;sterreich71": {
+        "old": 1514,
+        "new": 1177.7
+    },
+    "Chick3nWing5": {
+        "old": 1514,
+        "new": 1237.4
+    },
+    "NooR": {
+        "old": 1514,
+        "new": 1085.1
+    },
+    "julian187": {
+        "old": 1513,
+        "new": 1337.7
+    },
+    "noFrontz": {
+        "old": 1513,
+        "new": 1410.7
+    },
+    "Alina": {
+        "old": 1510,
+        "new": 1281.7
+    },
+    "MR_XMAS": {
+        "old": 1510,
+        "new": 1366.3
+    },
+    "ap": {
+        "old": 1510,
+        "new": 1118.9
+    },
+    "Bond93": {
+        "old": 1508,
+        "new": 1061.8
+    },
+    "Justus": {
+        "old": 1508,
+        "new": 1100.3
+    },
+    "panther": {
+        "old": 1508,
+        "new": 1109.6
+    },
+    "Chuckopan": {
+        "old": 1507,
+        "new": 1289.1
+    },
+    "Flo1900": {
+        "old": 1507,
+        "new": 1058.4
+    },
+    "Gandriel": {
+        "old": 1506,
+        "new": 1153.7
+    },
+    "darkpact": {
+        "old": 1506,
+        "new": 1315.9
+    },
+    "Muhammad Hanggli&ccedil;": {
+        "old": 1505,
+        "new": 1385.9
+    },
+    "Nummer1": {
+        "old": 1505,
+        "new": 1121.4
+    },
+    "Togo Togorian": {
+        "old": 1505,
+        "new": 1210.0
+    },
+    "langerhans": {
+        "old": 1505,
+        "new": 1076.7
+    },
+    "Park": {
+        "old": 1504,
+        "new": 1166.6
+    },
+    "MrZylindra": {
+        "old": 1502,
+        "new": 1191.5
+    },
+    "No_Mercy": {
+        "old": 1502,
+        "new": 1197.0
+    },
+    "Silwa": {
+        "old": 1502,
+        "new": 1408.6
+    },
+    "dschegga": {
+        "old": 1502,
+        "new": 1235.9
+    },
+    "initiator": {
+        "old": 1501,
+        "new": 1229.5
+    },
+    "der_rote_baron": {
+        "old": 1500,
+        "new": 1072.3
+    },
+    "Gunnar": {
+        "old": 1499,
+        "new": 1116.8
+    },
+    "Hyphen": {
+        "old": 1499,
+        "new": 1070.1
+    },
+    "OttoPaul": {
+        "old": 1499,
+        "new": 1361.1
+    },
+    "Sissa": {
+        "old": 1499,
+        "new": 1229.8
+    },
+    "dadtho": {
+        "old": 1499,
+        "new": 1442.9
+    },
+    "fumakilla": {
+        "old": 1499,
+        "new": 1299.1
+    },
+    "lelel1": {
+        "old": 1499,
+        "new": 1101.1
+    },
+    "FriendlyPete": {
+        "old": 1498,
+        "new": 1146.6
+    },
+    "Hubertus vom gr&uuml;nen Berg": {
+        "old": 1498,
+        "new": 1149.4
+    },
+    "Jonas heihei": {
+        "old": 1498,
+        "new": 1268.5
+    },
+    "xhelmchenx": {
+        "old": 1498,
+        "new": 1404.6
+    },
+    "Chiquebuh": {
+        "old": 1497,
+        "new": 1210.8
+    },
+    "Der General": {
+        "old": 1497,
+        "new": 1221.7
+    },
+    "Integral": {
+        "old": 1497,
+        "new": 1288.1
+    },
+    "Sitifan": {
+        "old": 1497,
+        "new": 1136.9
+    },
+    "Davidtheconqueror": {
+        "old": 1496,
+        "new": 1462.1
+    },
+    "Rubik": {
+        "old": 1496,
+        "new": 1067.7
+    },
+    "wantcheese": {
+        "old": 1496,
+        "new": 1207.7
+    },
+    "Phoenix75": {
+        "old": 1495,
+        "new": 1173.1
+    },
+    "Toarak": {
+        "old": 1495,
+        "new": 1059.5
+    },
+    "Yoon77": {
+        "old": 1495,
+        "new": 1449.3
+    },
+    "Kopernikus": {
+        "old": 1494,
+        "new": 1255.7
+    },
+    "cowdrum": {
+        "old": 1494,
+        "new": 1215.1
+    },
+    "Amtranik": {
+        "old": 1493,
+        "new": 1278.6
+    },
+    "Jan": {
+        "old": 1493,
+        "new": 1091.7
+    },
+    "Ultimate_Tarwal": {
+        "old": 1493,
+        "new": 1393.0
+    },
+    "superfantastisch": {
+        "old": 1493,
+        "new": 1070.7
+    },
+    "Erniedogy": {
+        "old": 1492,
+        "new": 1153.1
+    },
+    "Phteffen VII": {
+        "old": 1492,
+        "new": 1441.3
+    },
+    "axko": {
+        "old": 1492,
+        "new": 1267.8
+    },
+    "iceevil": {
+        "old": 1492,
+        "new": 1176.2
+    },
+    "lohengrin": {
+        "old": 1492,
+        "new": 1125.8
+    },
+    "Eddi": {
+        "old": 1491,
+        "new": 1101.9
+    },
+    "SXSXSX": {
+        "old": 1490,
+        "new": 1204.4
+    },
+    "szech": {
+        "old": 1490,
+        "new": 1157.1
+    },
+    "Colonios": {
+        "old": 1489,
+        "new": 1162.2
+    },
+    "Perun": {
+        "old": 1489,
+        "new": 1116.0
+    },
+    "SmokeyMcPot": {
+        "old": 1489,
+        "new": 1168.7
+    },
+    "sashmo": {
+        "old": 1488,
+        "new": 1176.2
+    },
+    "Albrecht_Bartel": {
+        "old": 1487,
+        "new": 1428.3
+    },
+    "Cirar": {
+        "old": 1487,
+        "new": 1040.8
+    },
+    "Phi": {
+        "old": 1486,
+        "new": 1053.4
+    },
+    "Fockel": {
+        "old": 1485,
+        "new": 1043.1
+    },
+    "Kris": {
+        "old": 1485,
+        "new": 1113.5
+    },
+    "Manticor": {
+        "old": 1485,
+        "new": 1062.6
+    },
+    "Snooze": {
+        "old": 1485,
+        "new": 1065.0
+    },
+    "JimmyBly1984": {
+        "old": 1484,
+        "new": 1336.6
+    },
+    "Lord Palmerston": {
+        "old": 1484,
+        "new": 1200.5
+    },
+    "MiB": {
+        "old": 1484,
+        "new": 1171.5
+    },
+    "fribal": {
+        "old": 1484,
+        "new": 1251.1
+    },
+    "DeadlyViper": {
+        "old": 1483,
+        "new": 1197.0
+    },
+    "MrThunfisch": {
+        "old": 1483,
+        "new": 1099.1
+    },
+    "Karl I.": {
+        "old": 1482,
+        "new": 1120.5
+    },
+    "Koenig Tut": {
+        "old": 1482,
+        "new": 1079.6
+    },
+    "WM74T": {
+        "old": 1482,
+        "new": 1312.2
+    },
+    "Zajonz": {
+        "old": 1482,
+        "new": 1100.5
+    },
+    "philio": {
+        "old": 1482,
+        "new": 1054.9
+    },
+    "von Schnitzel": {
+        "old": 1482,
+        "new": 1053.1
+    },
+    "DerGoettinger": {
+        "old": 1481,
+        "new": 1116.8
+    },
+    "Malm": {
+        "old": 1481,
+        "new": 1235.3
+    },
+    "MrMikesh": {
+        "old": 1481,
+        "new": 1296.7
+    },
+    "karhu": {
+        "old": 1481,
+        "new": 1361.9
+    },
+    "vladislav": {
+        "old": 1481,
+        "new": 1361.9
+    },
+    "Poridelo": {
+        "old": 1480,
+        "new": 1128.2
+    },
+    "chrisbass": {
+        "old": 1480,
+        "new": 1107.0
+    },
+    "bulletwithbutterflywings": {
+        "old": 1479,
+        "new": 1329.0
+    },
+    "gnats": {
+        "old": 1479,
+        "new": 1214.2
+    },
+    "Jonipanther": {
+        "old": 1478,
+        "new": 1145.3
+    },
+    "LUZfromthewoods": {
+        "old": 1478,
+        "new": 1147.2
+    },
+    "Lebster": {
+        "old": 1478,
+        "new": 1147.2
+    },
+    "Lord Morgray": {
+        "old": 1478,
+        "new": 1147.2
+    },
+    "RudiRatte": {
+        "old": 1478,
+        "new": 1127.1
+    },
+    "VSchlieffen": {
+        "old": 1478,
+        "new": 1390.7
+    },
+    "Vincent Vega": {
+        "old": 1478,
+        "new": 1147.2
+    },
+    "VomSystemGeloescht450": {
+        "old": 1478,
+        "new": 1056.3
+    },
+    "XxMinyasxX": {
+        "old": 1478,
+        "new": 1391.6
+    },
+    "kroete": {
+        "old": 1478,
+        "new": 1025.4
+    },
+    "Betrachter": {
+        "old": 1477,
+        "new": 1024.6
+    },
+    "Der Babo": {
+        "old": 1477,
+        "new": 1200.1
+    },
+    "Graf zu Stein": {
+        "old": 1477,
+        "new": 1156.7
+    },
+    "Haroldus": {
+        "old": 1477,
+        "new": 1156.7
+    },
+    "Huen": {
+        "old": 1477,
+        "new": 1191.5
+    },
+    "hiop": {
+        "old": 1477,
+        "new": 1041.9
+    },
+    "Herr Rossi": {
+        "old": 1476,
+        "new": 1124.6
+    },
+    "Elinos": {
+        "old": 1475,
+        "new": 1205.1
+    },
+    "PePoPi": {
+        "old": 1475,
+        "new": 1173.3
+    },
+    "OLYMP666": {
+        "old": 1474,
+        "new": 1091.0
+    },
+    "Tigerle": {
+        "old": 1474,
+        "new": 1118.1
+    },
+    "Andros ": {
+        "old": 1473,
+        "new": 1236.1
+    },
+    "JanJanWebWeb": {
+        "old": 1472,
+        "new": 1192.3
+    },
+    "Matze": {
+        "old": 1472,
+        "new": 1141.3
+    },
+    "Drizzt": {
+        "old": 1471,
+        "new": 1087.3
+    },
+    "Eagle": {
+        "old": 1471,
+        "new": 1274.1
+    },
+    "erdnaxeler": {
+        "old": 1471,
+        "new": 1234.1
+    },
+    "Kieschn": {
+        "old": 1470,
+        "new": 1367.7
+    },
+    "Tjungar": {
+        "old": 1470,
+        "new": 1127.5
+    },
+    "baschi": {
+        "old": 1470,
+        "new": 1283.9
+    },
+    "261278": {
+        "old": 1469,
+        "new": 1076.2
+    },
+    "stefan121971": {
+        "old": 1469,
+        "new": 1130.2
+    },
+    "A-Sozialer": {
+        "old": 1468,
+        "new": 1110.4
+    },
+    "AehmKay": {
+        "old": 1468,
+        "new": 1110.4
+    },
+    "Camouflage": {
+        "old": 1468,
+        "new": 1192.7
+    },
+    "Ritchie": {
+        "old": 1468,
+        "new": 1041.2
+    },
+    "D_Fox": {
+        "old": 1467,
+        "new": 1083.1
+    },
+    "Mordeus": {
+        "old": 1467,
+        "new": 1176.9
+    },
+    "Phoenix": {
+        "old": 1467,
+        "new": 1171.1
+    },
+    "Tgbw": {
+        "old": 1467,
+        "new": 1113.1
+    },
+    "Tilla": {
+        "old": 1467,
+        "new": 1306.1
+    },
+    "Calli": {
+        "old": 1466,
+        "new": 1231.4
+    },
+    "lauch11": {
+        "old": 1466,
+        "new": 1119.3
+    },
+    "rosendahler": {
+        "old": 1465,
+        "new": 1418.3
+    },
+    "417112": {
+        "old": 1464,
+        "new": 1080.6
+    },
+    "HansMaulwurf": {
+        "old": 1464,
+        "new": 1125.5
+    },
+    "Tarnus": {
+        "old": 1464,
+        "new": 1173.4
+    },
+    "Antrax": {
+        "old": 1463,
+        "new": 1010.5999999999999
+    },
+    "Teddy": {
+        "old": 1463,
+        "new": 1200.3
+    },
+    "Zar Nikolai": {
+        "old": 1463,
+        "new": 1429.1
+    },
+    "diviko": {
+        "old": 1463,
+        "new": 1150.1
+    },
+    "glubb": {
+        "old": 1461,
+        "new": 1181.9
+    },
+    "KLONK!": {
+        "old": 1460,
+        "new": 1178.5
+    },
+    "MrMirCannae": {
+        "old": 1460,
+        "new": 1061.6
+    },
+    "Tommy": {
+        "old": 1460,
+        "new": 1002.5
+    },
+    "charles_hh": {
+        "old": 1459,
+        "new": 1107.8
+    },
+    "schizo": {
+        "old": 1459,
+        "new": 1117.8
+    },
+    "Schreckpanzer": {
+        "old": 1458,
+        "new": 1091.4
+    },
+    "Selphion": {
+        "old": 1458,
+        "new": 1183.2
+    },
+    "axelsior": {
+        "old": 1458,
+        "new": 1195.3
+    },
+    "der kleine degen": {
+        "old": 1458,
+        "new": 1039.3
+    },
+    "SebKow": {
+        "old": 1457,
+        "new": 1227.9
+    },
+    "ich schei&szlig; auf euch !": {
+        "old": 1457,
+        "new": 1142.4
+    },
+    "1oko1": {
+        "old": 1456,
+        "new": 1334.0
+    },
+    "Kumo": {
+        "old": 1455,
+        "new": 1192.5
+    },
+    "Pregolli": {
+        "old": 1455,
+        "new": 1012.8
+    },
+    "Major Dick": {
+        "old": 1454,
+        "new": 1334.9
+    },
+    "Player98": {
+        "old": 1454,
+        "new": 1239.6
+    },
+    "Christian": {
+        "old": 1453,
+        "new": 1051.0
+    },
+    "Jack_Beauregart": {
+        "old": 1453,
+        "new": 1377.7
+    },
+    "Mr. Teatime": {
+        "old": 1453,
+        "new": 1073.9
+    },
+    "Die Eule": {
+        "old": 1452,
+        "new": 1159.6
+    },
+    "Max": {
+        "old": 1452,
+        "new": 1107.6
+    },
+    "abrinkmann": {
+        "old": 1452,
+        "new": 1079.9
+    },
+    "oblohm": {
+        "old": 1452,
+        "new": 1079.9
+    },
+    "Niemandzockt": {
+        "old": 1451,
+        "new": 1174.4
+    },
+    "Noah kointa": {
+        "old": 1451,
+        "new": 1174.4
+    },
+    "Cpt. Blaub&auml;r": {
+        "old": 1450,
+        "new": 1100.9
+    },
+    "Taro": {
+        "old": 1450,
+        "new": 1100.9
+    },
+    "Vitakraft": {
+        "old": 1450,
+        "new": 1066.8
+    },
+    "mjschlueter": {
+        "old": 1449,
+        "new": 1383.6
+    },
+    "sim.one": {
+        "old": 1449,
+        "new": 1386.7
+    },
+    "Flixi": {
+        "old": 1448,
+        "new": 1063.8
+    },
+    "Imperatus Brutus": {
+        "old": 1448,
+        "new": 1315.4
+    },
+    "Leo3283": {
+        "old": 1448,
+        "new": 1020.9
+    },
+    "DerKanzler": {
+        "old": 1447,
+        "new": 1271.7
+    },
+    "Kemal": {
+        "old": 1447,
+        "new": 1145.9
+    },
+    "LordNelson": {
+        "old": 1447,
+        "new": 1108.2
+    },
+    "munichstudent": {
+        "old": 1447,
+        "new": 1108.2
+    },
+    "pupsy53": {
+        "old": 1446,
+        "new": 1335.8
+    },
+    "Firewall18": {
+        "old": 1445,
+        "new": 1143.2
+    },
+    "PeterHH": {
+        "old": 1445,
+        "new": 1202.2
+    },
+    "conqueror": {
+        "old": 1445,
+        "new": 1023.3
+    },
+    "Bonzo": {
+        "old": 1442,
+        "new": 1330.0
+    },
+    "Extraced": {
+        "old": 1442,
+        "new": 1373.2
+    },
+    "Karma-II": {
+        "old": 1442,
+        "new": 1304.8
+    },
+    "Markus": {
+        "old": 1442,
+        "new": 1057.0
+    },
+    "ORTHodox": {
+        "old": 1442,
+        "new": 1154.0
+    },
+    "Timur": {
+        "old": 1442,
+        "new": 1060.1
+    },
+    "teffes": {
+        "old": 1442,
+        "new": 1057.0
+    },
+    "Ahriman ": {
+        "old": 1441,
+        "new": 1140.6
+    },
+    "DerHusar": {
+        "old": 1441,
+        "new": 1250.5
+    },
+    "Devil": {
+        "old": 1441,
+        "new": 1250.5
+    },
+    "Hatcan": {
+        "old": 1441,
+        "new": 1111.6
+    },
+    "LHCFan": {
+        "old": 1441,
+        "new": 1353.5
+    },
+    "Nico der Gro&szlig;e": {
+        "old": 1441,
+        "new": 1140.6
+    },
+    "UnnamedBlop": {
+        "old": 1441,
+        "new": 1353.5
+    },
+    "Vesskin": {
+        "old": 1441,
+        "new": 1010.3
+    },
+    "Corney": {
+        "old": 1440,
+        "new": 1195.3
+    },
+    "MWarcholik": {
+        "old": 1440,
+        "new": 1075.6
+    },
+    "kapazunda": {
+        "old": 1440,
+        "new": 1098.8
+    },
+    "yest": {
+        "old": 1439,
+        "new": 1274.5
+    },
+    "Caipi": {
+        "old": 1438,
+        "new": 1162.7
+    },
+    "Krepanto": {
+        "old": 1438,
+        "new": 1231.2
+    },
+    "beckpatr": {
+        "old": 1438,
+        "new": 1059.3
+    },
+    "Friedrich der Gro&szlig;e": {
+        "old": 1437,
+        "new": 1122.4
+    },
+    "Kalia": {
+        "old": 1437,
+        "new": 1266.6
+    },
+    "Swedenwilson89": {
+        "old": 1437,
+        "new": 1351.9
+    },
+    "cioran": {
+        "old": 1437,
+        "new": 1036.8
+    },
+    "degoldschmidt": {
+        "old": 1437,
+        "new": 1086.8
+    },
+    "dip-fan": {
+        "old": 1437,
+        "new": 1112.8
+    },
+    "grr": {
+        "old": 1437,
+        "new": 1016.3
+    },
+    "Ernst Brenner": {
+        "old": 1435,
+        "new": 1415.3
+    },
+    "Kodokiller": {
+        "old": 1435,
+        "new": 1084.3
+    },
+    "Lu": {
+        "old": 1435,
+        "new": 1051.6
+    },
+    "Mantel-Martin": {
+        "old": 1435,
+        "new": 1132.4
+    },
+    "Ollum66": {
+        "old": 1435,
+        "new": 1023.4
+    },
+    "frast": {
+        "old": 1435,
+        "new": 1217.7
+    },
+    "HBG^^": {
+        "old": 1434,
+        "new": 1000.7
+    },
+    "Profator": {
+        "old": 1434,
+        "new": 1199.5
+    },
+    "failer": {
+        "old": 1434,
+        "new": 1036.7
+    },
+    "Bene : )": {
+        "old": 1433,
+        "new": 1050.4
+    },
+    "Bilderberger": {
+        "old": 1433,
+        "new": 1017.3
+    },
+    "CosmicEsmeralda": {
+        "old": 1433,
+        "new": 1030.4
+    },
+    "Der Don": {
+        "old": 1433,
+        "new": 1075.4
+    },
+    "Korboh": {
+        "old": 1433,
+        "new": 1048.1
+    },
+    "Neekster": {
+        "old": 1433,
+        "new": 1278.7
+    },
+    "Wurstfuss": {
+        "old": 1433,
+        "new": 1053.7
+    },
+    "senior Gonzales": {
+        "old": 1433,
+        "new": 1357.7
+    },
+    "Hamano": {
+        "old": 1432,
+        "new": 1000.3
+    },
+    "chiefchecker": {
+        "old": 1432,
+        "new": 1021.4
+    },
+    "ElConde": {
+        "old": 1431,
+        "new": 1129.2
+    },
+    "SpencerGer": {
+        "old": 1431,
+        "new": 1029.5
+    },
+    "VGneisenau": {
+        "old": 1431,
+        "new": 1361.2
+    },
+    "los-bartos": {
+        "old": 1431,
+        "new": 976.5999999999999
+    },
+    "PeterPan": {
+        "old": 1430,
+        "new": 1265.2
+    },
+    "Charliebrown": {
+        "old": 1429,
+        "new": 1296.4
+    },
+    "Nikolaus": {
+        "old": 1429,
+        "new": 1195.9
+    },
+    "Jimmy": {
+        "old": 1428,
+        "new": 1334.6
+    },
+    "[Dark_Knight]": {
+        "old": 1428,
+        "new": 1044.4
+    },
+    "Gunnar Blauzahn": {
+        "old": 1427,
+        "new": 1337.9
+    },
+    "Lue": {
+        "old": 1427,
+        "new": 1143.5
+    },
+    "NinWin": {
+        "old": 1427,
+        "new": 1337.9
+    },
+    "Schmierpenis": {
+        "old": 1427,
+        "new": 1035.0
+    },
+    "TyLawson": {
+        "old": 1427,
+        "new": 1034.0
+    },
+    "dom_2312": {
+        "old": 1427,
+        "new": 1176.2
+    },
+    "matzeDO": {
+        "old": 1427,
+        "new": 1302.5
+    },
+    "Aristagon": {
+        "old": 1426,
+        "new": 997.7
+    },
+    "Chefschmock": {
+        "old": 1426,
+        "new": 986.5999999999999
+    },
+    "Lisa0603": {
+        "old": 1426,
+        "new": 1042.3
+    },
+    "anscheinendICH": {
+        "old": 1425,
+        "new": 997.5999999999999
+    },
+    "JOJO123": {
+        "old": 1424,
+        "new": 1091.3
+    },
+    "StalinAG": {
+        "old": 1424,
+        "new": 1192.6
+    },
+    "hermannhelmut": {
+        "old": 1424,
+        "new": 1354.2
+    },
+    "reikspeiks": {
+        "old": 1424,
+        "new": 1045.0
+    },
+    "Feuerbart": {
+        "old": 1423,
+        "new": 1039.5
+    },
+    "Patroclus": {
+        "old": 1423,
+        "new": 1083.4
+    },
+    "Joe": {
+        "old": 1422,
+        "new": 1135.9
+    },
+    "Helene": {
+        "old": 1421,
+        "new": 1192.7
+    },
+    "Jasmin": {
+        "old": 1421,
+        "new": 1192.7
+    },
+    "DIPLOMAT21": {
+        "old": 1420,
+        "new": 995.9
+    },
+    "Ghostlex": {
+        "old": 1420,
+        "new": 1233.9
+    },
+    "gugi1998": {
+        "old": 1419,
+        "new": 995.5999999999999
+    },
+    "Mnemonic ": {
+        "old": 1418,
+        "new": 1383.4
+    },
+    "Emilion": {
+        "old": 1417,
+        "new": 1013.5999999999999
+    },
+    "Newbi": {
+        "old": 1416,
+        "new": 1019.4
+    },
+    "Skit": {
+        "old": 1416,
+        "new": 1361.8
+    },
+    "Auratusnox ": {
+        "old": 1415,
+        "new": 1130.3
+    },
+    "Benu": {
+        "old": 1415,
+        "new": 1130.3
+    },
+    "Gonzo": {
+        "old": 1415,
+        "new": 1004.4
+    },
+    "JakeMnlo": {
+        "old": 1415,
+        "new": 1176.7
+    },
+    "MrIllusive": {
+        "old": 1415,
+        "new": 1130.3
+    },
+    "Papa Martino": {
+        "old": 1415,
+        "new": 1000.0
+    },
+    "Psycoon": {
+        "old": 1415,
+        "new": 1130.3
+    },
+    "mini": {
+        "old": 1415,
+        "new": 1030.7
+    },
+    "Purzler": {
+        "old": 1414,
+        "new": 1162.0
+    },
+    "Saniel": {
+        "old": 1414,
+        "new": 1022.0
+    },
+    "la&szlig; mich in ruh": {
+        "old": 1414,
+        "new": 1041.2
+    },
+    "839602": {
+        "old": 1413,
+        "new": 1082.9
+    },
+    "LorenzoVonMattheus": {
+        "old": 1413,
+        "new": 1323.9
+    },
+    "Ulle": {
+        "old": 1413,
+        "new": 1081.2
+    },
+    "anubis90": {
+        "old": 1413,
+        "new": 1133.9
+    },
+    "dude": {
+        "old": 1413,
+        "new": 1222.9
+    },
+    "JP": {
+        "old": 1412,
+        "new": 1251.1
+    },
+    "Bundesklanzler": {
+        "old": 1411,
+        "new": 1063.6
+    },
+    "Cathic": {
+        "old": 1411,
+        "new": 1300.8
+    },
+    "Doomsday": {
+        "old": 1411,
+        "new": 1143.6
+    },
+    "puupmeister": {
+        "old": 1411,
+        "new": 1047.7
+    },
+    "Freddy880": {
+        "old": 1410,
+        "new": 1376.1
+    },
+    "Spikey": {
+        "old": 1410,
+        "new": 1011.5999999999999
+    },
+    "Dareios CIV.": {
+        "old": 1409,
+        "new": 1074.4
+    },
+    "Elvis": {
+        "old": 1409,
+        "new": 1093.2
+    },
+    "Horathio": {
+        "old": 1409,
+        "new": 998.4
+    },
+    "Zinkklumpen": {
+        "old": 1409,
+        "new": 955.8
+    },
+    "packare": {
+        "old": 1409,
+        "new": 1066.5
+    },
+    "Chubbypiggyy": {
+        "old": 1408,
+        "new": 1213.8
+    },
+    "Der Landvogt": {
+        "old": 1408,
+        "new": 1283.5
+    },
+    "ThomasR": {
+        "old": 1408,
+        "new": 1213.8
+    },
+    "esser": {
+        "old": 1408,
+        "new": 957.0
+    },
+    "sunnysheep": {
+        "old": 1408,
+        "new": 1213.8
+    },
+    "Andischa": {
+        "old": 1407,
+        "new": 1302.8
+    },
+    "Bernado Gui": {
+        "old": 1407,
+        "new": 1250.0
+    },
+    "ChristianS": {
+        "old": 1407,
+        "new": 1302.8
+    },
+    "Heinz Harald Dancen": {
+        "old": 1407,
+        "new": 1325.7
+    },
+    "PaBlo": {
+        "old": 1407,
+        "new": 1359.5
+    },
+    "Sarah": {
+        "old": 1407,
+        "new": 1087.3
+    },
+    "martin.sonnberger": {
+        "old": 1407,
+        "new": 1247.0
+    },
+    "Chewbacca": {
+        "old": 1406,
+        "new": 1120.6
+    },
+    "Sphinx": {
+        "old": 1406,
+        "new": 1048.4
+    },
+    "skeety": {
+        "old": 1406,
+        "new": 1012.0999999999999
+    },
+    "tqjzb1232007": {
+        "old": 1405,
+        "new": 1210.8
+    },
+    "Andy0815": {
+        "old": 1404,
+        "new": 996.8
+    },
+    "Benedict": {
+        "old": 1404,
+        "new": 996.8
+    },
+    "Marco0909": {
+        "old": 1404,
+        "new": 996.8
+    },
+    "Nele": {
+        "old": 1404,
+        "new": 975.0999999999999
+    },
+    "butsch23": {
+        "old": 1404,
+        "new": 1116.6
+    },
+    "db83": {
+        "old": 1404,
+        "new": 996.8
+    },
+    "pascalv": {
+        "old": 1404,
+        "new": 996.8
+    },
+    "BVB09": {
+        "old": 1403,
+        "new": 954.8
+    },
+    "Barrey Air": {
+        "old": 1403,
+        "new": 1128.2
+    },
+    "Jonny": {
+        "old": 1403,
+        "new": 998.8
+    },
+    "Tijzo": {
+        "old": 1403,
+        "new": 1056.3
+    },
+    "BumbleBee": {
+        "old": 1402,
+        "new": 1019.4
+    },
+    "Lord Nalamus": {
+        "old": 1401,
+        "new": 1013.5999999999999
+    },
+    "Patrick": {
+        "old": 1401,
+        "new": 972.7
+    },
+    "Scheich": {
+        "old": 1401,
+        "new": 987.8
+    },
+    "freddy": {
+        "old": 1401,
+        "new": 1018.8
+    },
+    "Eisregenkaese1": {
+        "old": 1399,
+        "new": 1335.5
+    },
+    "MarvinDent": {
+        "old": 1399,
+        "new": 1335.5
+    },
+    "Randow": {
+        "old": 1399,
+        "new": 1027.3
+    },
+    "100%haram": {
+        "old": 1398,
+        "new": 1165.1
+    },
+    "Gallicius ": {
+        "old": 1398,
+        "new": 1007.5999999999999
+    },
+    "Ohjay": {
+        "old": 1398,
+        "new": 956.0999999999999
+    },
+    "Panaetius": {
+        "old": 1398,
+        "new": 1278.9
+    },
+    "Spidy": {
+        "old": 1398,
+        "new": 1152.3
+    },
+    "Calreth": {
+        "old": 1397,
+        "new": 1227.2
+    },
+    "JaPaPl": {
+        "old": 1397,
+        "new": 978.4
+    },
+    "David": {
+        "old": 1396,
+        "new": 1030.9
+    },
+    "Paul": {
+        "old": 1395,
+        "new": 1049.0
+    },
+    "Pestok&ouml;nig": {
+        "old": 1395,
+        "new": 1207.4
+    },
+    "Rainer Tsufall": {
+        "old": 1395,
+        "new": 1137.0
+    },
+    "Red21": {
+        "old": 1395,
+        "new": 1138.7
+    },
+    "Riker": {
+        "old": 1395,
+        "new": 1018.5999999999999
+    },
+    "Kaiser Franz": {
+        "old": 1394,
+        "new": 1269.5
+    },
+    "cyrussi": {
+        "old": 1394,
+        "new": 1000.4
+    },
+    "dunkelbunt": {
+        "old": 1394,
+        "new": 1083.3
+    },
+    "Novator": {
+        "old": 1393,
+        "new": 971.3
+    },
+    "rachman": {
+        "old": 1393,
+        "new": 1109.4
+    },
+    "Der Anf&auml;nger": {
+        "old": 1392,
+        "new": 1175.0
+    },
+    "R.Ambos2000": {
+        "old": 1392,
+        "new": 956.9
+    },
+    "Smarty99": {
+        "old": 1392,
+        "new": 1175.0
+    },
+    "g-not": {
+        "old": 1392,
+        "new": 956.9
+    },
+    "schoko_ice": {
+        "old": 1392,
+        "new": 1088.9
+    },
+    "Mantel des Schweigens": {
+        "old": 1390,
+        "new": 1102.0
+    },
+    "Neesha": {
+        "old": 1390,
+        "new": 1047.5
+    },
+    "Toren": {
+        "old": 1390,
+        "new": 1121.4
+    },
+    "dario507": {
+        "old": 1389,
+        "new": 1109.2
+    },
+    "KHammett85": {
+        "old": 1388,
+        "new": 1040.5
+    },
+    "Master Chain": {
+        "old": 1388,
+        "new": 954.2
+    },
+    "stuermer": {
+        "old": 1388,
+        "new": 1040.5
+    },
+    "Alex": {
+        "old": 1387,
+        "new": 1005.7
+    },
+    "KaptainT": {
+        "old": 1387,
+        "new": 1311.8
+    },
+    "Samoir": {
+        "old": 1387,
+        "new": 1249.8
+    },
+    "Warlord": {
+        "old": 1387,
+        "new": 1016.8
+    },
+    "hroathome": {
+        "old": 1387,
+        "new": 1017.5999999999999
+    },
+    "535207": {
+        "old": 1386,
+        "new": 1034.3
+    },
+    "General S.Aibot": {
+        "old": 1386,
+        "new": 1215.2
+    },
+    "Leader": {
+        "old": 1386,
+        "new": 1137.3
+    },
+    "Lord Zibellina": {
+        "old": 1386,
+        "new": 1215.2
+    },
+    "Snape": {
+        "old": 1386,
+        "new": 1238.6
+    },
+    "Steamboat Itchy": {
+        "old": 1386,
+        "new": 1109.8
+    },
+    "TOmtomtomland": {
+        "old": 1386,
+        "new": 1140.0
+    },
+    "karlo_marxo": {
+        "old": 1386,
+        "new": 1215.2
+    },
+    "CptObviousKyle": {
+        "old": 1385,
+        "new": 1099.1
+    },
+    "Photon": {
+        "old": 1384,
+        "new": 980.5999999999999
+    },
+    "Schanson": {
+        "old": 1384,
+        "new": 991.0
+    },
+    "theJo": {
+        "old": 1384,
+        "new": 939.8
+    },
+    "Carolus": {
+        "old": 1383,
+        "new": 935.9
+    },
+    "Franz": {
+        "old": 1383,
+        "new": 1039.8
+    },
+    "Jannik": {
+        "old": 1383,
+        "new": 977.8
+    },
+    "Gantz": {
+        "old": 1382,
+        "new": 1049.4
+    },
+    "Heinz": {
+        "old": 1382,
+        "new": 998.8
+    },
+    "Inas": {
+        "old": 1382,
+        "new": 1292.5
+    },
+    "Nick | KahootBoss": {
+        "old": 1382,
+        "new": 1292.5
+    },
+    "Olearius": {
+        "old": 1382,
+        "new": 1322.8
+    },
+    "jazzer": {
+        "old": 1382,
+        "new": 1049.4
+    },
+    "Bellork": {
+        "old": 1380,
+        "new": 1232.6
+    },
+    "Daniel": {
+        "old": 1380,
+        "new": 1086.7
+    },
+    "Raider": {
+        "old": 1380,
+        "new": 1048.3
+    },
+    "Rhodan": {
+        "old": 1380,
+        "new": 1122.8
+    },
+    "Deity": {
+        "old": 1379,
+        "new": 941.4
+    },
+    "JerryLee": {
+        "old": 1379,
+        "new": 1087.1
+    },
+    "Kayser": {
+        "old": 1379,
+        "new": 948.0
+    },
+    "iNj": {
+        "old": 1379,
+        "new": 941.4
+    },
+    "Albus": {
+        "old": 1378,
+        "new": 1213.4
+    },
+    "Fheretor": {
+        "old": 1378,
+        "new": 1026.2
+    },
+    "Gr&ouml;g": {
+        "old": 1378,
+        "new": 1126.9
+    },
+    "Jake": {
+        "old": 1378,
+        "new": 1314.2
+    },
+    "Major": {
+        "old": 1378,
+        "new": 986.3
+    },
+    "thomy1970baden": {
+        "old": 1378,
+        "new": 1126.9
+    },
+    "Phanton": {
+        "old": 1377,
+        "new": 1199.4
+    },
+    "Spooky": {
+        "old": 1377,
+        "new": 978.5999999999999
+    },
+    "TheEroticDuck": {
+        "old": 1377,
+        "new": 1190.9
+    },
+    "Vperator": {
+        "old": 1377,
+        "new": 1199.4
+    },
+    "enviroment": {
+        "old": 1377,
+        "new": 1029.6
+    },
+    "malteH": {
+        "old": 1377,
+        "new": 1029.6
+    },
+    "pensumji": {
+        "old": 1377,
+        "new": 1199.4
+    },
+    "Akkarin": {
+        "old": 1376,
+        "new": 1036.2
+    },
+    "Botwinnik": {
+        "old": 1376,
+        "new": 999.2
+    },
+    "DerDude": {
+        "old": 1376,
+        "new": 978.7
+    },
+    "Jonas109": {
+        "old": 1376,
+        "new": 982.0999999999999
+    },
+    "TheEdge": {
+        "old": 1376,
+        "new": 1061.8
+    },
+    "affealfred": {
+        "old": 1376,
+        "new": 1020.0
+    },
+    "name": {
+        "old": 1376,
+        "new": 978.7
+    },
+    "ze0": {
+        "old": 1376,
+        "new": 978.7
+    },
+    "Attila der Hunne": {
+        "old": 1375,
+        "new": 1140.5
+    },
+    "Dr.Schweinehund": {
+        "old": 1375,
+        "new": 1140.5
+    },
+    "Lord Helmchen": {
+        "old": 1375,
+        "new": 1002.2
+    },
+    "mar.bru": {
+        "old": 1375,
+        "new": 1140.5
+    },
+    "unmountable": {
+        "old": 1375,
+        "new": 1073.1
+    },
+    "Cara": {
+        "old": 1374,
+        "new": 1144.3
+    },
+    "Hanna": {
+        "old": 1374,
+        "new": 1144.3
+    },
+    "Jonny Liu": {
+        "old": 1374,
+        "new": 991.5
+    },
+    "Vera": {
+        "old": 1374,
+        "new": 1144.3
+    },
+    "emilie": {
+        "old": 1374,
+        "new": 1144.3
+    },
+    "tatjana": {
+        "old": 1374,
+        "new": 1144.3
+    },
+    "Lyryn": {
+        "old": 1373,
+        "new": 915.7
+    },
+    "Raredagas": {
+        "old": 1373,
+        "new": 1305.8
+    },
+    "Schiemann": {
+        "old": 1373,
+        "new": 1305.8
+    },
+    "mir ist schlecht von euch": {
+        "old": 1373,
+        "new": 1054.8
+    },
+    "Fluffinental": {
+        "old": 1372,
+        "new": 1093.0
+    },
+    "Himiko": {
+        "old": 1372,
+        "new": 1137.7
+    },
+    "JohnFKennedy": {
+        "old": 1372,
+        "new": 966.5999999999999
+    },
+    "ronybert": {
+        "old": 1372,
+        "new": 972.0
+    },
+    "Colonel Lorduster": {
+        "old": 1371,
+        "new": 995.5999999999999
+    },
+    "Delacroix": {
+        "old": 1371,
+        "new": 1056.7
+    },
+    "SHAKA!": {
+        "old": 1371,
+        "new": 1020.0999999999999
+    },
+    "Troyaostseewelle": {
+        "old": 1371,
+        "new": 937.9
+    },
+    "koerbimaster": {
+        "old": 1371,
+        "new": 1061.5
+    },
+    "El Kackospast": {
+        "old": 1370,
+        "new": 1049.8
+    },
+    "GandalfMcBong": {
+        "old": 1370,
+        "new": 1049.8
+    },
+    "OnkelUschi": {
+        "old": 1370,
+        "new": 1049.8
+    },
+    "T-Virus": {
+        "old": 1370,
+        "new": 1004.2
+    },
+    "Tyson": {
+        "old": 1370,
+        "new": 1154.2
+    },
+    "Deathtrain": {
+        "old": 1369,
+        "new": 1038.2
+    },
+    "M&ouml;hre": {
+        "old": 1369,
+        "new": 1323.3
+    },
+    "MoDDe": {
+        "old": 1369,
+        "new": 1038.2
+    },
+    "skpoint": {
+        "old": 1369,
+        "new": 1066.3
+    },
+    "Dibchen": {
+        "old": 1368,
+        "new": 1087.9
+    },
+    "ElFalko": {
+        "old": 1368,
+        "new": 1123.4
+    },
+    "Fuselbuh": {
+        "old": 1368,
+        "new": 963.7
+    },
+    "NapoleonDerKleine ": {
+        "old": 1368,
+        "new": 1087.9
+    },
+    "ferdijeut": {
+        "old": 1368,
+        "new": 1028.9
+    },
+    "Cello": {
+        "old": 1367,
+        "new": 954.9
+    },
+    "Dima": {
+        "old": 1367,
+        "new": 954.9
+    },
+    "Navinio": {
+        "old": 1367,
+        "new": 983.8
+    },
+    "Nervus Axelaris": {
+        "old": 1367,
+        "new": 954.9
+    },
+    "SirM": {
+        "old": 1367,
+        "new": 954.9
+    },
+    "Traktor Stalingrad": {
+        "old": 1367,
+        "new": 944.0
+    },
+    "Adi": {
+        "old": 1366,
+        "new": 983.4
+    },
+    "Hornboi": {
+        "old": 1366,
+        "new": 1291.6
+    },
+    "JolaDes": {
+        "old": 1366,
+        "new": 1291.6
+    },
+    "lukase": {
+        "old": 1366,
+        "new": 983.4
+    },
+    "Dyonisos": {
+        "old": 1365,
+        "new": 914.8
+    },
+    "Heicarlo": {
+        "old": 1365,
+        "new": 1116.3
+    },
+    "Doerde": {
+        "old": 1364,
+        "new": 1278.9
+    },
+    "Hermann": {
+        "old": 1364,
+        "new": 1102.8
+    },
+    "Jaromar": {
+        "old": 1364,
+        "new": 1070.9
+    },
+    "Jasminda ": {
+        "old": 1364,
+        "new": 1086.7
+    },
+    "Kurthi1310": {
+        "old": 1364,
+        "new": 1278.9
+    },
+    "SCHWEjK": {
+        "old": 1364,
+        "new": 939.5999999999999
+    },
+    "Sesamstrasse": {
+        "old": 1364,
+        "new": 1278.9
+    },
+    "TheOrk": {
+        "old": 1364,
+        "new": 1086.7
+    },
+    "fighter007": {
+        "old": 1364,
+        "new": 1037.0
+    },
+    "pronator teres": {
+        "old": 1364,
+        "new": 1275.9
+    },
+    "redshorty": {
+        "old": 1364,
+        "new": 1035.5
+    },
+    "Geimozer": {
+        "old": 1363,
+        "new": 1180.7
+    },
+    "Infernius": {
+        "old": 1363,
+        "new": 1056.1
+    },
+    "Opossum5": {
+        "old": 1363,
+        "new": 1053.7
+    },
+    "Stefan RHF": {
+        "old": 1363,
+        "new": 1180.7
+    },
+    "SunBin": {
+        "old": 1363,
+        "new": 1316.8
+    },
+    "jensebaum": {
+        "old": 1363,
+        "new": 1053.7
+    },
+    "jhm78": {
+        "old": 1363,
+        "new": 1053.7
+    },
+    "Simmon": {
+        "old": 1362,
+        "new": 1315.3
+    },
+    "Torben 12": {
+        "old": 1362,
+        "new": 1029.3
+    },
+    "hardwarelux4": {
+        "old": 1362,
+        "new": 1315.3
+    },
+    "yvo": {
+        "old": 1362,
+        "new": 1272.9
+    },
+    "MojoGG": {
+        "old": 1361,
+        "new": 915.3
+    },
+    "Buenaventura Durruti ": {
+        "old": 1360,
+        "new": 1297.7
+    },
+    "Chomsky": {
+        "old": 1360,
+        "new": 1297.7
+    },
+    "D. Oswald Heist": {
+        "old": 1360,
+        "new": 1297.7
+    },
+    "Flora": {
+        "old": 1360,
+        "new": 1131.7
+    },
+    "HappyKora": {
+        "old": 1360,
+        "new": 1045.4
+    },
+    "Harlequin": {
+        "old": 1360,
+        "new": 1057.4
+    },
+    "Kr&uuml;mel": {
+        "old": 1360,
+        "new": 978.0999999999999
+    },
+    "brigitte": {
+        "old": 1360,
+        "new": 1131.7
+    },
+    "claud": {
+        "old": 1359,
+        "new": 974.5999999999999
+    },
+    "Idiokrat": {
+        "old": 1358,
+        "new": 1038.2
+    },
+    "Juhdas": {
+        "old": 1358,
+        "new": 964.9
+    },
+    "Etzel": {
+        "old": 1357,
+        "new": 1013.7
+    },
+    "Thomas III.": {
+        "old": 1357,
+        "new": 943.8
+    },
+    "Hendrik": {
+        "old": 1356,
+        "new": 1033.5
+    },
+    "JT10": {
+        "old": 1356,
+        "new": 1270.9
+    },
+    "[E]4GL[E]": {
+        "old": 1356,
+        "new": 1033.5
+    },
+    "Christa": {
+        "old": 1355,
+        "new": 1125.5
+    },
+    "Friedrich": {
+        "old": 1355,
+        "new": 1265.2
+    },
+    "Fritzkuckuck": {
+        "old": 1355,
+        "new": 1172.2
+    },
+    "Fynn-S&ouml;ren": {
+        "old": 1355,
+        "new": 1298.9
+    },
+    "Jan12134766": {
+        "old": 1355,
+        "new": 1125.5
+    },
+    "KingLongDingDong": {
+        "old": 1355,
+        "new": 1252.7
+    },
+    "Lena": {
+        "old": 1355,
+        "new": 1125.5
+    },
+    "Liselotte": {
+        "old": 1355,
+        "new": 1125.5
+    },
+    "MarcelderGro&szlig;e": {
+        "old": 1355,
+        "new": 1252.7
+    },
+    "Markusss": {
+        "old": 1355,
+        "new": 1279.7
+    },
+    "Simphunter": {
+        "old": 1355,
+        "new": 1298.9
+    },
+    "SirHarlecin": {
+        "old": 1355,
+        "new": 1252.7
+    },
+    "Thomas Cochrane": {
+        "old": 1355,
+        "new": 960.2
+    },
+    "Wilhelm": {
+        "old": 1355,
+        "new": 1125.5
+    },
+    "X Man": {
+        "old": 1355,
+        "new": 1087.6
+    },
+    "maffylein": {
+        "old": 1355,
+        "new": 937.5999999999999
+    },
+    "stopthesteal": {
+        "old": 1355,
+        "new": 1298.9
+    },
+    "Claptow": {
+        "old": 1354,
+        "new": 1003.8
+    },
+    "JohnBello": {
+        "old": 1354,
+        "new": 1147.7
+    },
+    "Julian2303": {
+        "old": 1354,
+        "new": 947.4
+    },
+    "KS": {
+        "old": 1354,
+        "new": 972.8
+    },
+    "Penetrator": {
+        "old": 1354,
+        "new": 1147.7
+    },
+    "Tinatina ": {
+        "old": 1354,
+        "new": 1105.8
+    },
+    "Wildt&auml;ler": {
+        "old": 1354,
+        "new": 1287.5
+    },
+    "sanfran16": {
+        "old": 1354,
+        "new": 1147.7
+    },
+    "168614": {
+        "old": 1351,
+        "new": 984.4
+    },
+    "JOSTAM": {
+        "old": 1351,
+        "new": 1007.4
+    },
+    "Karl_Moor": {
+        "old": 1351,
+        "new": 1068.9
+    },
+    "Spal": {
+        "old": 1351,
+        "new": 1009.3
+    },
+    "Modus Vivendi": {
+        "old": 1350,
+        "new": 1029.7
+    },
+    "Alef": {
+        "old": 1349,
+        "new": 1086.5
+    },
+    "Madness148": {
+        "old": 1349,
+        "new": 1086.5
+    },
+    "Proteus": {
+        "old": 1349,
+        "new": 1086.5
+    },
+    "SlowIgo": {
+        "old": 1349,
+        "new": 1086.5
+    },
+    "And_1": {
+        "old": 1348,
+        "new": 1009.0999999999999
+    },
+    "kurtl1905": {
+        "old": 1348,
+        "new": 1009.0999999999999
+    },
+    "Junior": {
+        "old": 1347,
+        "new": 1010.8
+    },
+    "King_Free": {
+        "old": 1347,
+        "new": 891.2
+    },
+    "Axel": {
+        "old": 1346,
+        "new": 1181.2
+    },
+    "DaGreg": {
+        "old": 1346,
+        "new": 954.5
+    },
+    "Janhelm II.": {
+        "old": 1346,
+        "new": 1181.2
+    },
+    "Matthi": {
+        "old": 1346,
+        "new": 1275.8
+    },
+    "Computerfussel": {
+        "old": 1344,
+        "new": 1081.9
+    },
+    "LOOP PARA": {
+        "old": 1344,
+        "new": 992.9
+    },
+    "Malvado": {
+        "old": 1344,
+        "new": 1125.5
+    },
+    "Narkaguga": {
+        "old": 1344,
+        "new": 1206.7
+    },
+    "destroymaster3000": {
+        "old": 1344,
+        "new": 1125.5
+    },
+    "tejona": {
+        "old": 1344,
+        "new": 1206.7
+    },
+    "MyQueendom": {
+        "old": 1343,
+        "new": 977.9
+    },
+    "Nigrum Sicarius": {
+        "old": 1343,
+        "new": 1044.2
+    },
+    "Pedrovic": {
+        "old": 1343,
+        "new": 977.9
+    },
+    "Programmierhiwi": {
+        "old": 1343,
+        "new": 977.9
+    },
+    "Smallfood": {
+        "old": 1343,
+        "new": 1011.8
+    },
+    "olf": {
+        "old": 1343,
+        "new": 977.9
+    },
+    "GarnKosinus": {
+        "old": 1342,
+        "new": 1175.9
+    },
+    "N3bu": {
+        "old": 1342,
+        "new": 947.7
+    },
+    "Sgt.Feldsau": {
+        "old": 1342,
+        "new": 932.4
+    },
+    "dami": {
+        "old": 1342,
+        "new": 949.4
+    },
+    "Nuri82": {
+        "old": 1341,
+        "new": 1143.2
+    },
+    "DKvsYupp": {
+        "old": 1340,
+        "new": 927.3
+    },
+    "Mick": {
+        "old": 1340,
+        "new": 921.3
+    },
+    "amuench": {
+        "old": 1340,
+        "new": 937.9
+    },
+    "Chribusterus": {
+        "old": 1339,
+        "new": 1076.3
+    },
+    "Master Pulpop": {
+        "old": 1339,
+        "new": 1076.3
+    },
+    "Miron": {
+        "old": 1339,
+        "new": 1032.1
+    },
+    "Sam": {
+        "old": 1339,
+        "new": 960.0999999999999
+    },
+    "Shaqiri11": {
+        "old": 1339,
+        "new": 1031.3
+    },
+    "julian91": {
+        "old": 1339,
+        "new": 960.0999999999999
+    },
+    "nikli": {
+        "old": 1339,
+        "new": 960.0999999999999
+    },
+    "Ghostblizzardos": {
+        "old": 1338,
+        "new": 1291.5
+    },
+    "kinggabe": {
+        "old": 1338,
+        "new": 1044.5
+    },
+    "marg98": {
+        "old": 1338,
+        "new": 1044.5
+    },
+    "Alqha3": {
+        "old": 1337,
+        "new": 985.5999999999999
+    },
+    "Antiope": {
+        "old": 1337,
+        "new": 985.5999999999999
+    },
+    "Markus Per Howey": {
+        "old": 1337,
+        "new": 1080.7
+    },
+    "Meraz": {
+        "old": 1337,
+        "new": 985.5999999999999
+    },
+    "TheSuspect": {
+        "old": 1337,
+        "new": 1080.7
+    },
+    "Zulu": {
+        "old": 1337,
+        "new": 1080.7
+    },
+    "Severusmadeye": {
+        "old": 1336,
+        "new": 1044.0
+    },
+    "riegel": {
+        "old": 1336,
+        "new": 1048.6
+    },
+    "BjoernB": {
+        "old": 1335,
+        "new": 1148.9
+    },
+    "ormen": {
+        "old": 1335,
+        "new": 981.7
+    },
+    "Kaiser Karl": {
+        "old": 1334,
+        "new": 988.5
+    },
+    "Mr. Shakar": {
+        "old": 1333,
+        "new": 877.2
+    },
+    "Anni": {
+        "old": 1332,
+        "new": 875.0999999999999
+    },
+    "Bartislavas": {
+        "old": 1332,
+        "new": 875.0999999999999
+    },
+    "Magictrippl": {
+        "old": 1332,
+        "new": 875.0999999999999
+    },
+    "Rex-SohndesGott": {
+        "old": 1332,
+        "new": 1135.4
+    },
+    "WangDummGay": {
+        "old": 1332,
+        "new": 1135.4
+    },
+    "little Adolfo Grando jr.": {
+        "old": 1332,
+        "new": 875.0999999999999
+    },
+    "laporte - primus inter pares": {
+        "old": 1331,
+        "new": 928.4
+    },
+    "relisreli": {
+        "old": 1331,
+        "new": 900.2
+    },
+    "Balthasar": {
+        "old": 1330,
+        "new": 991.5
+    },
+    "DerMuuux": {
+        "old": 1330,
+        "new": 1139.9
+    },
+    "Gigor": {
+        "old": 1330,
+        "new": 991.5
+    },
+    "Hoschi": {
+        "old": 1330,
+        "new": 905.4
+    },
+    "SekanderBast": {
+        "old": 1330,
+        "new": 1053.1
+    },
+    "Stef van Kr&auml;mer ": {
+        "old": 1330,
+        "new": 1139.9
+    },
+    "ffassha": {
+        "old": 1330,
+        "new": 991.5
+    },
+    "marshall": {
+        "old": 1330,
+        "new": 966.9
+    },
+    "proudfoot": {
+        "old": 1330,
+        "new": 935.9
+    },
+    "Meyer": {
+        "old": 1329,
+        "new": 1050.1
+    },
+    "TheAllMightyDave": {
+        "old": 1329,
+        "new": 963.5
+    },
+    "Who_iS_RuBeN": {
+        "old": 1329,
+        "new": 1052.4
+    },
+    "Don Kanaille": {
+        "old": 1328,
+        "new": 992.3
+    },
+    "KingJulien": {
+        "old": 1328,
+        "new": 1094.2
+    },
+    "Maze": {
+        "old": 1328,
+        "new": 992.3
+    },
+    "Kwasar": {
+        "old": 1327,
+        "new": 1207.9
+    },
+    "hsvfan": {
+        "old": 1327,
+        "new": 1044.2
+    },
+    "slinkachu": {
+        "old": 1327,
+        "new": 930.4
+    },
+    "Hubbux": {
+        "old": 1326,
+        "new": 1221.8
+    },
+    "Spawn_Nirvana": {
+        "old": 1326,
+        "new": 941.3
+    },
+    "Stocky": {
+        "old": 1326,
+        "new": 1221.8
+    },
+    "Argentum": {
+        "old": 1325,
+        "new": 980.0
+    },
+    "Chantal": {
+        "old": 1325,
+        "new": 1128.8
+    },
+    "Dasein": {
+        "old": 1325,
+        "new": 1128.8
+    },
+    "Fee ": {
+        "old": 1325,
+        "new": 1128.8
+    },
+    "Kingaachen": {
+        "old": 1325,
+        "new": 1168.0
+    },
+    "dieu-vid": {
+        "old": 1325,
+        "new": 980.0
+    },
+    "genussmensch": {
+        "old": 1325,
+        "new": 980.0
+    },
+    "mori": {
+        "old": 1325,
+        "new": 1128.8
+    },
+    "nichtsnutz": {
+        "old": 1325,
+        "new": 1115.4
+    },
+    "sturmy": {
+        "old": 1325,
+        "new": 980.0
+    },
+    "Baron Gammler von Lutz": {
+        "old": 1324,
+        "new": 1153.2
+    },
+    "Dekkia": {
+        "old": 1323,
+        "new": 1147.7
+    },
+    "Mr.Brain": {
+        "old": 1323,
+        "new": 1147.7
+    },
+    "Numi": {
+        "old": 1323,
+        "new": 961.5
+    },
+    "jan_n": {
+        "old": 1323,
+        "new": 894.0999999999999
+    },
+    "zweiflamme": {
+        "old": 1323,
+        "new": 931.0
+    },
+    "SuperFubi": {
+        "old": 1322,
+        "new": 930.4
+    },
+    "Epizentrikus": {
+        "old": 1321,
+        "new": 974.8
+    },
+    "Pank": {
+        "old": 1321,
+        "new": 1058.9
+    },
+    "drulac": {
+        "old": 1321,
+        "new": 996.3
+    },
+    "DarkSlayer4": {
+        "old": 1320,
+        "new": 1032.7
+    },
+    "GZajonz": {
+        "old": 1320,
+        "new": 1032.7
+    },
+    "Knut": {
+        "old": 1320,
+        "new": 880.3
+    },
+    "Marek": {
+        "old": 1320,
+        "new": 1032.7
+    },
+    "Petrischale3223": {
+        "old": 1320,
+        "new": 1032.7
+    },
+    "LukasxD": {
+        "old": 1319,
+        "new": 898.8
+    },
+    "Maneeguo": {
+        "old": 1319,
+        "new": 1124.8
+    },
+    "Paula": {
+        "old": 1319,
+        "new": 1124.8
+    },
+    "Rise": {
+        "old": 1319,
+        "new": 887.4
+    },
+    "heisenberg": {
+        "old": 1319,
+        "new": 887.4
+    },
+    "Cyangmou": {
+        "old": 1318,
+        "new": 883.7
+    },
+    "Dominik": {
+        "old": 1318,
+        "new": 1228.5
+    },
+    "Jule": {
+        "old": 1318,
+        "new": 1228.5
+    },
+    "Manu": {
+        "old": 1318,
+        "new": 997.0999999999999
+    },
+    "Papst Benediktus der I.": {
+        "old": 1318,
+        "new": 1283.4
+    },
+    "Queen Elisabeth ": {
+        "old": 1318,
+        "new": 1228.5
+    },
+    "jojo": {
+        "old": 1318,
+        "new": 997.0999999999999
+    },
+    "El_Ricardinio": {
+        "old": 1317,
+        "new": 933.8
+    },
+    "silkee": {
+        "old": 1317,
+        "new": 933.8
+    },
+    "Clark": {
+        "old": 1316,
+        "new": 916.5999999999999
+    },
+    "arne": {
+        "old": 1315,
+        "new": 933.5
+    },
+    "lusie165": {
+        "old": 1315,
+        "new": 933.5
+    },
+    "AC": {
+        "old": 1313,
+        "new": 1126.7
+    },
+    "Amosc": {
+        "old": 1313,
+        "new": 1230.6
+    },
+    "Comerzer": {
+        "old": 1313,
+        "new": 1158.7
+    },
+    "Dreas": {
+        "old": 1313,
+        "new": 1126.7
+    },
+    "Frerman": {
+        "old": 1313,
+        "new": 1158.7
+    },
+    "FukkenLiberals!": {
+        "old": 1313,
+        "new": 992.8
+    },
+    "Hassler": {
+        "old": 1313,
+        "new": 992.8
+    },
+    "LordMannelig": {
+        "old": 1313,
+        "new": 1126.7
+    },
+    "SebBuemi": {
+        "old": 1313,
+        "new": 1126.7
+    },
+    "aphex": {
+        "old": 1313,
+        "new": 1158.7
+    },
+    "arfe": {
+        "old": 1313,
+        "new": 1126.7
+    },
+    "drude": {
+        "old": 1313,
+        "new": 1158.7
+    },
+    "gman": {
+        "old": 1313,
+        "new": 914.5999999999999
+    },
+    "Beeni96": {
+        "old": 1312,
+        "new": 992.3
+    },
+    "Brandy": {
+        "old": 1312,
+        "new": 1152.0
+    },
+    "Cody37": {
+        "old": 1312,
+        "new": 1011.5999999999999
+    },
+    "KarstenGK": {
+        "old": 1312,
+        "new": 924.8
+    },
+    "Leander": {
+        "old": 1312,
+        "new": 1264.5
+    },
+    "Luger": {
+        "old": 1312,
+        "new": 962.7
+    },
+    "Sokrates": {
+        "old": 1312,
+        "new": 964.0999999999999
+    },
+    "Twonky": {
+        "old": 1312,
+        "new": 873.5
+    },
+    "honk703": {
+        "old": 1312,
+        "new": 884.9
+    },
+    "Rabenauge": {
+        "old": 1309,
+        "new": 918.8
+    },
+    "curliesl": {
+        "old": 1309,
+        "new": 915.4
+    },
+    "JoersLetzteStunde": {
+        "old": 1308,
+        "new": 1053.4
+    },
+    "Maximilian": {
+        "old": 1308,
+        "new": 925.8
+    },
+    "ToddemGino": {
+        "old": 1308,
+        "new": 1053.4
+    },
+    "PhotoPhoton": {
+        "old": 1307,
+        "new": 918.0999999999999
+    },
+    "Raggafant": {
+        "old": 1307,
+        "new": 1106.4
+    },
+    "Beeblebrox": {
+        "old": 1306,
+        "new": 1216.9
+    },
+    "Herr Wortmann": {
+        "old": 1306,
+        "new": 1216.9
+    },
+    "Oberst P-Knock-U": {
+        "old": 1306,
+        "new": 969.7
+    },
+    "brosbeforehoes": {
+        "old": 1306,
+        "new": 1186.9
+    },
+    "egss": {
+        "old": 1306,
+        "new": 969.7
+    },
+    "DerNeunte": {
+        "old": 1305,
+        "new": 1010.5999999999999
+    },
+    "Limao": {
+        "old": 1305,
+        "new": 1061.7
+    },
+    "RoterB&auml;r": {
+        "old": 1305,
+        "new": 1284.0
+    },
+    "Sakis Euro V": {
+        "old": 1305,
+        "new": 947.4
+    },
+    "TheMaverick": {
+        "old": 1305,
+        "new": 1010.5999999999999
+    },
+    "majorm": {
+        "old": 1305,
+        "new": 1061.7
+    },
+    "AngryBird": {
+        "old": 1304,
+        "new": 1033.2
+    },
+    "Bananamufu": {
+        "old": 1304,
+        "new": 950.0999999999999
+    },
+    "Franzos": {
+        "old": 1304,
+        "new": 950.0999999999999
+    },
+    "Helmut von Bl&ouml;defeld": {
+        "old": 1304,
+        "new": 1004.7
+    },
+    "Moscht": {
+        "old": 1304,
+        "new": 950.0999999999999
+    },
+    "Rubbie": {
+        "old": 1304,
+        "new": 950.0999999999999
+    },
+    "carsti": {
+        "old": 1304,
+        "new": 896.3
+    },
+    "pearparty": {
+        "old": 1304,
+        "new": 896.3
+    },
+    "silvos182": {
+        "old": 1304,
+        "new": 950.0999999999999
+    },
+    "Lilo": {
+        "old": 1302,
+        "new": 923.3
+    },
+    "SchwarzerPanzer": {
+        "old": 1302,
+        "new": 923.3
+    },
+    "Sir Wellesley": {
+        "old": 1302,
+        "new": 923.3
+    },
+    "Steve2012": {
+        "old": 1302,
+        "new": 923.3
+    },
+    "beckflor": {
+        "old": 1302,
+        "new": 923.3
+    },
+    "haribaert": {
+        "old": 1302,
+        "new": 941.9
+    },
+    "DerBabo069": {
+        "old": 1301,
+        "new": 1272.0
+    },
+    "FidelCastro": {
+        "old": 1301,
+        "new": 1272.0
+    },
+    "Henrik der Gro&szlig;e": {
+        "old": 1301,
+        "new": 1272.0
+    },
+    "Iossif Dschugaschwili": {
+        "old": 1301,
+        "new": 1272.0
+    },
+    "Max der Falke": {
+        "old": 1301,
+        "new": 1272.0
+    },
+    "Queen Victoria": {
+        "old": 1301,
+        "new": 1272.0
+    },
+    "Blueteck": {
+        "old": 1299,
+        "new": 1081.7
+    },
+    "Campus Life": {
+        "old": 1299,
+        "new": 1081.7
+    },
+    "Lianju": {
+        "old": 1299,
+        "new": 1081.7
+    },
+    "Biggi": {
+        "old": 1298,
+        "new": 1014.5
+    },
+    "Crystel": {
+        "old": 1298,
+        "new": 1014.5
+    },
+    "Larry Zito": {
+        "old": 1298,
+        "new": 950.5999999999999
+    },
+    "Simjara": {
+        "old": 1298,
+        "new": 1014.5
+    },
+    "Wargo": {
+        "old": 1298,
+        "new": 1226.6
+    },
+    "Antony": {
+        "old": 1297,
+        "new": 1061.3
+    },
+    "Kawzeg": {
+        "old": 1297,
+        "new": 992.7
+    },
+    "Nele0501": {
+        "old": 1297,
+        "new": 1061.3
+    },
+    "RebornRabbit": {
+        "old": 1297,
+        "new": 950.3
+    },
+    "Krocki": {
+        "old": 1295,
+        "new": 998.3
+    },
+    "inpoison": {
+        "old": 1295,
+        "new": 866.7
+    },
+    "milkyway": {
+        "old": 1295,
+        "new": 1209.9
+    },
+    "BrickTop": {
+        "old": 1294,
+        "new": 978.2
+    },
+    "CoolRabi": {
+        "old": 1294,
+        "new": 978.2
+    },
+    "DerWoDirektInaktivGeht": {
+        "old": 1294,
+        "new": 978.2
+    },
+    "Jan95": {
+        "old": 1294,
+        "new": 974.3
+    },
+    "RiesenPimmelMann": {
+        "old": 1294,
+        "new": 978.2
+    },
+    "nurb": {
+        "old": 1294,
+        "new": 978.2
+    },
+    "Pat-Pat": {
+        "old": 1293,
+        "new": 902.0999999999999
+    },
+    "C.Columbus": {
+        "old": 1292,
+        "new": 1057.5
+    },
+    "Mybestname": {
+        "old": 1292,
+        "new": 1057.5
+    },
+    "sung": {
+        "old": 1292,
+        "new": 953.5999999999999
+    },
+    "Modaa": {
+        "old": 1291,
+        "new": 855.4
+    },
+    "Orange4": {
+        "old": 1291,
+        "new": 855.4
+    },
+    "VergewalTIGER": {
+        "old": 1291,
+        "new": 1036.6
+    },
+    "qwertzuiop": {
+        "old": 1291,
+        "new": 865.7
+    },
+    "Blausternwerk": {
+        "old": 1290,
+        "new": 866.0999999999999
+    },
+    "Bluthorst": {
+        "old": 1290,
+        "new": 980.4
+    },
+    "Dinkelbrot": {
+        "old": 1290,
+        "new": 980.4
+    },
+    "Kamikazejonny": {
+        "old": 1290,
+        "new": 980.4
+    },
+    "Samson": {
+        "old": 1290,
+        "new": 980.4
+    },
+    "goscha": {
+        "old": 1290,
+        "new": 980.4
+    },
+    "harndrang": {
+        "old": 1290,
+        "new": 980.4
+    },
+    "chevalier": {
+        "old": 1289,
+        "new": 864.7
+    },
+    "tina": {
+        "old": 1289,
+        "new": 856.7
+    },
+    "Batman": {
+        "old": 1288,
+        "new": 994.7
+    },
+    "Goethe": {
+        "old": 1288,
+        "new": 1140.6
+    },
+    "Spanzdolf": {
+        "old": 1288,
+        "new": 884.5
+    },
+    "Wagawonga": {
+        "old": 1288,
+        "new": 994.7
+    },
+    "Yersinia Pestis": {
+        "old": 1288,
+        "new": 994.7
+    },
+    "kAiN": {
+        "old": 1288,
+        "new": 884.5
+    },
+    "lmr2391": {
+        "old": 1288,
+        "new": 994.7
+    },
+    "rhabarbera": {
+        "old": 1288,
+        "new": 994.7
+    },
+    "Kartoffelmann77": {
+        "old": 1287,
+        "new": 1236.3
+    },
+    "Ulf": {
+        "old": 1287,
+        "new": 879.8
+    },
+    "Nachbars Lumpi": {
+        "old": 1286,
+        "new": 884.0
+    },
+    "Radecc": {
+        "old": 1285,
+        "new": 903.3
+    },
+    "heaven": {
+        "old": 1285,
+        "new": 865.4
+    },
+    "Anonymous": {
+        "old": 1284,
+        "new": 899.2
+    },
+    "Lena0312": {
+        "old": 1284,
+        "new": 899.2
+    },
+    "Ne.": {
+        "old": 1284,
+        "new": 899.2
+    },
+    "eka1995": {
+        "old": 1284,
+        "new": 899.2
+    },
+    "Achtzehn87": {
+        "old": 1283,
+        "new": 1111.5
+    },
+    "Ade_Bas_": {
+        "old": 1283,
+        "new": 1196.2
+    },
+    "Aut03auer": {
+        "old": 1283,
+        "new": 1198.6
+    },
+    "Baubarschbube": {
+        "old": 1283,
+        "new": 896.5999999999999
+    },
+    "Black_Forest": {
+        "old": 1283,
+        "new": 1217.3
+    },
+    "Captain Jack": {
+        "old": 1283,
+        "new": 1118.1
+    },
+    "Carmi": {
+        "old": 1283,
+        "new": 1217.3
+    },
+    "CliXx": {
+        "old": 1283,
+        "new": 844.2
+    },
+    "CopyAbility": {
+        "old": 1283,
+        "new": 1118.1
+    },
+    "Darth Sidious": {
+        "old": 1283,
+        "new": 918.0
+    },
+    "Der Doktor": {
+        "old": 1283,
+        "new": 968.5
+    },
+    "Der P&auml;pst": {
+        "old": 1283,
+        "new": 1111.5
+    },
+    "Don't be hatin'": {
+        "old": 1283,
+        "new": 834.0999999999999
+    },
+    "Dr. No": {
+        "old": 1283,
+        "new": 908.9
+    },
+    "DrKuolun": {
+        "old": 1283,
+        "new": 1109.0
+    },
+    "Faarl": {
+        "old": 1283,
+        "new": 844.2
+    },
+    "Flow-Rida": {
+        "old": 1283,
+        "new": 1217.3
+    },
+    "Fyren": {
+        "old": 1283,
+        "new": 916.5
+    },
+    "Gentor": {
+        "old": 1283,
+        "new": 1049.5
+    },
+    "Geranicus": {
+        "old": 1283,
+        "new": 1196.2
+    },
+    "Godzilla-onWar": {
+        "old": 1283,
+        "new": 834.0999999999999
+    },
+    "H&ouml;tzendorf": {
+        "old": 1283,
+        "new": 1198.6
+    },
+    "Haste": {
+        "old": 1283,
+        "new": 1109.0
+    },
+    "Heimdalls_Heir": {
+        "old": 1283,
+        "new": 1196.2
+    },
+    "Heinrich von Weinstein": {
+        "old": 1283,
+        "new": 896.5999999999999
+    },
+    "Hexenhammer": {
+        "old": 1283,
+        "new": 834.0999999999999
+    },
+    "HustleberryFinn": {
+        "old": 1283,
+        "new": 1111.5
+    },
+    "IvanMan": {
+        "old": 1283,
+        "new": 1060.9
+    },
+    "Jon.": {
+        "old": 1283,
+        "new": 1060.9
+    },
+    "Julja5": {
+        "old": 1283,
+        "new": 918.0
+    },
+    "Kalderis": {
+        "old": 1283,
+        "new": 1198.6
+    },
+    "Keksfront": {
+        "old": 1283,
+        "new": 1090.2
+    },
+    "KoxmamaXD": {
+        "old": 1283,
+        "new": 1060.9
+    },
+    "Larry": {
+        "old": 1283,
+        "new": 1191.7
+    },
+    "Last Hunter": {
+        "old": 1283,
+        "new": 896.5999999999999
+    },
+    "LeGant": {
+        "old": 1283,
+        "new": 1109.0
+    },
+    "Li-Jo-Ve": {
+        "old": 1283,
+        "new": 1118.1
+    },
+    "Lorgarr": {
+        "old": 1283,
+        "new": 1049.5
+    },
+    "MCBT": {
+        "old": 1283,
+        "new": 1198.6
+    },
+    "MTG": {
+        "old": 1283,
+        "new": 1217.3
+    },
+    "Maiwin": {
+        "old": 1283,
+        "new": 1049.5
+    },
+    "Major_Tom": {
+        "old": 1283,
+        "new": 1191.7
+    },
+    "Michel the Genauerer": {
+        "old": 1283,
+        "new": 1060.9
+    },
+    "Mord v.d. M. ": {
+        "old": 1283,
+        "new": 1196.2
+    },
+    "Nele14.05": {
+        "old": 1283,
+        "new": 896.9
+    },
+    "Noel": {
+        "old": 1283,
+        "new": 1191.7
+    },
+    "Pascal": {
+        "old": 1283,
+        "new": 896.9
+    },
+    "Pater_Braun": {
+        "old": 1283,
+        "new": 1109.0
+    },
+    "Philonous": {
+        "old": 1283,
+        "new": 1196.2
+    },
+    "Pittermann": {
+        "old": 1283,
+        "new": 1109.0
+    },
+    "Schmeidi": {
+        "old": 1283,
+        "new": 916.5
+    },
+    "Schmu": {
+        "old": 1283,
+        "new": 834.0999999999999
+    },
+    "Schroppy": {
+        "old": 1283,
+        "new": 916.5
+    },
+    "SeineDurchlaucht": {
+        "old": 1283,
+        "new": 1109.0
+    },
+    "SuperName": {
+        "old": 1283,
+        "new": 1198.6
+    },
+    "T.Tasse": {
+        "old": 1283,
+        "new": 895.5999999999999
+    },
+    "TalleyrandMP": {
+        "old": 1283,
+        "new": 1060.9
+    },
+    "TueTueTue": {
+        "old": 1283,
+        "new": 1049.5
+    },
+    "Verena": {
+        "old": 1283,
+        "new": 1112.3
+    },
+    "Weihnachtsmann": {
+        "old": 1283,
+        "new": 896.5999999999999
+    },
+    "Whitemike": {
+        "old": 1283,
+        "new": 1198.6
+    },
+    "Xinnar": {
+        "old": 1283,
+        "new": 1049.5
+    },
+    "al_hafi85": {
+        "old": 1283,
+        "new": 834.0999999999999
+    },
+    "burnout78952": {
+        "old": 1283,
+        "new": 918.0
+    },
+    "bvcxy47": {
+        "old": 1283,
+        "new": 1118.1
+    },
+    "cati": {
+        "old": 1283,
+        "new": 918.0
+    },
+    "commodusklaus": {
+        "old": 1283,
+        "new": 834.0999999999999
+    },
+    "dimi": {
+        "old": 1283,
+        "new": 896.5999999999999
+    },
+    "eiersau": {
+        "old": 1283,
+        "new": 908.9
+    },
+    "ferdi": {
+        "old": 1283,
+        "new": 1060.9
+    },
+    "fukyshima": {
+        "old": 1283,
+        "new": 918.0
+    },
+    "hunger": {
+        "old": 1283,
+        "new": 908.9
+    },
+    "ich schei&szlig; auf dich": {
+        "old": 1283,
+        "new": 908.9
+    },
+    "lunger": {
+        "old": 1283,
+        "new": 908.9
+    },
+    "moosecow": {
+        "old": 1283,
+        "new": 1049.5
+    },
+    "randomiorus": {
+        "old": 1283,
+        "new": 1118.1
+    },
+    "randor": {
+        "old": 1283,
+        "new": 1118.1
+    },
+    "rantanplan": {
+        "old": 1283,
+        "new": 1217.3
+    },
+    "steffen": {
+        "old": 1283,
+        "new": 896.5999999999999
+    },
+    "twinoflink": {
+        "old": 1283,
+        "new": 1112.3
+    },
+    "Tim": {
+        "old": 1281,
+        "new": 1081.3
+    },
+    "TimoRausch": {
+        "old": 1281,
+        "new": 1081.3
+    },
+    "Veri_91": {
+        "old": 1281,
+        "new": 1081.3
+    },
+    "buddi": {
+        "old": 1281,
+        "new": 1081.3
+    },
+    "MidgeS": {
+        "old": 1280,
+        "new": 821.9
+    },
+    "Samot": {
+        "old": 1280,
+        "new": 866.8
+    },
+    "Whinky": {
+        "old": 1280,
+        "new": 821.9
+    },
+    "sturpi": {
+        "old": 1280,
+        "new": 821.9
+    },
+    "GRNBRLN": {
+        "old": 1279,
+        "new": 883.0
+    },
+    "Retniw": {
+        "old": 1278,
+        "new": 939.5999999999999
+    },
+    "darcdisc": {
+        "old": 1278,
+        "new": 939.5999999999999
+    },
+    "magi": {
+        "old": 1278,
+        "new": 975.4
+    },
+    "FL": {
+        "old": 1277,
+        "new": 1090.9
+    },
+    "Masche": {
+        "old": 1277,
+        "new": 892.5999999999999
+    },
+    "olli": {
+        "old": 1277,
+        "new": 835.8
+    },
+    "sirkill": {
+        "old": 1277,
+        "new": 835.8
+    },
+    "zimbast": {
+        "old": 1277,
+        "new": 919.4
+    },
+    "Kallus": {
+        "old": 1275,
+        "new": 1224.3
+    },
+    "MeistensCaro": {
+        "old": 1274,
+        "new": 1185.1
+    },
+    "Lifip": {
+        "old": 1272,
+        "new": 1253.3
+    },
+    "MrToasty12": {
+        "old": 1272,
+        "new": 890.0999999999999
+    },
+    "Zzzzz234": {
+        "old": 1272,
+        "new": 1253.3
+    },
+    "SebastianK2": {
+        "old": 1271,
+        "new": 813.7
+    },
+    "stefan": {
+        "old": 1271,
+        "new": 813.7
+    },
+    "Marietta": {
+        "old": 1269,
+        "new": 1039.5
+    },
+    "Ronald80": {
+        "old": 1267,
+        "new": 810.2
+    },
+    "opc89": {
+        "old": 1267,
+        "new": 927.3
+    },
+    "romarinho": {
+        "old": 1267,
+        "new": 810.2
+    },
+    "Renniweg": {
+        "old": 1266,
+        "new": 874.4
+    },
+    "TimTim": {
+        "old": 1266,
+        "new": 874.4
+    },
+    "scream2k": {
+        "old": 1265,
+        "new": 808.9
+    },
+    "Katze": {
+        "old": 1261,
+        "new": 945.4
+    },
+    "Poglavnik": {
+        "old": 1261,
+        "new": 837.4
+    },
+    "Supersonic": {
+        "old": 1261,
+        "new": 945.4
+    },
+    "Wallenstein": {
+        "old": 1258,
+        "new": 807.0999999999999
+    },
+    "Agent Triple H": {
+        "old": 1254,
+        "new": 894.0
+    },
+    "Johnjoker": {
+        "old": 1253,
+        "new": 1098.7
+    },
+    "madmax811": {
+        "old": 1253,
+        "new": 795.7
+    },
+    "Balbok": {
+        "old": 1249,
+        "new": 840.0999999999999
+    },
+    "Dave_Chandler": {
+        "old": 1249,
+        "new": 1228.0
+    },
+    "Hoermy4": {
+        "old": 1249,
+        "new": 1228.0
+    },
+    "Oaschbeidl": {
+        "old": 1249,
+        "new": 1228.0
+    },
+    "Philip": {
+        "old": 1249,
+        "new": 1228.0
+    },
+    "Zeller38": {
+        "old": 1249,
+        "new": 857.0
+    },
+    "staubfuss": {
+        "old": 1249,
+        "new": 789.8
+    },
+    "Unnutzling": {
+        "old": 1248,
+        "new": 907.8
+    },
+    "Molotow": {
+        "old": 1246,
+        "new": 1158.7
+    },
+    "Antipaul ": {
+        "old": 1245,
+        "new": 980.2
+    },
+    "Aasfresser": {
+        "old": 1244,
+        "new": 897.3
+    },
+    "Sapptus": {
+        "old": 1243,
+        "new": 902.8
+    },
+    "NeroTR": {
+        "old": 1242,
+        "new": 829.4
+    },
+    "ElBarto": {
+        "old": 1241,
+        "new": 813.3
+    },
+    "LaRone": {
+        "old": 1239,
+        "new": 840.2
+    },
+    "MengeZ0": {
+        "old": 1238,
+        "new": 961.3
+    },
+    "Pogolord": {
+        "old": 1236,
+        "new": 890.2
+    },
+    "unterwolf": {
+        "old": 1236,
+        "new": 869.5999999999999
+    },
+    "Korny": {
+        "old": 1234,
+        "new": 905.5
+    },
+    "shredder": {
+        "old": 1234,
+        "new": 905.5
+    },
+    "Ahrdie": {
+        "old": 1227,
+        "new": 1036.9
+    },
+    "Mieze": {
+        "old": 1227,
+        "new": 1036.9
+    },
+    "#anonym": {
+        "old": 1223,
+        "new": 978.4
+    },
+    "Andyno": {
+        "old": 1223,
+        "new": 978.4
+    },
+    "Barnabas": {
+        "old": 1223,
+        "new": 879.4
+    },
+    "matyas2k15": {
+        "old": 1223,
+        "new": 978.4
+    },
+    "tibersam": {
+        "old": 1223,
+        "new": 978.4
+    },
+    "FlyingDutch": {
+        "old": 1222,
+        "new": 813.5999999999999
+    },
+    "Kulimuh": {
+        "old": 1222,
+        "new": 1063.5
+    },
+    "chardis": {
+        "old": 1222,
+        "new": 891.2
+    },
+    "Charlemagne": {
+        "old": 1217,
+        "new": 838.5
+    },
+    "Der Betr&uuml;ger": {
+        "old": 1217,
+        "new": 1169.5
+    },
+    "Jussuff": {
+        "old": 1214,
+        "new": 1053.1
+    },
+    "BanditHS": {
+        "old": 1210,
+        "new": 937.9
+    },
+    "Banki": {
+        "old": 1210,
+        "new": 1182.6
+    },
+    "HorvathsFlo&szlig;": {
+        "old": 1210,
+        "new": 1182.6
+    },
+    "Graskarpfen": {
+        "old": 1209,
+        "new": 766.7
+    },
+    "Analverkehr Admiral": {
+        "old": 1208,
+        "new": 1120.5
+    },
+    "Ax0ra": {
+        "old": 1208,
+        "new": 1120.5
+    },
+    "Bierguru": {
+        "old": 1208,
+        "new": 1017.5
+    },
+    "Butterbirne": {
+        "old": 1208,
+        "new": 1126.7
+    },
+    "Goldgoblin": {
+        "old": 1208,
+        "new": 1126.7
+    },
+    "Horst": {
+        "old": 1208,
+        "new": 1017.5
+    },
+    "Kirthulhu": {
+        "old": 1208,
+        "new": 1126.7
+    },
+    "Kohlehobel": {
+        "old": 1208,
+        "new": 1126.7
+    },
+    "Lord Egge": {
+        "old": 1208,
+        "new": 1017.5
+    },
+    "MrCraden": {
+        "old": 1208,
+        "new": 936.4
+    },
+    "an independent village": {
+        "old": 1208,
+        "new": 1017.5
+    },
+    "derandi": {
+        "old": 1208,
+        "new": 1120.5
+    },
+    "thermito": {
+        "old": 1208,
+        "new": 1120.5
+    },
+    "The3X": {
+        "old": 1207,
+        "new": 752.3
+    },
+    "TK1": {
+        "old": 1203,
+        "new": 907.8
+    },
+    "ChriDDel": {
+        "old": 1195,
+        "new": 787.5999999999999
+    },
+    "Frasch": {
+        "old": 1195,
+        "new": 787.5999999999999
+    },
+    "VirtualEvil": {
+        "old": 1195,
+        "new": 787.5999999999999
+    },
+    "namru": {
+        "old": 1195,
+        "new": 787.5999999999999
+    },
+    "Hannes": {
+        "old": 1183,
+        "new": 882.5999999999999
+    },
+    "schoeM": {
+        "old": 1183,
+        "new": 882.5999999999999
+    },
+    "Buxl": {
+        "old": 1180,
+        "new": 857.4
+    },
+    "SavageLP": {
+        "old": 1172,
+        "new": 854.5999999999999
+    },
+    "Chridd": {
+        "old": 1154,
+        "new": 994.0
+    },
+    "DenKing": {
+        "old": 1154,
+        "new": 834.3
+    },
+    "L-Fix2711": {
+        "old": 1154,
+        "new": 994.0
+    },
+    "Lukas.2k": {
+        "old": 1154,
+        "new": 994.0
+    },
+    "anna": {
+        "old": 1154,
+        "new": 834.3
+    },
+    "neleb": {
+        "old": 1154,
+        "new": 834.3
+    },
+    "Jemandzockt": {
+        "old": 1148,
+        "new": 871.4
+    },
+    "L&ouml;a": {
+        "old": 1147,
+        "new": 1096.3
+    },
+    "lordlars": {
+        "old": 1146,
+        "new": 799.3
+    },
+    "Faktal": {
+        "old": 1142,
+        "new": 839.4
+    },
+    "SohnBrotlos": {
+        "old": 1142,
+        "new": 839.4
+    },
+    "YAWP": {
+        "old": 1142,
+        "new": 839.4
+    },
+    "RedFawk": {
+        "old": 1137,
+        "new": 734.9
+    },
+    "Finn": {
+        "old": 1128,
+        "new": 791.8
+    },
+    "joejoebinx": {
+        "old": 1128,
+        "new": 941.9
+    },
+    "ZartesPfl&auml;nzchen": {
+        "old": 1120,
+        "new": 731.0999999999999
+    },
+    "evilomen": {
+        "old": 1117,
+        "new": 704.4
+    },
+    "yggdrasil133": {
+        "old": 1117,
+        "new": 704.4
+    },
+    "Rolex": {
+        "old": 1116,
+        "new": 723.4
+    },
+    "Serienjunky": {
+        "old": 1115,
+        "new": 977.8
+    },
+    "chr": {
+        "old": 1115,
+        "new": 977.8
+    },
+    "chris256": {
+        "old": 1112,
+        "new": 775.7
+    },
+    "JustNaughty": {
+        "old": 1108,
+        "new": 1060.5
+    },
+    "KikoConqueror": {
+        "old": 1108,
+        "new": 729.5
+    },
+    "KKallugga": {
+        "old": 1100,
+        "new": 729.7
+    },
+    "Tobster": {
+        "old": 1083,
+        "new": 640.7
+    },
+    "zweikiesel": {
+        "old": 1083,
+        "new": 693.0999999999999
+    },
+    "winner": {
+        "old": 1075,
+        "new": 677.7
+    },
+    "SuperSscha": {
+        "old": 1052,
+        "new": 706.0999999999999
+    },
+    "Lorddeath": {
+        "old": 1044,
+        "new": 762.5
+    },
+    "Thomas1201": {
+        "old": 1027,
+        "new": 709.5999999999999
+    },
+    "Jacobo": {
+        "old": 1006,
+        "new": 677.5
+    },
+    "Blackspell": {
+        "old": 999,
+        "new": 722.4
+    },
+    "Scylla": {
+        "old": 993,
+        "new": 632.8
+    },
+    "Lisa": {
+        "old": 978,
+        "new": 575.9
+    },
+    "Shinigami": {
+        "old": 969,
+        "new": 580.0999999999999
+    },
+    "Dreyark": {
+        "old": 951,
+        "new": 903.5
+    },
+    "Falke": {
+        "old": 951,
+        "new": 572.5
+    },
+    "domma": {
+        "old": 951,
+        "new": 866.0
+    },
+    "renounce": {
+        "old": 951,
+        "new": 650.5999999999999
+    }
+}
